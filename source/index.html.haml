@@ -1,0 +1,69 @@
+#WhiteArea
+  #HomePageLogo
+    = link_to image_tag('logo_big.png', :alt => 'FindBigMail.com'), @links.index, :title => 'FindBigMail.com'
+  #HomePageEmailFinder
+    %h1= @t.grab
+    = partial "enter_email"
+    #FindBigMailTagline 
+      = @t.tagline
+#GrayArea
+  #HomePageTestimonials
+    %h2= @t.who_is_using
+    #FindBigMailCompanies
+      %div.FindBigMailCompany= image_tag "cu.gif", :alt => "Cornell University"
+      %div.FindBigMailCompany= image_tag "agentic.png", :alt => "Agentic Digital Media"
+      %div.FindBigMailCompany= image_tag "nd.png", :alt => "University of Notre Dame"
+    #RecentTestimonials
+      %table.TestimonialsTable
+        %tbody
+          %tr
+            %td
+              %table.Testimonial
+                %tbody
+                  %tr
+                    %td
+                      .TestimonialPicture= image_tag "testimonial_1.png"
+                    %td
+                      .TestimonialContainer
+                        .TestimonialPerson
+                          Southern Web Group
+                          %span @southernweb
+                        .Testimonial= @t.testimonial_1
+            %td
+              %table.Testimonial
+                %tbody
+                  %tr
+                    %td
+                      .TestimonialPicture= image_tag "testimonial_2.png"
+                    %td
+                      .TestimonialContainer
+                        .TestimonialPerson
+                          Anthony de Rosa
+                          %span @antderosa
+                        .Testimonial= @t.testimonial_2
+          %tr
+            %td
+              %table.Testimonial
+                %tbody
+                  %tr
+                    %td
+                      .TestimonialPicture
+                        .TestimonialPicture= image_tag "testimonial_3.png"
+                    %td
+                      .TestimonialContainer
+                        .TestimonialPerson
+                          Brian Fitzgerald 
+                          %span @brianfit
+                        .Testimonial= @t.testimonial_3
+            %td
+              %table.Testimonial
+                %tbody
+                  %tr
+                    %td
+                      .TestimonialPicture= image_tag "testimonial_4.png"
+                    %td
+                      .TestimonialContainer
+                        .TestimonialPerson 
+                          Digital Inspiration 
+                          %span @labnol_blog
+                        .Testimonial= @t.testimonial_4

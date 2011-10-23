@@ -1,0 +1,87 @@
+@mixin donation-button-styles {
+	height: 70px;
+	box-shadow: 0 0;
+	border-radius: 0 0 0 0;
+	width: 180px;
+	height: 80px;
+	
+	@if $ie == false {
+		padding: 10px 45px;
+	}
+	@else {
+		padding: 10px 20px;
+	}
+	cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 0 none;
+}
+
+.FBMButton {
+	cursor: pointer;
+	color: #FFFFFF;
+	border: 0 none;
+	font-size: 17px;
+	font-weight: bold;
+	border-radius: 5px 5px 5px 5px;
+	@if $ie == false {
+		padding: 10px 60px;
+	}
+	@else {
+		padding: 10px 28px;
+	}
+	background-color: #EC5C27;
+	text-shadow: 0 0 1px #FFFFFF;
+	font-family: inherit;
+	box-shadow: 1px 1px 0 #000000;
+	
+	&:hover {
+		background-color: lighten(#EC5C27, 10);
+	}
+}
+
+#PayButton {
+	font-size: 35px;
+	height: 70px;
+	width: 330px;
+}
+
+.DonationButton {
+	@include donation-button-styles;
+	background: url("../images/donation_button.png");
+	
+	&:hover {
+		background: url("../images/highlighted_donation_button.png");
+	}
+}
+
+#DonationButtons {
+	margin-top: 40px;
+  float: left;
+	
+	.DonationButtonContainer {
+		float: left;
+		margin-right: 10px;
+	}
+}
+
+.HighlightedDonationButton {
+	@include donation-button-styles;
+	background: url("../images/highlighted_donation_button.png");
+}
+
+.DarkButton {
+	background-color: #444444;
+    border: 0 none;
+    border-radius: 80px 80px 80px 80px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 6px 35px;
+    
+    &:hover {
+    	background-color: #666666;
+    }
+}

@@ -1,0 +1,19 @@
+-btnclass = (locals.key?(:highlight) && locals[:highlight] ? "HighlightedDonationButton" : "DonationButton")
+.DonationButtonContainer
+  %form{:action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
+    %input{:name => "business", :type => "hidden", :value => "payments@findbigmail.com"}
+    %input{:name => "cmd", :type => "hidden", :value => "_donations"}
+    %input{:name => "cbt", :type => "hidden", :value => "FindBigMail"}
+    %input{:name => "item_name", :type => "hidden", :value => "Find Big Mail"}
+    %input{:name => "item_number", :type => "hidden", :value => "Donation"}
+    %input{:name => "no_shipping", :type => "hidden", :value => "1"}
+    %input{:name => "return", :type => "hidden", 
+      :value => "https://www.findbigmail.com/#{@lang.paths.thankyou}"}
+    %input{:name => "cancel_return", :type => "hidden", 
+      :value => "https://www.findbigmail.com/#{@lang.paths.thinking}"}
+    %input{:name => "custom", :type => "hidden", :value => "donatepage"}
+    %input{:name => "amount", :type => "hidden", :value => "#{amount}.00"}
+    %input{:name => "currency_code", :type => "hidden", :value => "USD"}
+    %input{:class => btnclass, :alt => @lang.paypal.alt_text,
+      :style => "cursor: pointer; font-size: 18px; ", :type => "submit", :value => amount_text}
+

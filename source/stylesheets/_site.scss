@@ -1,0 +1,223 @@
+@import "compass";
+
+$link-color:         #4084F6;
+$link-hover-color:   darken($link-color, 10);
+$link-focus-color:   false;
+$link-active-color:  false;
+$link-visited-color: false;
+
+$font-color:  #2a2a2a;
+$font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   14px;
+$base-line-height: 1.25;
+
+$total-cols: 12;
+$col-width: 4em;
+$gutter-width: 1em;
+$side-gutter-width: $gutter-width;
+
+$content-width: 800px;
+$navigation-bar-background-color: #333333;
+
+$header-font-size: 17px;
+$footer-font-size: 12px;
+
+$security-image-icon: "../images/security.png";
+
+@include global-reset;
+
+@mixin header-footer-style {
+	background-color: $navigation-bar-background-color;
+}
+
+@mixin header-footer-content-wrapper-style($font-size) {
+	color: #FFFFFF;
+	margin: 0 auto;
+	overflow: auto;
+	width: $content-width;
+	font-size: $font-size;
+}
+
+@mixin navigation-bar-style($elements-distance) {
+	ul {
+		overflow: auto;
+		li {
+			float: left;
+			a {
+				color: #FFFFFF;
+			}
+			&.Active {
+				font-weight: bold;
+			}
+			margin-right: $elements-distance;
+		}
+	}
+}
+
+@mixin centered-content-wrapper-style($top-margin:0, $bottom-margin:0) {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: $top-margin;
+	margin-bottom: $bottom-margin;
+	width: $content-width;
+	overflow: auto;
+}
+
+html, body {
+  	font: {
+  		size: $base-font-size;
+  		family: $font-family;
+  	}
+	color: $font-color;
+  	line-height: $base-line-height;
+  	margin: 0;
+	padding :0;
+	height: 100%;
+	min-width: $content-width;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h1, h2 {
+	color: #333333;
+	padding: 4px 0;
+	font-weight: bold;
+	letter-spacing: 0;
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+	text-decoration: none;
+	@include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color);
+}
+
+input[type="text"] {
+	padding: 7px;
+	height: 25px;
+	font-size: 22px;
+	border-radius: 3px;
+	outline: none;
+	border: 1px solid #EC5C27;
+}
+
+.hide {
+  display: none;
+}
+
+#Wrapper {
+	margin: 0;
+	position: relative;
+	
+	height: auto !important;
+	height: 100%;
+	background-color: #FFFFFF;
+
+	min-height: 100%;
+	
+	#Header {
+		height: 33px;
+		@include header-footer-style;
+		
+		#HeaderContentWrapper {
+			overflow: auto;
+			padding-top: 3px;
+			@include header-footer-content-wrapper-style($header-font-size);
+			
+			#HeaderNavigationBar {
+				float: left;
+				overflow: auto;
+				padding-top: 4px;
+				@include navigation-bar-style(35px);
+			}
+			#GoogleTranslateElement {
+				float: right;
+			}
+		}
+	}
+	
+	#Content {
+		width: 100%;
+		overflow: auto;
+		position: relative;
+		padding: 40px 0 50px 0;
+	
+		#ContentWrapper {
+			@include centered-content-wrapper-style;
+		}
+	}
+	
+	#Footer {
+		width: 100%;
+		height: 30px;
+		position: absolute;
+		bottom: 0;
+		@include header-footer-style;
+		
+		#FooterContentWrapper {
+			font-size: 12px;
+			@include header-footer-content-wrapper-style($footer-font-size);
+			
+			#CopyrightNotice { float: left; }
+			
+			#FooterNavigationBar {
+				float: left;
+				margin-left: 80px;
+				@include navigation-bar-style(20px);
+			}
+			
+			#CopyrightNotice, #FooterNavigationBar {
+				margin-top: 6px;
+			}
+			
+			#FindBigMailSocialMedia { float: right; }
+		}
+	}
+}
+
+#FindBigMailUpperLogo {
+	padding: 5px 0;
+	@include centered-content-wrapper-style;
+}
+
+.FormRow {
+	padding: 10px 0;
+	clear: both;
+	
+	label {
+		float: left;
+		cursor: pointer;
+		font-weight: bold;
+		margin-top: 10px;
+	}
+	input[type="text"], textarea {
+		float: right;
+		width: 350px;
+		outline: none;
+		margin-right: 5px;
+	}
+	textarea {
+		resize: none;
+		width: auto;
+		overflow: auto;
+	}
+}
+
+@import "buttons";
+@import "enter_email";
+@import "index";
+@import "payment";
+@import "pricing";
+@import "faq";
+@import "searching";
+@import "multiple";
+@import "contact";
+@import "title_and_text_pages";

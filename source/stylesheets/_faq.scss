@@ -1,0 +1,41 @@
+#FBMFAQ {
+	background-color: #F5F5F5;
+	border-bottom: 1px solid #E5E5E5;
+	
+	#FBMFAQContainer {
+		@include centered-content-wrapper-style(0, 20px);
+		
+		h1 {
+			margin: 40px 0 15px 0;
+		}
+		.FrequentQuestion {
+			font-size: 17px;
+			margin-bottom: 9px;
+		}
+	}
+}
+
+#FAQAnswers {
+	padding-bottom: 50px;
+	@include centered-content-wrapper-style(40px, 0);
+	
+	div {
+		display: block;
+	}
+	
+	.FAQAnswer {
+		h2 {
+			margin-bottom: 5px;
+			letter-spacing: 0;
+		}
+		p {
+			font-size: 16px;
+			margin-bottom: 20px;
+		}
+		ul {
+			font-size: 16px;
+			list-style: disc inside;
+			margin-bottom: 20px;
+		}
+	}
+}

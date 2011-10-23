@@ -1,0 +1,82 @@
+#EnterEmail
+  %form{:action => "/eng/tl.php", :method => "post", :onsubmit => "return validateForm(this)"}
+    #FindBigMailComponentWrapper
+      %input{:type => "text", :id => "GoogleAppsAccount", :name => "email_address", 
+        :placeholder => @lang.enter_email.placeholder}
+      %input#FindBigMailTriggerButton.FBMButton{:type => "submit", :value => @t.button}
+
+:javascript
+  function validateEmail(email) {
+    var reg1 = /^([A-Za-z0-9_\-\.\+\%])+$/;
+    var reg2 = /^([A-Za-z0-9_\-\.\+\%])+\@([A-Za-z0-9_\-\.\+\%])+\.([A-Za-z]{2,4})$/;
+    return (0 < email.value.length && (reg1.test(email.value) || reg2.test(email.value)));
+  }
+
+  function validateForm(thisform) {
+    if (0 < thisform.email_address.value.length) {
+      thisform.email_address.value = thisform.email_address.value.replace(/^\s+|\s+$/g, '');
+    }
+    if ((null === thisform.email_address.value) || ("" === thisform.email_address.value)) {
+      alert("Please enter your email address");
+      thisform.email_address.focus();
+      return false;
+    }
+    if (false === validateEmail(thisform.email_address)) {
+      alert("Please verify your email address is correct");
+      thisform.email_address.focus();
+      return false;
+    }
+    return true;
+  }
+
+  // Code to emulate the placeholder property for IE. Thanks to
+  //   http://stackoverflow.com/questions/5575621/
+  if ( ! ('placeholder' in document.createElement('input'))) {
+
+      $('[placeholder]').each(function() {
+          
+          var self = $(this);
+
+          // Attribute name, used as class name too for convenience.
+          var p = 'placeholder';
+
+          // Don't apply to inputs with an initial value.
+          self.data('empty', self.val() == '');
+
+          self.focus(function() {
+              // Input not modified by the user, and has the placeholder as the value.
+              if (self.data('empty') && self.val() == self.attr(p)) {
+                  self.val('').removeClass(p);
+              }
+          })
+          .blur(function() {
+              // Input was not modified and is empty.
+              if (self.data('empty')) {
+                  self.val(self.attr(p)).addClass(p);
+              }
+          })
+          .change(function() {
+              // On change, apply data("empty") to field if the user has modified the value, and it is empty.
+              self.data('empty', self.val() == '');
+          });
+
+          // Apply the placeholder.
+          if (self.val() == '' || self.val() == self.attr(p)) {
+              self.val(self.attr(p)).addClass(p);
+          }
+
+      });
+
+      // Forms should NOT submit placeholder values.
+      $('form:has([placeholder])').bind('submit', function () {
+          $(this).find('[placeholder]').each(function () {
+              // If value not modified, and is the placeholder value
+              if ($(this).data('empty')) {
+                  // Unset the value (placeholder text). <-- not working
+                  $(this).val('');
+              }
+          });
+      });
+  }
+
+

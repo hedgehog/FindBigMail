@@ -1,0 +1,8 @@
+%h1= @t.header
+%p= @t.body_1
+%br
+%p= @t.body_2
+= partial "enter_email"
+.MultipleAccountsPicture= image_tag "all-mal-google-labs.png"
+%br
+%p= link_to @t.faq, "#{@links.faq}##{@lang.faq.scanned_folders_anchor}"

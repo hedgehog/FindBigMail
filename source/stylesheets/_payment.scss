@@ -1,0 +1,76 @@
+#ServiceDescription {
+	p {
+		margin: 20px 0 10px 0;
+		display: inline-block;
+	}
+}
+
+#PaymentArea {
+	overflow: auto;
+	margin-top: 40px;
+	
+	#PaymentButton {
+		float: left;
+	}
+	
+	#Guarantee {
+		float: left;
+		overflow: auto;
+		margin-left: 35px;
+		
+		#GuarenteePicture {
+			float: left;
+		}
+		#GuaranteeText {
+			float: left;
+			overflow: auto;
+			width: 235px;
+			
+			#GuaranteeTitle {
+				display: block;
+				font-weight: bold;
+				margin: 10px 0 5px 0;
+			}
+			#GuaranteeDescription {
+				display: block;
+			}
+		}
+		
+	}
+}
+
+#PaypalPaymentGuarantee {
+	width: 360px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+#ReviewsRecommendedBy {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color: #F2F3F4;
+  clear: both;
+  margin: 30px 0px 50px;
+  padding: 20px;
+
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .RecommendedBy {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline;
+  }
+
+  .Quote {
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+    font-size: 24px;
+  }
+  .QuoteImage {
+    float: left;
+  }
+}

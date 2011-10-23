@@ -1,0 +1,11 @@
+!!! Strict
+%html
+  = partial "head"
+  %body
+    #Wrapper.GrayBackground
+      #Header
+        #HeaderContentWrapper
+          = partial "top_navigation"
+          #GoogleTranslateElement
+      = yield
+      = partial "footer"

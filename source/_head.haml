@@ -1,0 +1,28 @@
+%head
+  -if "payment" == @page_id
+    %script{:src => "//cdn.optimizely.com/js/7281101.js", :type => "text/javascript" }
+  %meta{'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}
+  -if @t.key?("meta_keywords")
+    %meta{:name => "keywords", :content => "#{@t.meta_keywords}"}
+  -if @t.key?("meta_description")
+    %meta{:name => "description", :content => "#{@t.meta_description}"}
+  -if "searching" == @page_id
+    = partial :head_searching
+  %title= @t.title
+  %link{:rel => "shortcut icon", :href => "/images/favicon.ico"}
+  = stylesheet_link_tag 'styles.css', :media => 'screen'
+  /[if lte IE 8]
+    = stylesheet_link_tag 'styles_ie.css', :media => 'screen'
+  = partial :js_config_translate
+  %script{:src => "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit", :type => "text/javascript" }
+  %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js", :type => "text/javascript" }
+  :javascript
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-18419866-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();

@@ -1,0 +1,38 @@
+%table#PricingTable
+  %tbody
+    %tr
+      %td.Providers &nbsp;
+      %td.Providers= image_tag "logo_small.png", :alt => "FindBigMail"
+      %td.Providers= image_tag "google_small.png", :alt => "Gmail"
+    %tr
+      %th.ColOne.WhiteHeader= @t.pricing_features
+      %th.PricingColumn= @t.full_scan
+      %th.PricingColumn= @t.extra_storage
+    %tr
+      %td.ColOne= @t.personal_gmail
+      %td= @t.free
+      %td= @t.five_dollars_per_year
+    %tr
+      %td.ColOne= @t.google_apps_gmail
+      %td $4.95
+      %td= @t.fifty_per_year_account
+    %tr
+      %td.ColOne= @t.all_emails_scanned
+      %td= image_tag "enabled.png", :alt => @t.yes
+      %td= image_tag "disabled.png", :alt => @t.no
+    %tr
+      %td.ColOne= @t.results_chart
+      %td= image_tag "enabled.png", :alt => @t.yes
+      %td= image_tag "disabled.png", :alt => @t.no
+    %tr
+      %td.ColOne= @t.email_result_summary
+      %td= image_tag "enabled.png", :alt => @t.yes
+      %td= image_tag "disabled.png", :alt => @t.no
+    %tr
+      %td.ColOne= @t.links_to_biggest_emails
+      %td= image_tag "enabled.png", :alt => @t.yes
+      %td= image_tag "disabled.png", :alt => @t.no
+    %tr
+      %td.ColOne= @t.label_emails
+      %td= image_tag "enabled.png", :alt => @t.yes
+      %td= image_tag "disabled.png", :alt => @t.no

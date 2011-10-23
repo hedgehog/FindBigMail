@@ -1,0 +1,18 @@
+#ContactArea
+  %h1= @t.contact_header
+  #ContactForm
+    %form{:action => "/eng/contactus.php", :method => "post"}
+      .FormRow
+        %label{:for => "FullName"}= @t.name
+        %input{:type => "text", :id => "FullName", :name => "FullName"}
+      .FormRow
+        %label{:for => "EmailAddress"}= @t.email_address
+        %input{:type => "text", :id => "EmailAddress", :name => "EmailAddress"}
+      .FormRow
+        %label{:for => "Subject"}= @t.subject
+        %input{:type => "text", :id => "Subject", :name => "Subject"}
+      .FormRow
+        %label{:for => "Message"}= @t.message
+        %textarea{:id => "Message", :name => "Message", :rows => 5, :cols => 37}
+      .FormRow
+        %input{:type => "submit", :class => "DarkButton", :value => @t.submit_form}

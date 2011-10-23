@@ -1,0 +1,17 @@
+#ServiceDescription
+  %h1= @t.payment_header
+  %p= @t.payment_1
+  %p= @t.payment_2
+#PaymentArea
+  #PaymentButton
+    = partial(:paypal_pay_button, :locals => {:amount => 4.95, :amount_text => @t.pay})
+  #Guarantee
+    #GuarenteePicture= image_tag "guarantee.png", :alt => @t.money_back_guarantee
+    #GuaranteeText
+      %span#GuaranteeTitle= @t.money_back_guarantee
+      %span#GuaranteeDescription= @t.solve_problem_or_money_back
+#PaypalPaymentGuarantee= image_tag "paypal.png", :alt => @t.paypal_logo
+%br
+= partial :reviews
+- @t = @lang.pricing
+= partial :pricing_table

@@ -1,0 +1,86 @@
+#WhiteArea {
+	margin: auto;
+	width: 100%;
+	height: 370px;
+	background-color: #FFFFFF;
+
+	#HomePageLogo {
+		width: 450px;
+		padding: 35px;
+		margin: 0 auto auto;
+	}
+
+	#HomePageEmailFinder {
+		@include centered-content-wrapper-style(30px 0);
+		
+		#FindBigMailTagline {
+			margin-top: 10px;
+			padding: 10px 0 15px 40px;
+			background: url($security-image-icon);
+			background-repeat: no-repeat;
+			
+			span {
+				font-style: italic;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.GrayBackground {
+	background-color: #F5F5F5 !important;
+}
+
+#GrayArea {
+	width: 100%;
+	padding-bottom: 25px;
+	position: relative;
+	border-top: 1px solid #E5E5E5;
+	
+	#HomePageTestimonials {
+		padding: 20px 0;
+		@include centered-content-wrapper-style;
+	
+		h2 {
+			text-align: center;
+		}
+		
+		#FindBigMailCompanies {
+			overflow: auto;
+			margin: 25px 0;
+		
+			.FindBigMailCompany {
+				float: left;
+				margin-left: 35px;
+			}
+		}
+		
+		#RecentTestimonials {
+      margin-top: 40px;
+			table.TestimonialsTable {
+				& > tbody > tr > td {
+					width: 50%;
+				}
+				table.Testimonial {
+					td {
+						vertical-align: top;
+					}
+					.TestimonialPicture {
+						height: 100px;
+					}
+					.TestimonialContainer {
+						margin-right: 25px;
+						margin-left: 15px;
+						.TestimonialPerson {
+							color: #498AF3;
+				    		font-weight: bold;
+				    		span {
+				    			font-weight: normal;
+				    		}
+						}
+					}
+				}
+			}
+		}
+	}
+}

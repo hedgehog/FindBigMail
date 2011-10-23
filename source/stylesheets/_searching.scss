@@ -1,0 +1,99 @@
+$progress-text-width: 195px;
+
+#MailSearchHead {
+	p {
+		margin-top: 20px;
+	}
+}
+
+#MailSearchProgressBar {
+	position: relative;
+	margin-top: 30px;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid #000000;
+	background-color: #C9C9C9;
+	
+	#meter-value {
+		height: 45px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		background: url("../images/progressbar.gif");
+		background-repeat: repeat-x;
+	}
+	
+	.MailSearchProgressComplete {
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+		
+	#MailSearchTextProgress {
+		width: auto;
+		position: absolute;
+		left: ($content-width - $progress-text-width)/2;
+		@if $ie == false {
+			top: 6px;
+		}
+		@else {
+			top: 8px;
+			line-height: 25px;
+		}
+		font-size: 28px;
+		font-weight: bold;
+		color: #FFFFFF;
+	}
+}
+
+.legendColorBox {
+  padding-right: 10px;
+}
+
+#MailSearchResults {
+  margin-top: 40px;
+}
+#MailSearchCount {
+  float: left;
+  width: 266px;
+}
+#MailSearchSize {
+  float: left;
+  width: 266px;
+}
+#MailSearchFound {
+  float: right;
+  width: 268px;
+}
+#MailSearchShowCount {
+  float: left;
+  width: 800px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+#MailSizeHover {
+  float: left;
+  width: 530px;
+  text-align: center;
+}
+
+#MailSearchCountPie {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#MailSearchSizePie {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#MailSearchLegend {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.SearchColHeader {
+  font-weight: bolder;
+  text-align: center;
+}

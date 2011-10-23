@@ -1,0 +1,22 @@
+#EnterEmail {
+  @include centered-content-wrapper-style(30px 0);
+
+  form {
+    overflow: auto;
+
+    #FindBigMailComponentWrapper {
+      margin-top: 25px;
+      
+      #GoogleAppsAccount {
+        float: left;
+        font-family: inherit;
+        width: $content-width - 260;
+      }
+      
+      #FindBigMailTriggerButton {
+        float: right;
+        max-width: 240px;
+      }
+    }
+  }
+}

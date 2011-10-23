@@ -1,0 +1,15 @@
+:javascript
+  jQuery.extend({
+      'Q' : window.location.search.length <= 1 ? {}
+          : (function (a) {
+              var i = a.length, p,
+                  r = /%25/g,  // Ensure '%' is properly represented 
+                  h = {};      // (Safari auto-encodes '%', Firefox 1.5 does not)
+              while (i) {
+                                  i = i - 1;
+                  p = a[i].split('=');
+                  h[p[0]] = r.test(p[1]) ? decodeURIComponent(p[1]) : p[1];
+              }
+              return h;
+          }(window.location.search.substr(1).split('&')))
+  });

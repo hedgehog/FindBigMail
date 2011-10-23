@@ -1,0 +1,15 @@
+%h1= @t.header
+%p= @t.body_1
+%br
+%p= @t.body_2
+%br
+%button.DarkButton{:type => "button", :onclick => "goPage()",}= @t.continue
+%input{:name => "search_url", :type => "hidden", 
+  :value => "https://www.findbigmail.com/#{@lang.paths.searching}/?MyJob="}
+= partial :js_parse_params
+:javascript
+  function goPage(){
+    window.location.replace($('input[name=search_url]').val() + $.Q.MyJob);
+    false;
+  }
+

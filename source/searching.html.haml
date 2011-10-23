@@ -1,0 +1,55 @@
+#MailSearchHead
+  %h1= @t.searching_header
+  %p= @t.searching_1
+#MailCompleteHead.hide
+  %h1= @t.complete_header
+  %p= @t.complete_1
+#MailMissingHead.hide
+  %h1= @t.missing_header
+  %p= @t.missing_1
+  = partial :enter_email
+#MailSearchProgressBar.hide
+  #meter-value{:style => "width: 0%;"}
+  #MailSearchTextProgress
+    %span.percentComplete
+      0
+    = @t.search_progress
+#MailSearchResults.hide
+  #MailSearchCount
+    .SearchColHeader= @t.mail_search_count
+    #MailSearchCountPie
+  #MailSearchSize
+    .SearchColHeader= @t.mail_search_size
+    #MailSearchSizePie
+  #MailSearchFound
+    .SearchColHeader= @t.mail_search_legend
+    #MailSearchLegend
+    .SearchColHeader
+      = @t.mail_labeled
+      %span.msgCount 0
+      %br
+      %br
+        %input#refresh1.DarkButton{:onclick => "showPage()", 
+          :style => "cursor: pointer;", :type => "button", :value => "Refresh"}
+  #MailSizeHover
+    &nbsp;
+ 
+#MailSearchShowCount
+  %center
+    %span.bigtext
+      = "#{@t.found_so_far}: "
+      %span.msgCount 0
+    %br
+    %input#refresh2.blue.DarkButton{:onclick => "showPage()", 
+      :style => "cursor: pointer;", :type => "button", :value => "Refresh"}
+#donatebuttons.hide
+  = partial "donate_buttons"
+/[if lte IE 8]
+  %script{:src => "/javascripts/excanvas.min.js", :type => "text/javascript" }
+%script{:src => "/javascripts/jquery.flot.min.js", :type => "text/javascript" }
+%script{:src => "/javascripts/jquery.flot.pie.min.js", :type => "text/javascript" }
+%script{:src => "/eng/js/eng2.js", :type => "text/javascript" }
+:javascript
+  jQuery(document).ready(function() {
+    showPage();
+  });

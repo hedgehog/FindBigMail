@@ -1,0 +1,15 @@
+!!! Strict
+%html
+  = partial "head"
+  %body
+    #Wrapper
+      #FindBigMailUpperLogo
+        = link_to image_tag('logo_normal.png', :alt => 'FindBigMail.com', :width => 230, :height => 47), @links.index, :title => 'FindBigMail.com'
+      #Header
+        #HeaderContentWrapper
+          = partial "top_navigation"
+          #GoogleTranslateElement
+      #Content
+        #ContentWrapper
+          = yield
+      = partial "footer"

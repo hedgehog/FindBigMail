@@ -1,0 +1,35 @@
+#PricingTable {
+	font-size: 20px;
+	font-family: inherit;
+	width: $content-width - 2;
+	
+	td, th {
+		padding: 10px;
+		text-align: center;
+		border: 1px solid #E5E5E5;
+	}
+	
+	th {
+		font-weight: bold;
+		color: #FFFFFF;
+		background-color: #000000;
+	}
+	
+	.Providers {
+		border-color: #FFFFFF;
+	}
+	
+	.ColOne {
+		text-align: left;
+	}
+	
+	.PricingColumn {
+		width: 250px;
+	}
+	
+	.WhiteHeader {
+		border-width: 0;
+		color: #000000;
+		background-color: #FFFFFF;
+	}
+}
