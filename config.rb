@@ -29,7 +29,7 @@ activate :automatic_image_sizes
 ###
 # Page command
 ###
-languages = ['de', 'en']
+languages = ['de', 'en', 'es']
 active_nav = {:class => "Active"}
 
 # This declares the variables which are to be used in every template
