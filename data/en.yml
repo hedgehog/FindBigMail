@@ -43,13 +43,13 @@ index:
     Gmail full, Gmail almost full, Gmail inbox full, You are almost out of space for your Gmail account, 
     Gmail sort by size
   meta_description:
-    Makes it easy to find big emails in your Gmail account and free up space.  If your account is full, 
-    this is a simple way to reduce space instead of sorting by size.
-  title: Find Big Mail - Have you run out of space for your Gmail account?
-  grab: Find big emails in your inbox to get your space back!
+    Simplifica el encontrar mails grandes en tu cuenta Gmail para liberar espacio.  Si tu cuenta está llena, 
+    esta es una forma simple de liberar espacio en lugar de ordenar por tamaño.
+  title: Find Big Mail - Se llenó tu cuenta Gmail?
+  grab: Encontrá mails grandes en tu inbox y recuperá tu espacio!
   button: Find Big Mail
   tagline:
-    Security is important to us. We only see the size of your emails, not their contents, and we 
+    La seguridad es importante para nosotros. We only see the size of your emails, not their contents, and we 
     <span>never</span> see your password.
   who_is_using: Who else is using Find Big Mail?
   testimonial_1: We just saved $450 in Google Apps fees using @findbigmail.
