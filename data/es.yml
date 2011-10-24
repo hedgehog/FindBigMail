@@ -20,23 +20,23 @@ paths:
 
 top_navigation:
   home: Home
-  pricing: Pricing
+  pricing: Precios
   faq: FAQ
   
 footer:
   contact_us: Contacto
-  privacy_statement: Privacy Statement
-  conditions_use: Conditions of Use
-  about_us: About Us
-  follow_facebook: Like us on Facebook
-  follow_twitter: Follow us on Twitter
-  email_us: Email us
+  privacy_statement: Privacidad
+  conditions_use: Condiciones de Uso
+  about_us: Nosotros
+  follow_facebook: Seguinos en Facebook
+  follow_twitter: Seguinos en Twitter
+  email_us: Contacto
  
 paypal:
   alt_text: "PayPal - The safer, easier way to pay online"
 
 enter_email:
-  placeholder: Enter your Gmail or Google Apps account
+  placeholder: Ingrese su cuenta Gmail o Google Apps
 
 index:
   meta_keywords:
@@ -49,9 +49,9 @@ index:
   grab: Encontrá mails grandes en tu inbox y recuperá tu espacio!
   button: Find Big Mail
   tagline:
-    La seguridad es importante para nosotros. We only see the size of your emails, not their contents, and we 
-    <span>never</span> see your password.
-  who_is_using: Who else is using Find Big Mail?
+    La seguridad es importante para nosotros. Sólo vemos el tamaño de tus mails,no su contenido, y 
+    <span>nunca</span> vemos tu clave.
+  who_is_using: Quién mas está usando Find Big Mail?
   testimonial_1: We just saved $450 in Google Apps fees using @findbigmail.
   testimonial_2: |
     A rare endorsement from me, totally unpaid and totally appreciated: FindBigMail.com helped me reduce 
@@ -65,24 +65,24 @@ pricing:
   meta_keywords:
     Google Apps, Google Apps Business, Google Apps Education, Gmail full, service prices
   meta_description:
-    Scan your Google Apps account for only $4.95. Free scans to find the largest emails in your Gmail account. 
-    Service includes top 20 emails.
-  title: Find Big Mail - Pricing
-  pricing_features: Pricing & Features
-  full_scan: Full Scan
-  extra_storage: Extra Storage
-  personal_gmail: Personal Gmail
-  free: Free!
+    Escanea tu cuenta Google Apps por sólo $4.95. Escaneo gratis para encontrarlos mails mas grandes en tu cuenta Gmail. 
+    El servicio incluye los 20 mails mas grandes.
+  title: Find Big Mail - Precios
+  pricing_features: Precios & Características
+  full_scan: Escaneo Completo
+  extra_storage: Storage Extra
+  personal_gmail: Gmail Personal
+  free: Gratis!
   five_dollars_per_year: $5 per year
   google_apps_gmail: Google Apps Gmail
-  fifty_per_year_account: $50 per year per account
-  yes: yes
+  fifty_per_year_account: $50 por año por cuenta
+  yes: si
   no: no
-  all_emails_scanned: All emails scanned
-  results_chart: Chart of results
-  email_result_summary: Email summary of results
-  links_to_biggest_emails: Links to 20 biggest emails
-  label_emails: Label mails over 1MB, 5MB and 10MB
+  all_emails_scanned: Escaneo de todos los mails
+  results_chart: Gráfico de resultados
+  email_result_summary: Email resumen de resultados
+  links_to_biggest_emails: Links a los 20 mails mas grandes
+  label_emails: Etiqueta en mails mayores a 1MB, 5MB y 10MB
 
 faq:
   meta_keywords:
@@ -310,13 +310,13 @@ faq:
   delete_large_labeled_messages_answer_1_link: "http://mail.google.com/support/bin/answer.py?hl=en&answer=7401"
   
 contact_us:
-  title: Find Big Mail - Contact Us
-  contact_header: Contact Find Big Mail
-  name: Your Name
-  email_address: Email Address
-  subject: Subject
-  message: Message *
-  submit_form: Submit Form
+  title: Find Big Mail - Contacto
+  contact_header: Contacte a Find Big Mail
+  name: Nombre
+  email_address: Dirección de Email
+  subject: Tema
+  message: Mensaje *
+  submit_form: Formulario
   
 privacy_statement:
   title: Find Big Mail - Privacy Statement
@@ -364,22 +364,23 @@ conditions_of_use:
                           customers, research and marketing case studies and any other marketing-related activities.
   
 about_us:
-  title: Find Big Mail - About Us
-  about_us_header: About Us
-  about_us_1: |
-              This website is brought to you by a couple of veteran software engineers who saw a problem and wanted to 
-              solve it. We found that you could in fact run out of email space with Gmail (or Google apps) and then what 
-              could you do? How can you fix things when you get "You have run out of space for your Gmail account"!
+  title: Find Big Mail - Nosotros
+  about_us_header: Nosotros
+
+  aboout_us_1: |
+              Este sitio es una creación de un par de ingenieros de software veteranos que vieron un problema y quisieron resolverlo.
+              Encontramos que se podía de hecho quedarse sin espacio en Gmail (o Google apps) y entonces que hacer? 
+              Como reparar las cosas cuando se obtiene el mensaje: "No tiene mas espacio en su cuenta Gmail"!
   about_us_2: |
-              Sure, we could hook up an IMAP client and import all the mail (7+GB of it!) and then find the largest and 
-              remove it, but that wasn't going to work for friends and family. They had no idea what an email client was!
+              Seguro, podríamos conectar un cliente IMAP, importar todos los mails (7+GB de mails!) y entonces encontrar los mas grandes
+              y borrarlos, pero eso no iba a funcionar para amigos y familia. No tienen ni idea de que es un cliente IMAP!
   about_us_3: |
-              So, we have this website. We're both privacy nuts, so we were careful to build it so we never see your 
-              password or even your email messages. We just get the sizes and label them accordingly. And then, what the 
-              heck, we threw in a report so you could see how much big mail you have.
-  about_us_4: "We hope you enjoy it. Please %s if you have any comments or questions."
-  about_us_4_link_label: send us an email
-  about_us_5: Thanks!
+              Asi que, tenemos este sitio. Somos ambos locos por la privacidad, asi que tuvimos mucho cuidado en construirlo para nunca
+              ver tu password ni tus mails. Sólo obtenemos los tamaños y los etiquetamos. Y entonces, hacemos un reporte
+              para que puedas ver cuantos mails grandes tenés.
+  about_us_4: "Esperamos que lo disfrutes. Por favor %s si tenés comentarios o preguntas."
+  about_us_4_link_label: envianos un mail
+  about_us_5: Gracias!
 
 payment:
   title: Find Big Mail - Payment
@@ -395,34 +396,33 @@ payment:
   paypal_logo: PayPal Logo
   
 searching:
-  title: Find Big Mail - Searching
-  searching_header: Now searching for big mail!
+  title: Find Big Mail - Buscando
+  searching_header: Buscando mails grandes!
   searching_1: |
-              You can continue to use your email and will start to see results while it is being scanned. This may take 
-              just a few minutes or more than an hour depending on your mailbox size and location. We'll send you an 
-              email when it's complete.
-  search_progress: "% scanned"
-  found_so_far: Big Emails found so far
-  mail_search_count: Messages by Count
-  mail_search_size: By Approximate Size
-  mail_search_legend: Messages found
-  mail_labeled: "Labeled: "
-  complete_header: Your scan has finished!
+              Puede seguir usando su mail y va a comenzar a ver resultados mientras se escanean. Puede llevar unos pocos
+              minutos o mas de una hora dependiendo del tamaño y ubicación de su casilla. Te vamos a mandar un mail cuando se
+              termine.
+  search_progress: "% escaneado"
+  found_so_far: Mails grandes encontrados hasta ahora
+  mail_search_count: Mensajes por cantidad
+  mail_search_size: Por tamañoi aproximado
+  mail_search_legend: Mensajes encontrados
+  mail_labeled: "Etiquetados: "
+  complete_header: Si escaneo ha terminado!
   complete_1: |
-    The scan is complete and your mail now has labels identifying the big emails. Below are how many
-    emails were found. A summary email has been sent with more information and charts.
-  missing_header: Your scan was not found
+    El escaneo se terminó y su mail ahora tiene etiquetas identificando los mails grandes. Abajo se puede ver cuantos
+    mails se encontraron. Un mail con el resumen se envió con mas información y gráficos.
+  missing_header: Su escaneo no se encontró
   missing_1: |
-    We no longer have any information about this scan, most likely because the scan finished a 
-    while ago and we've removed the log files.  If you feel this is an error you can re-run the 
-    scan below, or contact us. Thanks!
+    Ya no tenemos información sobre este escaneo, Probablemente es porque el escaneo terminó mucho tiempo atrás
+    y ya borramos los archivos.  Si cree que es un error puede reiniciar el scan o contactarnos. Gracias!
   button: "Find Big Mails"
-  header_donate: Donate
-  donate_cover_costs: "Thank you for using Find Big Mail. Please help cover our costs by donating via PayPal:"
-  donate_1: Donate $1
-  donate_2: Donate $2
-  donate_5: Donate $5
-  donate_10: Donate $10
+  header_donate: Donar
+  donate_cover_costs: "Gracias por usar Find Big Mail. Por favor ayúdenos a cubrir nuestros gastos donando a través de PayPal:"
+  donate_1: Donar $1
+  donate_2: Donar $2
+  donate_5: Donar $5
+  donate_10: Donar $10
   paypal_logo: PayPal Logo
 
 multiple:
@@ -432,14 +432,14 @@ multiple:
   button: Find Big Emails
 
 thinking:
-  header: "Thank you"
+  header: "Gracias"
   body: |
-    We realize it's not always possible to give.  Thanks for thinking about donating to our site.
+    Sabemos que no es siempre posible donar.  Gracias por pensar en eso.
 thankyou:
-  header: "Thank you"
+  header: "Gracias"
   body: |
-    Thank you for donating to our site!  We'll put the funds to good use by keeping the site 
-    stable and continuing to add new features.
+    Gracias por donar a nuestro sitio!  Vamos a aprovechar los fondos para mantener el sitio estable y 
+    seguir agregando características nuevas.
 allmailblocked:
   header: "Your scan will take longer than usual"
   body_1: |
@@ -465,9 +465,9 @@ busyforus:
     Sorry, our servers are busy right now so we're limiting requests to keep things running smoothly. Feel free to try again or come back later.
     Thanks for your patience!
 contacted:
-  header: "Thank you for contacting FindBigMail"
+  header: "Gracias por contactar FindBigMail"
   body: |
-    We read every email we recieve.  Although we cannot reply to every email, if you provided an email address, we'll try to reply back soon.
+    Leemos todos los mails que recibimos. Aunque no podemos responder cada uno, intentaremos responder pronto.
 
 reviews:
   recommended_by: Recommended by leading tech review sites
