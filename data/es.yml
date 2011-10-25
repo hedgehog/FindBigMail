@@ -52,7 +52,7 @@ index:
     La seguridad es importante para nosotros. Sólo vemos el tamaño de tus mails,no su contenido, y 
     <span>nunca</span> vemos tu clave.
   who_is_using: Quién mas está usando Find Big Mail?
-  testimonial_1: We just saved $450 in Google Apps fees using @findbigmail.
+  testimonial_1: Ahorramos $450 en tarifas de Google Apps usando @findbigmail.
   testimonial_2: |
     A rare endorsement from me, totally unpaid and totally appreciated: FindBigMail.com helped me reduce 
     my Gmail storage by over 50%. THANK YOU
@@ -88,10 +88,10 @@ faq:
   meta_keywords:
     FAQ Gmail Full, FAQ Find Big Mail
   meta_description:
-    Frequently Asked Questions about FindBigMail. Includes common problems and settings that may reduce the results
-    and description of how to find largest emails.
-  title: Find Big Mail - Frequently Asked Questions
-  header_faq: Frequently Asked Questions
+    Preguntas frecuentes sobre FindBigMail. Incluye problemas comunes y configuraciones que pueden reducir los resultados,  
+    y descripción de como encontrar los mails mas grandes.
+  title: Find Big Mail - Preguntas Frecuentes
+  header_faq: Preguntas Frecuentes
   large_chat_histories_anchor: LargeChatHistories
   remove_fbm_label_anchor: RemoveFindBigMailLabels
   remove_fbm_access_anchor: RemoveFindBigMailAccess
@@ -274,7 +274,7 @@ faq:
                                   change the label sizes?". The short answer is "not yet", but we are looking into it. 
                                   Is this something you would like too? Any other ideas for better managing your 
                                   Gmail free space? Please %s and let us know. Thanks!
-  modify_size_ranges_answer_1_link_label: Contact Us
+  modify_size_ranges_answer_1_link_label: Contacto
   multiple_size_labels: Why do my emails have multiple size labels?
   multiple_size_labels_answer_1: |
                                   FindBigMail.com labels individual mail messages not threads. In most case, when you see
@@ -319,22 +319,22 @@ contact_us:
   submit_form: Formulario
   
 privacy_statement:
-  title: Find Big Mail - Privacy Statement
-  privacy_statement_header: Privacy Statement
+  title: Find Big Mail - Privacidad
+  privacy_statement_header: Privacidad
   privacy_statement_1: |
-                          FindBigMail.com logs page requests with their parameters (except email addresses), timestamps, IPs, 
-                          errors et. al. for testing, anonymous playback, trend analysis, bug fixing, feature 
-                          priorization and performance tuning. 
+                          FindBigMail.com registra los pedidos con sus parámetros (con excepción de las direcciones de mail), horario, IPs, 
+                          errors etc para pruebas, reproducción anónima, análisis de tendencia, corrección de bugs, priorización
+                          de pedidos y mejoras en la performance.
   privacy_statement_2: |
-                          FindBigMail.com stores hashed email addresses for the purposes of banning and/or throttling users 
-                          who abuse the service. We use your email address to send scan results and then delete it.
-  privacy_statement_3: FindBigMail.com does not have your Google password so we can never store it nor lose it to some other party.
+                          FindBigMail.com guarda direcciones de mail en formato de hash con el propósito de excluir o controlar aquellos 
+                          usuarios que abusan del servicio. Usamos su dirección de mail para enviar resultados del escaneo y luego la borramos.
+  privacy_statement_3: FindBigMail.com no tiene su clave de Google así que no podemos guardarla ni perderla.
   privacy_statement_4: |
-                          FindBigMail.com does not sell, rent, lease, or give any personal information to any third parties 
-                          unless required by law.
+                          FindBigMail.com no vende, alquila, o entrega ninguna información personal a terceros a menos que se requiera por
+                          la autoridad legal.
   privacy_statement_5: |
-                          FindBigMail.com may change this statement at any time but intends to do so as little as possible. 
-                          If we do change our Privacy Statement, we will update this page promptly.
+                          FindBigMail.com puede cambiar esta declaración en cualquier momento pero aspiramos a hacerlo tan poco como sea posible.
+                          Si cambiamos nuestra Declaración de Privacidad, actualizaremos rápidamente esta página.
   
 conditions_of_use:
   title: Find Big Mail - Conditions of Use
@@ -383,16 +383,17 @@ about_us:
   about_us_5: Gracias!
 
 payment:
-  title: Find Big Mail - Payment
-  payment_header: Have you run out of space for your Google Apps Account?
+  title: Find Big Mail - Pagos
+  payment_header: Te quedaste sin espacio en tu cuenta de Google Apps?
   payment_1: 
-    A complete scan of your Google Apps account is $4.95. This includes a full report with charts, a list of 
-    your largest 20 multi-megabyte emails and real-time results and one month of repeat runs.
-  payment_2: Compared to upgrading your entire domain to Google Premier Edition at $50/user because of one overflowing 
-              account, this is a real deal!
-  pay: Pay $4.95
-  money_back_guarantee: "100% Money Back Guarantee!"
-  solve_problem_or_money_back: Solve your Gmail space problem or your money back.
+    Un escaneo completo de tu cuenta de Google Apps cuesta $4.95. Incluye un reporte completo con gráficos, una lista de tus
+   20 mails mas grandes, resultados en tiempo real y un mes de escaneos.
+  payment_2: Comparado con upgradear tu dominio entero a Google Premier Edition a $50 por usuario por sólo una cuenta con exceso de 
+   utilización, es un negocio!
+  pay: Pague $4.95
+  money_back_guarantee: "100% Garantía de satisfacción!"
+  solve_problem_or_money_back: Resolvé tu problema de espacio en Gmail o te devolvemos tu dinero.
+
   paypal_logo: PayPal Logo
   
 searching:
@@ -405,7 +406,7 @@ searching:
   search_progress: "% escaneado"
   found_so_far: Mails grandes encontrados hasta ahora
   mail_search_count: Mensajes por cantidad
-  mail_search_size: Por tamañoi aproximado
+  mail_search_size: Por tamaño aproximado
   mail_search_legend: Mensajes encontrados
   mail_labeled: "Etiquetados: "
   complete_header: Si escaneo ha terminado!
@@ -426,9 +427,9 @@ searching:
   paypal_logo: PayPal Logo
 
 multiple:
-  header: "Do you have multiple Gmail accounts?"
+  header: "Tenés múltiples cuentas de Gmail?"
   body: |
-    We couldn't scan your Gmail account. Either the email entered was mistyped or you are currently logged into a different account.
+    No pudimos escanear tu cuenta Gmail. O bien el email ingresado es incorrecto o estás logueado en una cuenta distinta.
   button: Find Big Emails
 
 thinking:
@@ -441,17 +442,17 @@ thankyou:
     Gracias por donar a nuestro sitio!  Vamos a aprovechar los fondos para mantener el sitio estable y 
     seguir agregando características nuevas.
 allmailblocked:
-  header: "Your scan will take longer than usual"
+  header: "Tu escaneo va a llevar mas de lo usual"
   body_1: |
-    We are unable to access the All Mail folder. Instead we will scan every label (folder) one by one. 
-    This may take several hours instead of the usual 10-60 minutes. Also, some of the statistics 
-    will be less accurate if you have a lot of large messages that have multiple labels.
+  No estamos pudiendo acceder la carpeta All Mails. En lugar de eso vamos a escanear cada carpeta por separado.
+  Esto puede llevar varias horas en lugar de los 10 a 60 minutos usuales.
+  Además, algunas estadísticas pueden ser menos precisas si tenés muchos mensajes grandes o con muchas etiquetas.
   body_2: |
-    It's all good though! At the end, your largest messages will still be identified and of course 
-    you can keep using your email in the meantime. We'll send you an email when we're done.
-  continue: Continue
+  De todos modos no hay problema! Al final, tus mails mas grandes van a ser identificados y por supuesto
+  podes seguir usando tu mail mientras escaneamos. Te vamos a enviar un mail cuando terminemos.
+  continue: Continuar
 allmailimap:
-  header: We could not access your All Mail folder
+  header: No podemos acceder tu carpeta All Mail
   body_1: |
     We are unable to access your "All Mail" folder because IMAP access has been blocked. To fix this, go 
     into Gmail and find the settings for the Google Labs "Advanced IMAP Feature" as shown.
