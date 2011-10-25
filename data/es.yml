@@ -33,10 +33,10 @@ footer:
   email_us: Contacto
  
 paypal:
-  alt_text: "PayPal - The safer, easier way to pay online"
+  alt_text: "PayPal - La forma rápida y segura de pagar en internet"
 
 enter_email:
-  placeholder: Ingrese su cuenta Gmail o Google Apps
+  placeholder: Ingresá tu cuenta Gmail o Google Apps
 
 index:
   meta_keywords:
@@ -54,12 +54,12 @@ index:
   who_is_using: ¿Quién mas está usando Find Big Mail?
   testimonial_1: Ahorramos $450 en tarifas de Google Apps usando @findbigmail.
   testimonial_2: |
-    A rare endorsement from me, totally unpaid and totally appreciated: FindBigMail.com helped me reduce 
-    my Gmail storage by over 50%. THANK YOU
-  testimonial_3: THANK YOU for FindBigMail.com -- Google may not have answered my prayers, but you did.
+    Un respaldo raro viniendo de mi, totalmente gratis y totalmente apreciado: FindBigMail.com me ayudó a reducir
+    mi espacio en Gmail por mas de 50%. GRACIAS
+  testimonial_3: GRACIAS por FindBigMail.com -- Google puede no haber respondidos mis plegarias, pero ustedes sí.
   testimonial_4:
-    If you find the workarounds complicated, there's an even simpler method now that won't even require 
-    you download or install anything - it's called findbigmail.com
+    Si te parece que los parches son complicados, hay una forma aún mas simple que ni siquiera requiere que 
+    bajes o instales nada - se llama findbigmail.com
 
 pricing:
   meta_keywords:
@@ -118,22 +118,21 @@ faq:
                                   Si encendiste esto pero querés que FindBigMail encuentre todos tus mails, cerrá tu cliente IMAP, y desactivá esa opción como se muestra en la imagen siguiente.
   imap_folders_limited_answer_3_link_label: Forwarding and POP/IMAP settings
   imap_folders_limited_answer_3_link: "https://mail.google.com/mail/?shva=1#settings/fwdandpop"
-  imap_folders_limited_alt_text: Choose 'Do not limit the number of messages in an IMAP folder'
+  imap_folders_limited_alt_text: Elejí 'No limitar el número de mensajes en la carpeta IMAP'
   imap_folders_limited_answer_4: |
-                                  After your scan completes you can return this option back to the limit you choose.
+                                  Después de que el escaneo termine, podés volver esta opción al límite que prefieras.
   large_chat_histories: Why don't my large chat histories appear in the scan results?
   large_chat_histories_answer_1: |
-                                  Occasionally we're asked why large %s don't appear in the scan results. They appear in 
-                                  Gmail, so why can't FindBigMail see them?
-  large_chat_histories_answer_1_link_label: chat histories
+                                  Ocasionalmente nos preguntan por qué una %s no aparece en los resultados. Aparecen en Gmail, entonces, por qué FindBigMail no la encuentra?
+  large_chat_histories_answer_1_link_label: historia de chat grande
   large_chat_histories_answer_1_link: "http://www.google.com/support/talk/bin/answer.py?hl=en&answer=29289"
   large_chat_histories_answer_2: |
-                                  The reason is that Google doesn't make them available via their Gmail APIs (specifically 
-                                  the IMAP apis) that we use to find your large emails.
+                                  La razón es que Google no las hace disponibles a través de las APIs de Gmail APIs (especificamente
+                                  las APIs de IMAP) que es lo que nosotros usamos para encontrar tus mails grandes.
   large_chat_histories_answer_3: |
-                                  The vast majority of people aren't likely affected by this. Chats tend to be all text 
-                                  and thus quite small -- relative to the very large images, audio and video files that 
-                                  consume the vast majority of available space and give you those pesky "out of space" messages!
+                                  La gran mayoría de la gente no se verá afectada por esto. Los chats tienen a ser todo texto
+                                  y entonces ocupar poco espacio, en relacion a archivos grandes de imágenes, audio o video que 
+                                  consumen la gran parte del espacio.
   remove_fbm_labels: How do I remove FindBigMail labels?
   remove_fb_labels_answer_1:
     After you've found all your large messages and created some more free space, you may wish 
@@ -318,7 +317,7 @@ contact_us:
   email_address: Dirección de Email
   subject: Tema
   message: Mensaje *
-  submit_form: Formulario
+  submit_form: Enviar
   
 privacy_statement:
   title: Find Big Mail - Declaración de Privacidad
@@ -329,8 +328,8 @@ privacy_statement:
                           de pedidos y mejoras en la performance.
   privacy_statement_2: |
                           FindBigMail.com guarda direcciones de mail en formato de hash con el propósito de excluir o controlar aquellos 
-                          usuarios que abusan del servicio. Usamos su dirección de mail para enviar resultados del escaneo y luego la borramos.
-  privacy_statement_3: FindBigMail.com no tiene su clave de Google así que no podemos guardarla ni perderla.
+                          usuarios que abusan del servicio. Usamos tu dirección de mail para enviar resultados del escaneo y luego la borramos.
+  privacy_statement_3: FindBigMail.com no tiene tu clave de Google así que no podemos guardarla ni perderla.
   privacy_statement_4: |
                           FindBigMail.com no vende, alquila, o entrega ninguna información personal a terceros a menos que se requiera por
                           la autoridad legal.
@@ -341,34 +340,29 @@ privacy_statement:
 conditions_of_use:
   title: Find Big Mail - Condiciones de Uso
   conditions_of_use_header: Condiciones de Uso
-  conditions_of_use_1: YOU MAY NOT USE THIS SERVICE UNLESS YOU AGREE TO THE CONDITIONS OF USE.
+  conditions_of_use_1: NO PUEDE UTILIZAR ESTE SERVICIO A MENOS QUE ACEPTE LAS CONDICIONES DE USO.
   conditions_of_use_2: |
-                          USING THIS SERVICE IN ANY WAY, SUCH AS ACCESSING THE WEBSITE, ENTERING DATA, OR AGREEING TO ALLOW 
-                          ACCESS TO YOUR MAIL ACCOUNT, CONSTITUTES AGREEMENT WITH THE CONDITIONS OF USE.
+                          USAR ESTE SERVICIO DE CUALQUIER FORMA, TAL COMO ACCEDER EL SITIO, INGRESAR INFORMACION, O PERMITIR
+                          QUE ACCEDAMOS A SU CUENTA DE EMAIL, CONSTITUYE UN ACUERDO A ESTAS CONDICIONES DE USO.
   conditions_of_use_3: |
-                          YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THIS SERVICE IS AT YOUR SOLE RISK AND THAT THE 
-                          SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, 
-                          BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
-                          PURPOSE ARE DISCLAIMED.
+                          USTED EXPRESAMENTE ENTIENDE Y ACEPTA QUE EL USO DE ESTE SERVICIO ES BAJO SU EXCLUSIVA RESPONSABILIDAD Y RIESGO
+                          Y QUE LOS SERVICIS SE PROVEEN "AS IS" Y "AS AVAILABLE" Y QUE NO HAY GARANTIAS NI EXPLÍCITAS NI IMPLÍCITAS
+                          INCLUYENDO LAS GARANTÍAS DE ACEPTABILIDAD PARA UN PROPÓSITO PARTICULAR.
   conditions_of_use_4: |
-                          IN NO EVENT SHALL THE COPYRIGHT OWNERS, CONTRIBUTORS OR PARTNERS BE LIABLE FOR ANY DIRECT, INDIRECT, 
-                          INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
-                          PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
-                          INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
-                          LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF 
-                          THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+                          BAJO NINGUNA CIRCUNSTANCIA LOS PROPIETARIOS DE LOS DERECHOS, CONTRIBUYENTES O SOCIOS SERÁN RESPONSABLES
+                          POR CUALQUIER DAÑO DIRECTO, INDIRECTO, ESPECIAL O CONSECUENTE (INCLUYENDO PERO NO LIMITADO A, SUSTITUCIÓN
+                          DE BIENES O SERVICIOS, PÉRDIDA DE USO, DATOS O LUCRO CESANTE)
   conditions_of_use_5: |
-                          YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR SOLE REMEDY TO ANY ISSUE, CLAIM OR CONCERN IS TO 
-                          STOP USING THIS SERVICE.
+                          EXPRESAMENTE ENTIENDE Y ACEPTA QUE SU ÚNICA SOLUCIÓN A CUALQUIER TEMA O RECLAMO ES DEJAR DE USAR ESTE SERVICIO.
   conditions_of_use_6: |
-                          You agree that FindBigMail may use your company, organization, or product name and/or logo in 
-                          presentations, marketing materials, customer lists, financial reports, website listings of 
-                          customers, research and marketing case studies and any other marketing-related activities.
+                          Acepta que FindBigMail puede usar el nombre, logo o nombre del producto de su compañía en
+                          presentaciones, elementos de marketing, listas de clientes, informes financieros, listados de
+                          clientes en sitios web, estudios de investigación o marketing y cualquier otra actividad relacionada
+                          al marketing.
   
 about_us:
   title: Find Big Mail - Nosotros
   about_us_header: Nosotros
-
   aboout_us_1: |
               Este sitio es una creación de un par de ingenieros de software veteranos que vieron un problema y quisieron resolverlo.
               Encontramos que se podía de hecho quedarse sin espacio en Gmail (o Google apps) y entonces que hacer? 
