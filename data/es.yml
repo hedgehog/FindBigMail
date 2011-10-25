@@ -19,7 +19,7 @@ paths:
   sitemap: sitemap
 
 top_navigation:
-  home: Home
+  home: Inicio
   pricing: Precios
   faq: FAQ
   
@@ -45,13 +45,13 @@ index:
   meta_description:
     Simplifica el encontrar mails grandes en tu cuenta Gmail para liberar espacio.  Si tu cuenta está llena, 
     esta es una forma simple de liberar espacio en lugar de ordenar por tamaño.
-  title: Find Big Mail - Se llenó tu cuenta Gmail?
-  grab: Encontrá mails grandes en tu inbox y recuperá tu espacio!
+  title: Find Big Mail - ¿Se llenó tu cuenta Gmail?
+  grab: ¡Encontrá mails grandes en tu inbox y recuperá tu espacio!
   button: Find Big Mail
   tagline:
-    La seguridad es importante para nosotros. Sólo vemos el tamaño de tus mails,no su contenido, y 
+    La seguridad es importante para nosotros. Sólo vemos el tamaño de tus mails, no su contenido, y 
     <span>nunca</span> vemos tu clave.
-  who_is_using: Quién mas está usando Find Big Mail?
+  who_is_using: ¿Quién mas está usando Find Big Mail?
   testimonial_1: Ahorramos $450 en tarifas de Google Apps usando @findbigmail.
   testimonial_2: |
     A rare endorsement from me, totally unpaid and totally appreciated: FindBigMail.com helped me reduce 
@@ -65,7 +65,7 @@ pricing:
   meta_keywords:
     Google Apps, Google Apps Business, Google Apps Education, Gmail full, service prices
   meta_description:
-    Escanea tu cuenta Google Apps por sólo $4.95. Escaneo gratis para encontrarlos mails mas grandes en tu cuenta Gmail. 
+    Escaneá tu cuenta Google Apps por sólo $4.95. Escaneo gratis para encontrarlos mails mas grandes en tu cuenta Gmail. 
     El servicio incluye los 20 mails mas grandes.
   title: Find Big Mail - Precios
   pricing_features: Precios & Características
@@ -73,7 +73,7 @@ pricing:
   extra_storage: Storage Extra
   personal_gmail: Gmail Personal
   free: Gratis!
-  five_dollars_per_year: $5 per year
+  five_dollars_per_year: $5 por año
   google_apps_gmail: Google Apps Gmail
   fifty_per_year_account: $50 por año por cuenta
   yes: si
@@ -106,14 +106,16 @@ faq:
   remove_labels_anchor: RemoveLabels
   delete_large_labeled_messages_anchor: DeleteLargeLabeledMessages
   imap_folders_limited_anchor: IMAPFoldersLimited
-  imap_folders_limited: Reasons why all of your big emails might not be labeled
+  imap_folders_limited: Razones por las que no todos tus mails grandes pueden haberse etiquetado
   imap_folders_limited_answer_1: |
-                                  We've mentioned before how %s can make the emails in those folders be skipped during the labeling process.
-  imap_folders_limited_answer_1_link_label: hiding folders from the IMAP protocol
+                                  Mencionamos antes como %s puede hacer que se saltéen algunos mails en esas carpetas durante el escaneo.
+  imap_folders_limited_answer_1_link_label: ocultar carpetas del protocolo IMAP
   imap_folders_limited_answer_2: |  
-                                  Besides hiding Gmail folders from IMAP, you can also limit the number of returned emails.  People usually do this because they are using an IMAP client and only want to see the most recent emails.  Doing this however means that some emails are never "seen" by the FindBigMail service.
+                                  Además de ocultar carpetas del protocolo IMAP, se puede también limitar la cantidad de mails devueltos.
+                                  La gente usualmente hace esto porque usan un cliente IMAP y sólo quieren ver los mails mas recientes.
+                                  Hacer esto, sin embargo, significa que algunos mails nunca son "vistos" por el servicio FindBigMail.
   imap_folders_limited_answer_3: |
-                                  If you've turned this on but want FindBigMail to find all your big emails, exit your IMAP client, turn off this option within your Gmail %s as shown in the following image.
+                                  Si encendiste esto pero querés que FindBigMail encuentre todos tus mails, cerrá tu cliente IMAP, y desactivá esa opción como se muestra en la imagen siguiente.
   imap_folders_limited_answer_3_link_label: Forwarding and POP/IMAP settings
   imap_folders_limited_answer_3_link: "https://mail.google.com/mail/?shva=1#settings/fwdandpop"
   imap_folders_limited_alt_text: Choose 'Do not limit the number of messages in an IMAP folder'
@@ -319,11 +321,11 @@ contact_us:
   submit_form: Formulario
   
 privacy_statement:
-  title: Find Big Mail - Privacidad
-  privacy_statement_header: Privacidad
+  title: Find Big Mail - Declaración de Privacidad
+  privacy_statement_header: Declaración de Privacidad
   privacy_statement_1: |
                           FindBigMail.com registra los pedidos con sus parámetros (con excepción de las direcciones de mail), horario, IPs, 
-                          errors etc para pruebas, reproducción anónima, análisis de tendencia, corrección de bugs, priorización
+                          errores etc para pruebas, reproducción anónima, análisis de tendencia, corrección de bugs, priorización
                           de pedidos y mejoras en la performance.
   privacy_statement_2: |
                           FindBigMail.com guarda direcciones de mail en formato de hash con el propósito de excluir o controlar aquellos 
@@ -384,7 +386,7 @@ about_us:
 
 payment:
   title: Find Big Mail - Pagos
-  payment_header: Te quedaste sin espacio en tu cuenta de Google Apps?
+  payment_header: ¿Te quedaste sin espacio en tu cuenta de Google Apps?
   payment_1: 
     Un escaneo completo de tu cuenta de Google Apps cuesta $4.95. Incluye un reporte completo con gráficos, una lista de tus
    20 mails mas grandes, resultados en tiempo real y un mes de escaneos.
@@ -400,9 +402,9 @@ searching:
   title: Find Big Mail - Buscando
   searching_header: Buscando mails grandes!
   searching_1: |
-              Puede seguir usando su mail y va a comenzar a ver resultados mientras se escanean. Puede llevar unos pocos
-              minutos o mas de una hora dependiendo del tamaño y ubicación de su casilla. Te vamos a mandar un mail cuando se
-              termine.
+              Podés seguir usando tu mail y vas a ver resultados mientras se escanean. Puede llevar unos pocos
+              minutos o mas de una hora dependiendo del tamaño y ubicación de tu casilla. Te vamos a mandar un mail cuando 
+              terminemos.
   search_progress: "% escaneado"
   found_so_far: Mails grandes encontrados hasta ahora
   mail_search_count: Mensajes por cantidad
@@ -411,9 +413,9 @@ searching:
   mail_labeled: "Etiquetados: "
   complete_header: Si escaneo ha terminado!
   complete_1: |
-    El escaneo se terminó y su mail ahora tiene etiquetas identificando los mails grandes. Abajo se puede ver cuantos
+    El escaneo se terminó y tu mail ahora tiene etiquetas identificando los mails grandes. Abajo se puede ver cuantos
     mails se encontraron. Un mail con el resumen se envió con mas información y gráficos.
-  missing_header: Su escaneo no se encontró
+  missing_header: Tu escaneo no se encontró
   missing_1: |
     Ya no tenemos información sobre este escaneo, Probablemente es porque el escaneo terminó mucho tiempo atrás
     y ya borramos los archivos.  Si cree que es un error puede reiniciar el scan o contactarnos. Gracias!
@@ -427,7 +429,7 @@ searching:
   paypal_logo: PayPal Logo
 
 multiple:
-  header: "Tenés múltiples cuentas de Gmail?"
+  header: "¿Tenés múltiples cuentas de Gmail?"
   body: |
     No pudimos escanear tu cuenta Gmail. O bien el email ingresado es incorrecto o estás logueado en una cuenta distinta.
   button: Find Big Emails
@@ -454,12 +456,12 @@ allmailblocked:
 allmailimap:
   header: No podemos acceder tu carpeta All Mail
   body_1: |
-    We are unable to access your "All Mail" folder because IMAP access has been blocked. To fix this, go 
-    into Gmail and find the settings for the Google Labs "Advanced IMAP Feature" as shown.
+    No podemos acceder a tu carpeta "All Mail" porque se bloqueó el acceso IMAP. Para arreglar esto entrá a  
+    Gmail y buscá los seteos de Google Labs "Advanced IMAP Feature" como se muestra.
   body_2: |
-    Check the circled box and re-run your scan to find all large messages and reclaim some free space!
+    ¡Marcá el checkbox y reiniciá el escaneo para encontrar algunos mails grandes y liberar espacio!
   button: Find Big Emails
-  faq: Read more about this in the FAQ
+  faq: Leé más sobre esto en las FAQ
 busyforus:
   header: "Nuestro servicio está ocupado"
   body: |
