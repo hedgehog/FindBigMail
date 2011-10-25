@@ -1,21 +1,21 @@
 ---
 paths:
-  index: index
+  index: indice
   faq: faq
-  payment: payplease
-  pricing: pricing
+  payment: pago
+  pricing: precios
   searching: status
-  contact_us: contact-us
-  conditions_of_use: conditions-of-use
-  privacy_statement: privacy-statement
-  about_us: about-us
+  contact_us: contacto
+  conditions_of_use: condiciones-de-uso
+  privacy_statement: privacidad
+  about_us: nosotros
   multiple: multiple
-  thinking: thinking
-  thankyou: thankyou  
-  allmailblocked: allmailblocked
-  allmailimap: allmailimap
+  thinking: pensando
+  thankyou: gracias  
+  allmailblocked: todoelmailbloqueado
+  allmailimap: todoelmailimap
   busyforus: busyforus
-  contacted: contacted
+  contacted: contactado
   sitemap: sitemap
 
 top_navigation:
@@ -337,8 +337,8 @@ privacy_statement:
                           Si cambiamos nuestra Declaración de Privacidad, actualizaremos rápidamente esta página.
   
 conditions_of_use:
-  title: Find Big Mail - Conditions of Use
-  conditions_of_use_header: Conditions of Use
+  title: Find Big Mail - Condiciones de Uso
+  conditions_of_use_header: Condiciones de Uso
   conditions_of_use_1: YOU MAY NOT USE THIS SERVICE UNLESS YOU AGREE TO THE CONDITIONS OF USE.
   conditions_of_use_2: |
                           USING THIS SERVICE IN ANY WAY, SUCH AS ACCESSING THE WEBSITE, ENTERING DATA, OR AGREEING TO ALLOW 
@@ -461,19 +461,20 @@ allmailimap:
   button: Find Big Emails
   faq: Read more about this in the FAQ
 busyforus:
-  header: "Our service is very busy"
+  header: "Nuestro servicio está ocupado"
   body: |
-    Sorry, our servers are busy right now so we're limiting requests to keep things running smoothly. Feel free to try again or come back later.
-    Thanks for your patience!
+    Disculpe, nuestros servidores están ocupados ahora, así que estamos limitando los pedidos para mantener todo en funcionamiento
+    Por favor intente nuevamente o vuelva luego.
+    Gracias por su paciencia!
 contacted:
   header: "Gracias por contactar FindBigMail"
   body: |
     Leemos todos los mails que recibimos. Aunque no podemos responder cada uno, intentaremos responder pronto.
 
 reviews:
-  recommended_by: Recommended by leading tech review sites
+  recommended_by: Recomendado por los sitios técnicos líderes
   lifehacker:
-    If you're running out of space in your Gmail or Google Apps inbox, the quickest fix is nixing the largest 
-    attachments you've got stashed. You can't do that from Gmail's web interface - unless you've enlisted 
-    Find Big Mail's help.
+    Si te estás quedando sin espacio en tu cuenta de Gmail o Googe Apps, la forma mas rápida es eliminar los 
+    adjuntos mas grandes que tenés archivados. No podés hacer eso desde la interface web de Gmail, a menos que 
+    acudas a la ayuda de Find Big Mail.
 
