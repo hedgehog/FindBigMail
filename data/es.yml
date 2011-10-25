@@ -444,12 +444,12 @@ thankyou:
 allmailblocked:
   header: "Tu escaneo va a llevar mas de lo usual"
   body_1: |
-  No estamos pudiendo acceder la carpeta All Mails. En lugar de eso vamos a escanear cada carpeta por separado.
-  Esto puede llevar varias horas en lugar de los 10 a 60 minutos usuales.
-  Además, algunas estadísticas pueden ser menos precisas si tenés muchos mensajes grandes o con muchas etiquetas.
+    No estamos pudiendo acceder la carpeta All Mails. En lugar de eso vamos a escanear cada carpeta por separado.
+    Esto puede llevar varias horas en lugar de los 10 a 60 minutos usuales.
+    Además, algunas estadísticas pueden ser menos precisas si tenés muchos mensajes grandes o con muchas etiquetas.
   body_2: |
-  De todos modos no hay problema! Al final, tus mails mas grandes van a ser identificados y por supuesto
-  podes seguir usando tu mail mientras escaneamos. Te vamos a enviar un mail cuando terminemos.
+    De todos modos no hay problema! Al final, tus mails mas grandes van a ser identificados y por supuesto
+    podes seguir usando tu mail mientras escaneamos. Te vamos a enviar un mail cuando terminemos.
   continue: Continuar
 allmailimap:
   header: No podemos acceder tu carpeta All Mail
