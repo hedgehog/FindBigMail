@@ -9,13 +9,13 @@ paths:
   conditions_of_use: nutzungsbedingungen
   privacy_statement: datenschutz
   about_us: ueber-uns
-  multiple: multiple
-  thinking: thinking
-  thankyou: thankyou  
-  allmailblocked: allmailblocked
-  allmailimap: allmailimap
-  busyforus: busyforus
-  contacted: contacted
+  multiple: mehrere-konten
+  thinking: spende-gedanken
+  thankyou: vielen-dank  
+  allmailblocked: kein-zugriff-auf-alle-nachrichten
+  allmailimap: kein-imap-zugriff
+  busyforus: server-belastet
+  contacted: kontaktiert
   sitemap: sitemap
 
 top_navigation:
@@ -33,21 +33,22 @@ footer:
   email_us: Schicken Sie uns eine Email
  
 paypal:
-  alt_text: "PayPal - The safer, easier way to pay online"
+  alt_text: "PayPal - der sicherere, einfachere Weg online zu zahlen"
 
 enter_email:
   placeholder: Bitte geben Sie Ihr Google Mail- oder Apps-Konto ein
 
 index:
-#  meta_keywords:
-#    Gmail full, Gmail almost full, Gmail inbox full, You are almost out of space for your Gmail account, 
-#    Gmail sort by size
-#  meta_description:
-#    Makes it easy to find big emails in your Gmail account and free up space.  If your account is full, 
-#    this is a simple way to reduce space instead of sorting by size.
+  meta_keywords:
+    Google Mail voll, Google Mail fast voll, Google Mail Posteingang voll, Google Mailbox voll, Für Ihr Google Mail-Konto 
+    ist kein freier Speicherplatz mehr verfügbar, 
+    Google Mail Nachrichten nach Größe sortieren
+  meta_description:
+    Macht Emails mit großen Anhängen in Ihrem Google Mail-Konto ausfindig damit Sie Speicherplatz freigeben können. Das 
+    ist bequemer als Ihre Emails nach Größe zu sortieren.
   title: Find Big Mail - Google Mail Postfachspeicher voll?
   grab: Große Emails finden, Mailspeicher freigeben!
-  button: Große Mails Finden
+  button: Große Mails finden
   tagline: | 
               Wir nehmen die Sicherheit Ihrer Daten sehr ernst. Wir sehen nur die Größe Ihrer Nachrichten und nicht deren 
               Inhalte. Ihr Passwort wird <span>niemals</span> an uns übermittelt.
@@ -62,10 +63,10 @@ index:
                   man weder installieren noch herunterladen - sie heißt findbigmail.com
 
 pricing:
-#  meta_keywords:
-#    Google Apps, Google Apps Business, Google Apps Education, Gmail full, service prices
-#  meta_description:
-#    Scan your Google Apps account for only $4.95. Free scans to find the largest emails in your Gmail account. 
+  meta_keywords:
+    Google Apps, Google Apps for Business, Google Apps for Education, Google Mail voll, preise und dienste, preise und leistungen
+  meta_description:
+    Durchsuchen Sie Ihr Google Apps-Konto für $4.95. Für Google Mail-Konten ist die Suche nach großen Emails kostenlos.
   title: Find Big Mail - Preise
   pricing_features: Preise & Leistungen
   full_scan: Komplett durchsuchen
@@ -84,11 +85,11 @@ pricing:
   label_emails: Emails größer als 1MB, 5MB bzw. 10MB in Labels einordnen
 
 faq:
-#  meta_keywords:
-#    FAQ Gmail Full, FAQ Find Big Mail
-#  meta_description:
-#    Frequently Asked Questions about FindBigMail. Includes common problems and settings that may reduce the results
-#    and description of how to find largest emails.
+  meta_keywords:
+    FAQ Google Mail voll, häufige Fragen Google Mail voll, FAQ Find Big Mail, häufige Fragen Find Big Mail
+  meta_description:
+    Häufig gestellte Fragen über FindBigMail, u.a. Hilfestellungen wie Sie große Emails finden sowie zu 
+    Problemen und Einstellungen, die die Qualität der Ergebnisse beeinflussen können.
   title: Find Big Mail - Häufig gestellte Fragen
   header_faq: Häufig gestellte Fragen
   large_chat_histories_anchor: GrosseChatVerlaeufe
@@ -97,27 +98,34 @@ faq:
   known_issues_anchor: BekannteProbleme
   cannot_scan_anchor: KannNichtDurchsuchen
   my_privacy_anchor: PrivatSphaere
-  scanned_folders_anchor: DurchsuchteVerzeichnisse
+  scanned_folders_anchor: DurchsuchteOrdner
   how_large_can_emails_be_anchor: WieGrossDuerfenEmailsSein
   modify_size_ranges_anchor: GroesseBereicheAendern
   multiple_size_labels_anchor: VerschiedeneLabels
   emails_with_label_size_anchor: VerfuegbareLabels
   remove_labels_anchor: LaebelsLoeschen
   delete_large_labeled_messages_anchor: MarkierteNachrichtenLoeschen
-  imap_folders_limited_anchor: IMAPFoldersLimited
-  imap_folders_limited: Reasons why all of your big emails might not be labeled
+  imap_folders_limited_anchor: IMAPOrdnerBeschraenkungen
+  imap_folders_limited: Gründe warum nicht alle große Emails vermerkt wurden
   imap_folders_limited_answer_1: |
-                                  We've mentioned before how %s can make the emails in those folders be skipped during the labeling process.
-  imap_folders_limited_answer_1_link_label: hiding folders from the IMAP protocol
-  imap_folders_limited_answer_2: |  
-                                  Besides hiding Gmail folders from IMAP, you can also limit the number of returned emails.  People usually do this because they are using an IMAP client and only want to see the most recent emails.  Doing this however means that some emails are never "seen" by the FindBigMail service.
+                                  Wir haben es bereits angedeutet, dass %s dazu führt, dass die in diesen Ordnern 
+                                  befindlichen Emails während des Labeling-Vorgangs ausgelassen werden.
+  imap_folders_limited_answer_1_link_label: das Ausblenden von Ordnern für das IMAP-Protokoll
+  imap_folders_limited_answer_2: |
+                                  Ausser bestimmte Ordner für IMAP auszublenden, können Google Mail-Nutzer zusätzlich 
+                                  die Anzahl der Nachrichten in einem IMAP-Ordner begrenzen. Die meisten aktivieren
+                                  diese Einstellung, weil sie einen IMAP-Client benutzen und nur die aktuellsten Nachrichten
+                                  herunterladen möchten. Deshalb werden aber auch viele Emails vom FindBigMail-Dienst 
+                                  nicht erkannt.
   imap_folders_limited_answer_3: |
-                                  If you've turned this on but want FindBigMail to find all your big emails, exit your IMAP client, turn off this option within your Gmail %s as shown in the following image.
-  imap_folders_limited_answer_3_link_label: Forwarding and POP/IMAP settings
+                                  Falls diese Option bei Ihnen aktiviert ist und Sie möchten, dass FindBigMail alle 
+                                  Emails in die Suche einbezieht, müssen Sie Ihren IMAP-Client beenden und die Option in
+                                  Ihrem Google Mail-Konto, wie auf dem Bild angezeigt, ausschalten.
+  imap_folders_limited_answer_3_link_label: Weiterleitung und POP/IMAP
   imap_folders_limited_answer_3_link: "https://mail.google.com/mail/?shva=1#settings/fwdandpop"
-  imap_folders_limited_alt_text: Choose 'Do not limit the number of messages in an IMAP folder'
+  imap_folders_limited_alt_text: 'Die Anzahl der Nachrichten in einem IMAP-Ordner nicht begrenzen' auswählen
   imap_folders_limited_answer_4: |
-                                  After your scan completes you can return this option back to the limit you choose.
+                                  Nachdem die Durchsuchung fertig ist, können Sie Ihre Beschränkung wiederherstellen.
   large_chat_histories: Weshalb werden große Chat-Verläufe im Suchergebnis nicht angezeigt?
   large_chat_histories_answer_1: |
                                   Ab und zu erreicht uns die Frage, warum große %s in das Suchergebnis nicht miteinbezogen 
@@ -203,7 +211,7 @@ faq:
   cannot_scan: Ich bin in meinem Google-Konto angemeldet aber ich kann es nicht durchsuchen.
   cannot_scan_answer_1: |
                           Viele Suchanfragen von Kunden, die Ihre Emails bei Google Apps hosten, gehen bei uns in der Regel 
-                          erfolgreich durch. Jedoch konnten wir bei jemandem, der verschiedene Google-Konten hatte und bei 
+                          erfolgreich durch. Jedoch konnten wir bei jemandem, der mehrere Google-Konten hatte und bei 
                           dem das Durchsuchen seiner Emails nicht funktionierte, ein Problem ausfindig machen. Dieses 
                           macht sich dann bemerkbar, wenn der Nutzer
   cannot_scan_answer_1_item_1: ein Google Apps-Konto, z.B. myname@example.com, und
@@ -302,12 +310,12 @@ faq:
   modify_size_ranges_answer_1_link_label: nehmen Sie mit uns Kontakt auf
   multiple_size_labels: Warum werden einige Emails in Labels mit verschiedenen Größen eingestuft?
   multiple_size_labels_answer_1: |
-                                  FindBigMail.com labels individual mail messages not threads. In most case, when you see
-                                  more than one size label on a thread or conversation, this simply means that the thread contains 
-                                  mail messages from all the size labels attached. For example, a thread with both the 
-                                  'FindBigMail > 10mb' and 'FindBigMail > 5mb' labels has at least one message that is 10mb 
-                                  and at least one other message that is at least 5 mb in size. Deleting an entire 
-                                  thread can free up space at multiple levels!
+                                 FindBigMail.com markiert einzelne Nachrichten und nicht einen gesamten Thread. Wenn Sie 
+                                 Threads oder Konversationen mit Labels verschiedener Größen sehen, dann heißt das, dass 
+                                 der Thread Nachrichten jener Größen beinhaltet, die den verschiedenen Labels passen. 
+                                 Zum Beispiel, ein Thread mit den beiden Labels "My Big Mail" und "My Ultra Big Mail" 
+                                 besteht aus mindestens 2 Nachrichten jeweils größer als 100KB und 2MB. Das Löschen 
+                                 eines Threads kann also Speicher verschiedener Stufen freigeben.
   emails_with_label_size: Können Sie nochmal die Labels und die Größe der dazugehörigen Emails aufzählen?
   emails_with_label_size_answer_1_item_1: "\"FindBigMail > 10mb\" Nachrichten sind größer als 10,000,000 bytes."
   emails_with_label_size_answer_1_item_2: "\"FindBigMail > 5mb\" Nachrichten sind zwischen 5,000,000 und 10,000,000 bytes groß."
@@ -438,22 +446,23 @@ searching:
                   Dies kann je nach Größe und geographische Lage Ihres Postfaches von einigen Minuten bis zu über einer 
                   Stunde in Anspruch nehmen. Sobal wir fertig sind, werden wir Ihnen eine Email schicken.
   search_progress: "% durchsucht"
-  found_so_far: Big Emails found so far
-  mail_search_count: Messages by Count
-  mail_search_size: By Approximate Size
-  mail_search_legend: Messages found
-  mail_labeled: "Labeled: "
-  complete_header: Your scan has finished!
+  found_so_far: Große Emails, die bis jetzt gefunden wurden
+  mail_search_count: Nachrichten nach Anzahl
+  mail_search_size: Nach Größe
+  mail_search_legend: Gefundene Nachrichten
+  mail_labeled: "Vermerkt: "
+  complete_header: Die Suche ist abgeschlossen!
   complete_1: |
-    The scan is complete and your mail now has labels identifying the big emails. Below are how many
-    emails were found. A summary email has been sent with more information and charts.
-  missing_header: Your scan was not found
+    Die Durchsuchung ist nun abgeschlossen und in Ihrem Konto wurden soeben Labels erstellt, die Emails mit großen Anhängen enthalten. 
+    Unten sehen Sie wie viele solche Emails wir finden konnten. Eine zusammenfassende Email mit ausführlichen Details 
+    und Charts befindet sich bereits auf dem Weg zu Ihnen.
+  missing_header: Dieser Suchvorgang existiert nicht
   missing_1: |
-    We no longer have any information about this scan, most likely because the scan finished a 
-    while ago and we've removed the log files.  If you feel this is an error you can re-run the 
-    scan below, or contact us. Thanks!
+    Uns liegen keine Informationen über diesen Suchvorgang vor, wahrscheinlich deshalb, weil dieser seit geräumter Zeit 
+    abgeschlossen wurde. Falls das nach Ihrer Einschätzung nicht zutrifft, wiederholen Sie bitte den Suchvorgang oder 
+    nehmen Sie mit uns Kontakt auf. Vielen Dank.
   button: Große Mails Finden
-  header_donate: Donate
+  header_donate: Spenden
   donate_cover_costs: |
     Vielen Dank, dass Sie Find Big Mail genutzt haben! Bitte helfen Sie uns die Kosten für den Betrieb 
     dieses Dienstes zu decken, indem Sie einen Betrag per PayPal spenden:
@@ -463,53 +472,58 @@ searching:
   donate_10: $10 spenden
 
 multiple:
-  header: "Do you have multiple Gmail accounts?"
+  header: "Nutzen Sie mehrere Google Mail-Konten?"
   body: |
-    We couldn't scan your Gmail account. Either the email entered was mistyped or you are currently logged into a different account.
-  button: Große Mails Finden
+    Wir konnten Ihr Google Mail-Konto nicht durchsuchen. Entweder haben Sie eine ungültige Emailadresse eingegeben oder 
+    Sie sind in einem anderen Konto angemeldet.
+  button: Große Mails finden
 
 thinking:
-  header: "Thank you"
+  header: "Vielen Dank"
   body: |
-    We realize it's not always possible to give.  Thanks for thinking about donating to our site.
+    Wir wissen, dass es nicht immer und von jedem möglich ist etwas zu geben. Trotzdem danke, dass Sie es in Erwägung 
+    gezogen haben, etwas für unsere Seite zu spenden.
 thankyou:
-  header: "Thank you"
+  header: "Vielen Dank"
   body: |
-    Thank you for donating to our site!  We'll put the funds to good use by keeping the site 
-    stable and continuing to add new features.
+    Wir bedanken uns ganz herzlich bei Ihnen für Ihre finanzielle Unterstützung! Ihre Spende wird uns helfen diese 
+    Website im Leben zu halten und neue Funktionalitäten hinzuzufügen.
 allmailblocked:
-  header: "Your scan will take longer than usual"
+  header: "Die Suche wird länger dauern als sonst"
   body_1: |
-    We are unable to access the All Mail folder. Instead we will scan every label (folder) one by one. 
-    This may take several hours instead of the usual 10-60 minutes. Also, some of the statistics 
-    will be less accurate if you have a lot of large messages that have multiple labels.
+    Wir können auf den "Alle Nachrichten"-Ordner nicht zugreifen. Stattdessen werden wir jedes einzelne Label (Ordner)
+    durchsuchen. Das kann einige Stunden, im Gegensatz zu den im Normalfall üblichen 10-60 Minuten, in Anspruch nehmen. 
+    Ferner kann die Genauigkeit der von uns erstellten Statistiken beeinträchtigt werden, wenn Sie viele Emails mit 
+    mehreren Labeln haben.
   body_2: |
-    Its all good though! At the end, your largest messages will still be identified and of course 
-    you can keep using your email in the meantime. We'll send you an email when we're done.
-  continue: Continue
+    Kein Grund zur Panik, die Welt ist noch in Ordnung. Emails mit großen Anhängen können trotzdem gefunden werden 
+    und selbstverständlich können Sie Ihr Konto während der Suche weiter nutzen. Wir werden Ihnen eine Email schicken, 
+    sobald wir fertig sind.
+  continue: Weiter
 allmailimap:
-  header: We could not access your All Mail folder
+  header: |
+    Wir konnten auf Ihren "Alle Nachrichten"-Ordner nicht zugreifen
   body_1: |
-    We are unable to access your "All Mail" folder because IMAP access has been blocked. To fix this, go 
-    into Gmail and find the settings for the Google Labs "Advanced IMAP Feature" as shown.
+    Wir konnten auf Ihren "Alle Nachrichten"-Ordner nicht zugreifen, weil derzeit kein IMAP-Zugriff darauf möglich ist. 
+    Um das zu ändern, gehen Sie zu Ihrer Google Mail-Einstellungenseite, wie auf dem untenstehenden Bild gezeigt ist.
   body_2: |
-    Check the circled box and re-run your scan to find all large messages and reclaim some free space!
-  button: Große Mails Finden
-  faq: Read more about this in the FAQ
+    Markieren Sie das im Bild umkreiste Kontrollkästchen und fangen Sie eine neue Suche an.
+  button: Große Mails finden
+  faq: Lesen Sie mehr über dieses Thema in unserem FAQ
 busyforus:
-  header: "Our service is very busy"
+  header: "Dienst nicht verfügbar"
   body: |
-    Sorry, our servers are busy right now so we're limiting requests to keep things running smoothly. Feel free to try again or come back later.
-    Thanks for your patience!
+    Es tut uns Leid, unsere Serverkapazitäten sind derzeit vollständig ausgeschöpft. Wir haben deshalb die Anzahl der 
+    Anfragen eingeschränkt damit unsere Systeme weiterhin reibungslos laufen können. Bitte versuchen Sie es jetzt oder 
+    zu einem späteren Zeitpunkt erneut. Danke für Ihr Verständnis!
 contacted:
-  header: "Thank you for contacting FindBigMail"
+  header: "Danke, dass Sie FindBigMail kontaktiert haben"
   body: |
-    We read every email we recieve.  Although we cannot reply to every email, if you provided an email address, we'll try to reply back soon.
-
+    Wir lesen jede Nachricht, die wir erhalten. Auch wenn es nicht möglich ist auf jede zu beantworten, versuchen wir 
+    Ihnen, sofern Sie eine Emailadresse in der Kontaktanfrage angegeben haben, schnellstmöglich zurückzuschreiben.
 reviews:
-  recommended_by: Recommended by leading tech review sites
+  recommended_by: Empfohlen von führenden Tech Websites
   lifehacker:
-    If you're running out of space in your Gmail or Google Apps inbox, the quickest fix is nixing the largest 
-    attachments you've got stashed. You can't do that from Gmail's web interface - unless you've enlisted 
-    Find Big Mail's help.
-
+    Wenn Ihr Google Mail oder Google Apps Speicherplatz knapp wird, stellt ein gewaltiger Strich durch Ihre größten 
+    Anhängen die schnellste Lösung dar. Das kann man nicht durch Google Mails Weboberfläche erreichen - es sei denn man 
+    nimmt Find Big Mails Hilfe in Anspruch.
