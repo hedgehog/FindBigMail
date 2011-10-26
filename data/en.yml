@@ -476,3 +476,64 @@ reviews:
     attachments you've got stashed. You can't do that from Gmail's web interface - unless you've enlisted 
     Find Big Mail's help.
 
+scan_start_email:
+  subject: Your FindBigMail request is running
+  row_1: This is an automated message to let you know that your request is currently underway.
+  row_2: You can expect another email when the processing is complete, usually in five to sixty minutes.
+  row_3: |
+    If you want to check on the status of your request, you can look %s.
+  row_3_link_label_1: here
+  row_4: |
+    Many thanks for trying FindBigMail.com!
+scan_failure_email:
+  subject: Your request did not run
+  row_1: This is an automated message to let you know that we detected a failure while attempting to find your big email messages.
+  row_2: |
+    This type of error is most likely caused by a network problem that will resolve itself shortly. Please try again at %s.
+  row_3: We are working to resolve this problem automatically in the future.
+  row_4: |
+    Many thanks for trying FindBigMail.com!
+failure_email:
+  account_access_removed: FindBigMail.com's access to your account has been successfully removed.
+  account_access_already_removed: FindBigMail.com's access to your account appears to already have been removed.
+  no_emails_labeled: None of your big mails where labelled.
+  some_emails_labeled: Some of your big mails where labelled.
+  try_another_free_scan: Of course, because the scan did not complete successfully, you can try another run on this account without cost.
+  request_stopped: |
+    Your request has stopped
+  row_1: Thank you for using FindBigMail.com!
+  row_2: There were difficulties encountered during the scanning of your mail message sizes.  Not all message sizes were checked.
+  row_3: We look into every case where a scan does not fully complete. The most common cause is excessive network errors. After a certain number of retries, we stop scanning so as not to overwelm mail servers with requests.
+  row_4: Try running a scan again at another time.
+  row_5: |
+    The FindBigMail.com Team
+completion_email:
+  status: Sending completion email.
+  number_messages_by_size: Number of Messages by Size
+  approximate_space_by_size: Approximate Space by Size
+  three_biggest_messages: 3 Biggest Messages
+  two_biggest_messages: 2 Biggest Messages
+  biggest_message: Your Biggest Message
+  top_listed: Top %s are listed %s
+  top_listed_link_label_1: below
+  your_top_emails: Your top %s emails are (click to view)
+  results_truncated: results truncated for free trial run
+  extra_info: |
+      Since your total email count is exactly %s, there is a chance you have restricted IMAP folders to return only this 
+      number of emails. If so, mostly likely not all of your emails where scanned. Click %s for more information.
+  extra_info_link_label_1: here
+  donation: Donation
+  donate: Donate %s
+  paypal_title: PayPal - The safer, easier way to pay online
+  please_donate: Show your appreciation with a small Paypal donation.
+  subject: Your FindBigMail Scan Results
+  scan_results: Find Big Mail - Scan Results
+  summary: Summary
+  total: Total
+  get_updates: Get Updates
+  follow_on_twitter: Follow us on twitter
+  spread_word: Spread the word
+  space_by_size: Space By Size
+  approximated: Approximated
+  reply_to_email: Reply to this mail with any suggestions or feedback. We love to hear from you.
+  all_rights_reserved: All rights reserved.
