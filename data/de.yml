@@ -528,22 +528,25 @@ reviews:
     Anhängen die schnellste und effektivste Lösung. Das kann man durch Google Mails Weboberfläche nicht erreichen - es 
     sei denn man nimmt Find Big Mails Hilfe in Anspruch.
 scan_start_email:
-  subject: Your FindBigMail request is running
-  row_1: This is an automated message to let you know that your request is currently underway.
-  row_2: You can expect another email when the processing is complete, usually in five to sixty minutes.
+  subject: Ihre FindBigMail Anfrage läuft
+  row_1: Das ist eine automatisierte Nachricht. This is an automated message to let you know that your request is currently underway.
+  row_2: |
+      Sobald Ihre Anfrage vollständig verarbeitet ist, werden Sie noch eine weitere Email erhalten, im Normalfall 
+      innerhalb von 5 bis 60 Minuten.
   row_3: |
-    If you want to check on the status of your request, you can look %s.
-  row_3_link_label_1: here
+    Den Status Ihrer Anfrage können Sie sich %s anschauen.
+  row_3_link_label_1: hier
   row_4: |
-    Many thanks for trying FindBigMail.com!
+    Vielen Dank, dass Sie FindBigMail.com benutzt haben!
 scan_failure_email:
-  subject: Your request did not run
+  subject: Ihre Anfrage schlug fehl
   row_1: This is an automated message to let you know that we detected a failure while attempting to find your big email messages.
   row_2: |
-    This type of error is most likely caused by a network problem that will resolve itself shortly. Please try again at %s.
-  row_3: We are working to resolve this problem automatically in the future.
+    Ursache für diesen Fehler könnte ein Netzwerkproblem sein, der sich aber in Kürze automatisch ausgeräumt wird. 
+    Klicken Sie auf dem nachfolgenden Link, um es erneut zu versuchen: %s.
+  row_3: Wir arbeiten daran, dass in der Zukunkt sich dieses Problem von alleine lösen lässt.
   row_4: |
-    Many thanks for trying FindBigMail.com!
+    Vielen Dank, dass Sie FindBigMail.com benutzt haben!
 failure_email:
   account_access_removed: FindBigMail.com's access to your account has been successfully removed.
   account_access_already_removed: FindBigMail.com's access to your account appears to already have been removed.
