@@ -585,12 +585,13 @@ de:
     biggest_message: Ihre größte Email
     top_listed: Die %s größten sind %s aufgelistet
     top_listed_link_label_1: unten
-    your_top_emails: Ihre %s größten Emails (klicken um die Email zu öffnen):
+    your_top_emails: |
+      Ihre %s größten Emails (klicken um die Email zu öffnen):
     results_truncated: die Ergebnisse wurden abgeschnitten, da es sich um eine Demo-Version handelt
     extra_info: |
-        Wir konnten %s Emails in Ihrem Konto zählen, wahrscheinlich haben Sie die Anzahl der Nachrichten für IMAP-Ordner 
-        begrenzt. Wenn das der Fall ist, werden die meisten Emails in unserer Suche nicht berücksichtigt. Klicken Sie 
-        %s um mehr zu erfahren.
+      Wir konnten %s Emails in Ihrem Konto zählen, wahrscheinlich haben Sie die Anzahl der Nachrichten für IMAP-Ordner 
+      begrenzt. Wenn das der Fall ist, werden die meisten Emails in unserer Suche nicht berücksichtigt. Klicken Sie 
+      %s um mehr zu erfahren.
     extra_info_link_label_1: hier
     donation: Spende
     donate: %s spenden
