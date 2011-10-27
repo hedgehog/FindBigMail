@@ -1,539 +1,557 @@
 ---
-paths:
-  index: index
-  faq: faq
-  payment: payplease
-  pricing: pricing
-  searching: status
-  contact_us: contact-us
-  conditions_of_use: conditions-of-use
-  privacy_statement: privacy-statement
-  about_us: about-us
-  multiple: multiple
-  thinking: thinking
-  thankyou: thankyou  
-  allmailblocked: allmailblocked
-  allmailimap: allmailimap
-  busyforus: busyforus
-  contacted: contacted
-  sitemap: sitemap
+en:
+  home_url: "https://www.findbigmail.com"
+  paths:
+    index: index
+    faq: faq
+    payment: payplease
+    pricing: pricing
+    searching: status
+    contact_us: contact-us
+    conditions_of_use: conditions-of-use
+    privacy_statement: privacy-statement
+    about_us: about-us
+    multiple: multiple
+    thinking: thinking
+    thankyou: thankyou  
+    allmailblocked: allmailblocked
+    allmailimap: allmailimap
+    busyforus: busyforus
+    contacted: contacted
 
-top_navigation:
-  home: Home
-  pricing: Pricing
-  faq: FAQ
-  
-footer:
-  contact_us: Contact Us
-  privacy_statement: Privacy Statement
-  conditions_use: Conditions of Use
-  about_us: About Us
-  follow_facebook: Like us on Facebook
-  follow_twitter: Follow us on Twitter
-  email_us: Email us
- 
-paypal:
-  alt_text: "PayPal - The safer, easier way to pay online"
+  top_navigation:
+    home: Home
+    pricing: Pricing
+    faq: FAQ
+    
+  footer:
+    contact_us: Contact Us
+    privacy_statement: Privacy Statement
+    conditions_of_use: Conditions of Use
+    about_us: About Us
+    follow_facebook: Like us on Facebook
+    follow_twitter: Follow us on Twitter
+    email_us: Email us
+   
+  paypal:
+    alt_text: "PayPal - The safer, easier way to pay online"
 
-enter_email:
-  placeholder: Enter your Gmail or Google Apps account
+  # commonly used text
+  find_button: Find Big Mail
+  enter_email: Enter your Gmail or Google Apps account
 
-index:
-  meta_keywords:
-    Gmail full, Gmail almost full, Gmail inbox full, You are almost out of space for your Gmail account, 
-    Gmail sort by size
-  meta_description:
-    Makes it easy to find big emails in your Gmail account and free up space.  If your account is full, 
-    this is a simple way to reduce space instead of sorting by size.
-  title: Find Big Mail - Have you run out of space for your Gmail account?
-  grab: Find big emails in your inbox to get your space back!
-  button: Find Big Mail
-  tagline:
-    Security is important to us. We only see the size of your emails, not their contents, and we 
-    <span>never</span> see your password.
-  who_is_using: Who else is using Find Big Mail?
-  testimonial_1: We just saved $450 in Google Apps fees using @findbigmail.
-  testimonial_2: |
-    A rare endorsement from me, totally unpaid and totally appreciated: FindBigMail.com helped me reduce 
-    my Gmail storage by over 50%. THANK YOU
-  testimonial_3: THANK YOU for FindBigMail.com -- Google may not have answered my prayers, but you did.
-  testimonial_4:
-    If you find the workarounds complicated, there's an even simpler method now that won't even require 
-    you download or install anything - it's called findbigmail.com
+  index:
+    meta_keywords:
+      Gmail full, Gmail almost full, Gmail inbox full, You are almost out of space for your Gmail account, 
+      Gmail sort by size
+    meta_description:
+      Makes it easy to find big emails in your Gmail account and free up space.  If your account is full, 
+      this is a simple way to reduce space instead of sorting by size.
+    title: Find Big Mail - Have you run out of space for your Gmail account?
+    grab: Find big emails in your inbox to get your space back!
+    tagline:
+      Security is important to us. We only see the size of your emails, not their contents, and we 
+      <span>never</span> see your password.
+    who_is_using: Who else is using Find Big Mail?
+    testimonial_1: We just saved $450 in Google Apps fees using @findbigmail.
+    testimonial_2: |
+      A rare endorsement from me, totally unpaid and totally appreciated: FindBigMail.com helped me reduce 
+      my Gmail storage by over 50%. THANK YOU
+    testimonial_3: THANK YOU for FindBigMail.com -- Google may not have answered my prayers, but you did.
+    testimonial_4:
+      If you find the workarounds complicated, there's an even simpler method now that won't even require 
+      you download or install anything - it's called findbigmail.com
 
-pricing:
-  meta_keywords:
-    Google Apps, Google Apps Business, Google Apps Education, Gmail full, service prices
-  meta_description:
-    Scan your Google Apps account for only $4.95. Free scans to find the largest emails in your Gmail account. 
-    Service includes top 20 emails.
-  title: Find Big Mail - Pricing
-  pricing_features: Pricing & Features
-  full_scan: Full Scan
-  extra_storage: Extra Storage
-  personal_gmail: Personal Gmail
-  free: Free!
-  five_dollars_per_year: $5 per year
-  google_apps_gmail: Google Apps Gmail
-  fifty_per_year_account: $50 per year per account
-  yes: yes
-  no: no
-  all_emails_scanned: All emails scanned
-  results_chart: Chart of results
-  email_result_summary: Email summary of results
-  links_to_biggest_emails: Links to 20 biggest emails
-  label_emails: Label mails over 1MB, 5MB and 10MB
+  pricing:
+    meta_keywords:
+      Google Apps, Google Apps Business, Google Apps Education, Gmail full, service prices
+    meta_description:
+      Scan your Google Apps account for only $4.95. Free scans to find the largest emails in your Gmail account. 
+      Service includes top 20 emails.
+    title: Find Big Mail - Pricing
+    pricing_features: Pricing & Features
+    full_scan: Full Scan
+    extra_storage: Extra Storage
+    personal_gmail: Personal Gmail
+    free: Free!
+    five_dollars_per_year: $5 per year
+    google_apps_gmail: Google Apps Gmail
+    fifty_per_year_account: $50 per year per account
+    yes: yes
+    no: no
+    all_emails_scanned: All emails scanned
+    results_chart: Chart of results
+    email_result_summary: Email summary of results
+    links_to_biggest_emails: Links to 20 biggest emails
+    label_emails: Label mails over 1MB, 5MB and 10MB
 
-faq:
-  meta_keywords:
-    FAQ Gmail Full, FAQ Find Big Mail
-  meta_description:
-    Frequently Asked Questions about FindBigMail. Includes common problems and settings that may reduce the results
-    and description of how to find largest emails.
-  title: Find Big Mail - Frequently Asked Questions
-  header_faq: Frequently Asked Questions
-  large_chat_histories_anchor: LargeChatHistories
-  remove_fbm_label_anchor: RemoveFindBigMailLabels
-  remove_fbm_access_anchor: RemoveFindBigMailAccess
-  known_issues_anchor: KnownIssues
-  cannot_scan_anchor: CannotScan
-  my_privacy_anchor: MyPrivacy
-  scanned_folders_anchor: ScannedFolders
-  how_large_can_emails_be_anchor: HowLargeCanEmailsBe
-  modify_size_ranges_anchor: ModifySizeRanges
-  multiple_size_labels_anchor: MultipleSizeLabels
-  emails_with_label_size_anchor: EmailsWithLabelSize
-  remove_labels_anchor: RemoveLabels
-  delete_large_labeled_messages_anchor: DeleteLargeLabeledMessages
-  imap_folders_limited_anchor: IMAPFoldersLimited
-  imap_folders_limited: Reasons why all of your big emails might not be labeled
-  imap_folders_limited_answer_1: |
-                                  We've mentioned before how %s can make the emails in those folders be skipped during the labeling process.
-  imap_folders_limited_answer_1_link_label: hiding folders from the IMAP protocol
-  imap_folders_limited_answer_2: |  
-                                  Besides hiding Gmail folders from IMAP, you can also limit the number of returned emails.  People usually do this because they are using an IMAP client and only want to see the most recent emails.  Doing this however means that some emails are never "seen" by the FindBigMail service.
-  imap_folders_limited_answer_3: |
-                                  If you've turned this on but want FindBigMail to find all your big emails, exit your IMAP client, turn off this option within your Gmail %s as shown in the following image.
-  imap_folders_limited_answer_3_link_label: Forwarding and POP/IMAP settings
-  imap_folders_limited_answer_3_link: "https://mail.google.com/mail/?shva=1#settings/fwdandpop"
-  imap_folders_limited_alt_text: Choose 'Do not limit the number of messages in an IMAP folder'
-  imap_folders_limited_answer_4: |
-                                  After your scan completes you can return this option back to the limit you choose.
-  large_chat_histories: Why don't my large chat histories appear in the scan results?
-  large_chat_histories_answer_1: |
-                                  Occasionally we're asked why large %s don't appear in the scan results. They appear in 
-                                  Gmail, so why can't FindBigMail see them?
-  large_chat_histories_answer_1_link_label: chat histories
-  large_chat_histories_answer_1_link: "http://www.google.com/support/talk/bin/answer.py?hl=en&answer=29289"
-  large_chat_histories_answer_2: |
-                                  The reason is that Google doesn't make them available via their Gmail APIs (specifically 
-                                  the IMAP apis) that we use to find your large emails.
-  large_chat_histories_answer_3: |
-                                  The vast majority of people aren't likely affected by this. Chats tend to be all text 
-                                  and thus quite small -- relative to the very large images, audio and video files that 
-                                  consume the vast majority of available space and give you those pesky "out of space" messages!
-  remove_fbm_labels: How do I remove FindBigMail labels?
-  remove_fb_labels_answer_1:
-    After you've found all your large messages and created some more free space, you may wish 
-    to remove the labels that FindBigMail created to help you.
-  remove_fb_labels_answer_2: "The following Google article describes: %s including deletion."
-  remove_fb_labels_answer_2_link_label: how to use Gmail labels
-  remove_fb_labels_answer_2_link: "http://mail.google.com/support/bin/answer.py?hl=en&answer=118708"
-  remove_fb_labels_answer_3: |
-    As we've discussed in this FAQ: %s, after your run is complete we no longer have access as 
-    we remove it as soon as the run is done. We only leave behind the labels. Technical note: 
-    We've found that the messages will still retain the label even after the label is deleted, 
-    so if you add the label back again with the exact same name, the messages will magically 
-    re-appear. If you don't want this to happen, you can select all the messages with the 
-    label and then remove the label from the messages before deleting the label itself.
-  remove_fb_labels_answer_3_link_label: How do I uninstall or remove FindBigMail access to my account
-  remove_fbm_access: How do I uninstall or remove FindBigMail access to my email account?
-  remove_fbm_access_answer_1: |
-    We've been asked several times "How do I remove FindBigMail access to my email account?". 
-    The short answer is: "We already have!"
-  remove_fbm_access_answer_2:
-    However, please don't take our word for it. Because we use OAuth and get a token from 
-    Google for temporary access, you can verify that we've removed the token at 
-    https://www.google.com/accounts/IssuedAuthSubTokens. If you still see FindBigMail listed 
-    there, then we're either in the middle of scanning for large emails, or some sort of error 
-    occurred that we're not aware of. If we're done (check the status link in the first email 
-    we send you to be sure), definitely revoke the token, and please let us know what email 
-    address you were scanning so we can find out what went wrong. (We'll run it through our 
-    one way hash and then examine the logs).
-  remove_fbm_access_answer_3:
-    Of course you can test that this all works, by revoking a token in the middle of a scan. 
-    It will take a few minutes for the scan to timeout, but you'll get an email saying that 
-    we encountered an error and your scan is not complete.
-  remove_fbm_access_answer_4:
-    By the way, even if something goes wrong and the token wasn't revoked, we don't have it 
-    anymore. We don't store the token anywhere, except in memory while the scan is running. 
-    By not storing it, we can be more confident that even if our site is hacked, there won't 
-    be a treasure trove of tokens to steal -- or even a list of email addresses, because we 
-    don't keep those either!
-  remove_fbm_access_answer_5:
-    We're trying hard to make this simple and secure. If you have more questions or 
-    suggestions, please get in touch.
-  known_issues: Are there any known issues?
-  known_issues_answer_1: |
-    We have one known issue affecting a small number of people with both Google Apps and Google 
-    Accounts that have not yet been merged: %s.
-  known_issues_answer_1_link_label: more information
-  known_issues_answer_2: |
-    Another very small group of users have restricted access to their All Mail folder (see %s). 
-    In most cases, this is because they disabled it to keep Apple Mail happy and this can be 
-    easily fixed as described in our FAQ: %s. For another even smaller group, their All Mail 
-    is available, but not readable. In that scenario, we scan and label all readable folders, 
-    which takes longer but achieves the same result.
-  known_issues_answer_2_link_label_1: What is All Mail
-  known_issues_answer_2_link_1: "http://mail.google.com/support/bin/answer.py?hl=en&answer=6581"
-  known_issues_answer_2_link_label_2: Only my inbox was scanned, what about the other folders?
-  known_issues_answer_3: |
-                          If you are having problems using Find Big Mail, please let us know. We're keen to unearth every 
-                          little gremlin and fix or workaround it. We want your search for free space amidst your 
-                          gigabytes of storage to be hassle free!
-  cannot_scan: I'm logged in to Google correctly but can't run a scan.
-  cannot_scan_answer_1: |
-                          We've had lots of scans by people hosting their email at Google Apps. However, we've tracked 
-                          down a problem from someone who had multiple Google accounts and was not been able to run a 
-                          scan. In this case the user has a:
-  cannot_scan_answer_1_item_1: Google Apps account, e.g. myname@example.com, and a
-  cannot_scan_answer_1_item_2: Google Account with the same name, myname@example.com
-  cannot_scan_answer_2: |
-                          Other people who created Google Accounts before Google Apps existed may well be in this situation, 
-                          especially if they subsequently ported their email or entire domain to Google Apps. Google is 
-                          in the middle of transitioning everyone to a unified system where these seemingly the same 
-                          but actually different accounts will be merged.
-  cannot_scan_answer_3: |
-                          The problem for FindBigMail appears to be that we get access to the Google Account, which doesn't 
-                           have email, instead of the Google Apps account which does. We're looking for a solution. If 
-                           you're in a rush, you should check to see if your Google Apps + Account merge can happen sooner. 
-                           Many domains have been offered this already (as of mid-Oct 2010).
-  cannot_scan_answer_4: "Some useful links:"
-  cannot_scan_answer_4_item_1: "Google Accounts: What's the difference between a Google account and a Google Apps account?"
-  cannot_scan_answer_4_item_1_link: "http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=72709"
-  cannot_scan_answer_4_item_2: "Google Accounts: Google Apps transition"
-  cannot_scan_answer_4_item_2_link: http://www.google.com/support/accounts/bin/answer.py?answer=187513
-  cannot_scan_answer_5: |
-                          We're eager to help all Google Apps users locate their big emails and free up some space, so let 
-                          us know if you have any suggestions.
-  my_privacy: What do you do with my email address?
-  my_privacy_answer_1: |
-                      We recently changed our Privacy Statement to reflect some auditing and cleanup we did on our 
-                      logs. Unlike many websites of late, this increased your privacy. We don't like the responsibility 
-                      of having your email address so we work very hard to never see it and to never store it anywhere 
-                      that someone might find it. This is how we treat your email address:
-  my_privacy_answer_1_item_1: we use it once to send you an initial "we're starting, here's where to get status" email
-  my_privacy_answer_1_item_2: |
-                              we %s your email address using a one way code so it looks something like 
-                              b852fb9f7c5d851875ef6fa282f1f859 and that's what we store in our logs. We can't ever get 
-                              your email address back from this, but if, say, someone starts doing lots of runs with the 
-                              same email address, this allows us to detect it. Or, if you %s with a question, we can 
-                              take the email address you give us, calculate the hash, and then check our logs.
-  my_privacy_answer_1_item_2_link_label_1: hash
-  my_privacy_answer_1_item_2_link: "http://en.wikipedia.org/wiki/Hash_function"
-  my_privacy_answer_1_item_2_link_label_2: contact us
-  my_privacy_answer_1_item_3: we send you a final results email when we've finished your scan
-  my_privacy_answer_1_item_4: |
-                              we 'forget' your email address - an easy thing to do, because we never stored it anywhere, 
-                              except in memory while we ran your scan
-  my_privacy_answer_2: |
-                      Of course, we never ever see your password. With your authority, Google gives us a temporary 
-                      token to find big emails in your mailbox, and we explicitly invalidate that token when we're done 
-                      (you can double check permissions at Google's site %s).
-  my_privacy_answer_2_link_label: here
-  scanned_folders: Only my inbox was scanned, what about the other folders?
-  scanned_folders_answer_1: |
-                              The most effective way to find free space in your email is to scan every email in your 
-                              Gmail account. Normally we do this by looking for the "All Mail" folder (including some 
-                              tricks to account for local languages) and then scanning the size of those messages.
-  scanned_folders_answer_2: |
-                              However, sometimes (about 0.5% of scans so far), we cannot find the "All Mail" folder. 
-                              In those cases we scan the Inbox and mention it in the summary email.
-  scanned_folders_answer_3:  |
-                              Why does this happen? As near as we can tell, it's because you are using the Google labs 
-                              feature that lets you hide Labels from your IMAP client and you have configured your IMAP 
-                              settings to hide the All Mail folder. Searching for this in Google suggests that many Mac 
-                              Mail users do this to avoid duplicate messages showing up in Spotlight.
-  how_large_can_emails_be: How large can one email be?
-  how_large_can_emails_be_answer_1: "We see this question a lot on twitter: What is the largest email I can send with Gmail?"
-  how_large_can_emails_be_answer_2: |
-                                      The answer is 25MB. This is equal to about 5-10 mp3 songs or the same number of 
-                                      full resolution photos from a modern digital camera. For video, it's a few minutes 
-                                      at most (but video size varies a lot depending where it came from). Careful though, 
-                                      as %s, even if you can send 25MB, the person receiving your mail may not be able 
-                                      to receive emails that large!
-  how_large_can_emails_be_answer_2_link_label: Google says
-  how_large_can_emails_be_answer_2_link: "http://mail.google.com/support/bin/answer.py?hl=en&answer=8770"
-  how_large_can_emails_be_answer_3: |
-                                      Remember, those large emails can chew into your free space very quickly! We'll help 
-                                      stop you from running out of space by helping you find these messages.
-  modify_size_ranges: Can I change the size ranges used by labels?
-  modify_size_ranges_answer_1: |
-                                  A lot of people are using findbigmail.com to group their largest emails into different 
-                                  sizes with great success! One request we've heard a couple of times, is "Can I 
-                                  change the label sizes?". The short answer is "not yet", but we are looking into it. 
-                                  Is this something you would like too? Any other ideas for better managing your 
-                                  Gmail free space? Please %s and let us know. Thanks!
-  modify_size_ranges_answer_1_link_label: Contact Us
-  multiple_size_labels: Why do my emails have multiple size labels?
-  multiple_size_labels_answer_1: |
-                                  FindBigMail.com labels individual mail messages not threads. In most case, when you see
-                                  more than one size label on a thread or conversation, this simply means that the thread contains 
-                                  mail messages from all the size labels attached. For example, a thread with both the 
-                                  'FindBigMail > 10mb' and 'FindBigMail > 5mb' labels has at least one message that is 10mb 
-                                  and at least one other message that is at least 5 mb in size. Deleting an entire 
-                                  thread can free up space at multiple levels!
-  emails_with_label_size: How large are the emails with each of the labels again?
-  emails_with_label_size_answer_1_item_1: "\"FindBigMail > 10mb\" messages are larger than 10,000,000 bytes."
-  emails_with_label_size_answer_1_item_2: "\"FindBigMail > 5mb\" messages are between 5,000,000 and 10,000,000 bytes."
-  emails_with_label_size_answer_1_item_3: "\"FindBigMail > 1mb\" messages are between 1,000,000 and 5,000,000 bytes."
-  emails_with_label_size_answer_2: |
-                                  Use these labels to find out what is taking up all that space, so you can free it up 
-                                  for the next round of photos, music, videos and similar space hogs!
-  remove_labels: How do I remove the labels if I no longer want them?
-  remove_labels_answer_1: |
-                          If you've freed up all the space you need, you can remove a label completely by logging into 
-                          your Gmail account and clicking the small square just to the left of the label in the list of 
-                          labels on the left side of Gmail. One of the choices in the drop down that is displayed will 
-                          be 'Delete Label'. Select that choice and Gmail will confirm that you want to remove the label. 
-                          Then click the 'Ok' button. Removing the label will not remove your email. You can also check 
-                          out Google's %s on how to show, hide, and delete labels.
-  remove_labels_answer_1_link_label: instructions
-  remove_labels_answer_1_link: "http://mail.google.com/support/bin/answer.py?hl=en&answer=118708"
-  delete_large_labeled_messages: How do I delete the large messages now that they're labeled?
-  delete_large_labeled_messages_answer_1: |
-                                          Click on each label to view the large messages. Then follow these Gmail %s 
-                                          to remove the mail you no longer want. Be sure to empty the Trash using 
-                                          "Delete Forever" if you need to free up the space immediately. Otherwise it 
-                                          will automatically be removed in 30 days time.
-  delete_large_labeled_messages_answer_1_link_label: instructions
-  delete_large_labeled_messages_answer_1_link: "http://mail.google.com/support/bin/answer.py?hl=en&answer=7401"
-  
-contact_us:
-  title: Find Big Mail - Contact Us
-  contact_header: Contact Find Big Mail
-  name: Your Name
-  email_address: Email Address
-  subject: Subject
-  message: Message *
-  submit_form: Submit Form
-  
-privacy_statement:
-  title: Find Big Mail - Privacy Statement
-  privacy_statement_header: Privacy Statement
-  privacy_statement_1: |
-                          FindBigMail.com logs page requests with their parameters (except email addresses), timestamps, IPs, 
-                          errors et. al. for testing, anonymous playback, trend analysis, bug fixing, feature 
-                          priorization and performance tuning. 
-  privacy_statement_2: |
-                          FindBigMail.com stores hashed email addresses for the purposes of banning and/or throttling users 
-                          who abuse the service. We use your email address to send scan results and then delete it.
-  privacy_statement_3: FindBigMail.com does not have your Google password so we can never store it nor lose it to some other party.
-  privacy_statement_4: |
-                          FindBigMail.com does not sell, rent, lease, or give any personal information to any third parties 
-                          unless required by law.
-  privacy_statement_5: |
-                          FindBigMail.com may change this statement at any time but intends to do so as little as possible. 
-                          If we do change our Privacy Statement, we will update this page promptly.
-  
-conditions_of_use:
-  title: Find Big Mail - Conditions of Use
-  conditions_of_use_header: Conditions of Use
-  conditions_of_use_1: YOU MAY NOT USE THIS SERVICE UNLESS YOU AGREE TO THE CONDITIONS OF USE.
-  conditions_of_use_2: |
-                          USING THIS SERVICE IN ANY WAY, SUCH AS ACCESSING THE WEBSITE, ENTERING DATA, OR AGREEING TO ALLOW 
-                          ACCESS TO YOUR MAIL ACCOUNT, CONSTITUTES AGREEMENT WITH THE CONDITIONS OF USE.
-  conditions_of_use_3: |
-                          YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THIS SERVICE IS AT YOUR SOLE RISK AND THAT THE 
-                          SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, 
-                          BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
-                          PURPOSE ARE DISCLAIMED.
-  conditions_of_use_4: |
-                          IN NO EVENT SHALL THE COPYRIGHT OWNERS, CONTRIBUTORS OR PARTNERS BE LIABLE FOR ANY DIRECT, INDIRECT, 
-                          INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
-                          PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
-                          INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
-                          LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF 
-                          THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-  conditions_of_use_5: |
-                          YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR SOLE REMEDY TO ANY ISSUE, CLAIM OR CONCERN IS TO 
-                          STOP USING THIS SERVICE.
-  conditions_of_use_6: |
-                          You agree that FindBigMail may use your company, organization, or product name and/or logo in 
-                          presentations, marketing materials, customer lists, financial reports, website listings of 
-                          customers, research and marketing case studies and any other marketing-related activities.
-  
-about_us:
-  title: Find Big Mail - About Us
-  about_us_header: About Us
-  about_us_1: |
-              This website is brought to you by a couple of veteran software engineers who saw a problem and wanted to 
-              solve it. We found that you could in fact run out of email space with Gmail (or Google apps) and then what 
-              could you do? How can you fix things when you get "You have run out of space for your Gmail account"!
-  about_us_2: |
-              Sure, we could hook up an IMAP client and import all the mail (7+GB of it!) and then find the largest and 
-              remove it, but that wasn't going to work for friends and family. They had no idea what an email client was!
-  about_us_3: |
-              So, we have this website. We're both privacy nuts, so we were careful to build it so we never see your 
-              password or even your email messages. We just get the sizes and label them accordingly. And then, what the 
-              heck, we threw in a report so you could see how much big mail you have.
-  about_us_4: "We hope you enjoy it. Please %s if you have any comments or questions."
-  about_us_4_link_label: send us an email
-  about_us_5: Thanks!
+  faq:
+    meta_keywords:
+      FAQ Gmail Full, FAQ Find Big Mail
+    meta_description:
+      Frequently Asked Questions about FindBigMail. Includes common problems and settings that may reduce the results
+      and description of how to find largest emails.
+    title: Find Big Mail - Frequently Asked Questions
+    header_faq: Frequently Asked Questions
+    large_chat_histories_anchor: LargeChatHistories
+    remove_fbm_label_anchor: RemoveFindBigMailLabels
+    remove_fbm_access_anchor: RemoveFindBigMailAccess
+    known_issues_anchor: KnownIssues
+    cannot_scan_anchor: CannotScan
+    my_privacy_anchor: MyPrivacy
+    scanned_folders_anchor: ScannedFolders
+    how_large_can_emails_be_anchor: HowLargeCanEmailsBe
+    modify_size_ranges_anchor: ModifySizeRanges
+    multiple_size_labels_anchor: MultipleSizeLabels
+    emails_with_label_size_anchor: EmailsWithLabelSize
+    remove_labels_anchor: RemoveLabels
+    delete_large_labeled_messages_anchor: DeleteLargeLabeledMessages
+    imap_folders_limited_anchor: IMAPFoldersLimited
+    imap_folders_limited: Reasons why all of your big emails might not be labeled
+    imap_folders_limited_answer_1: |
+      We've mentioned before how %s can make the emails in those folders be skipped 
+      during the labeling process.
+    imap_folders_limited_answer_1_link_label: hiding folders from the IMAP protocol
+    imap_folders_limited_answer_2: |  
+      Besides hiding Gmail folders from IMAP, you can also limit the number of returned 
+      emails.  People usually do this because they are using an IMAP client and only 
+      want to see the most recent emails.  Doing this however means that some emails 
+      are never "seen" by the FindBigMail service.
+    imap_folders_limited_answer_3: |
+      If you've turned this on but want FindBigMail to find all your big emails, exit 
+      your IMAP client, turn off this option within your Gmail 
+      <a href="https://mail.google.com/mail/?shva=1#settings/fwdandpop">Forwarding and POP/IMAP settings</a> as shown 
+      in the following image.
+    imap_folders_limited_answer_4: |
+      After your scan completes you can return this option back to the limit you choose.
+    large_chat_histories: Why don't my large chat histories appear in the scan results?
+    large_chat_histories_answer_1: |
+      Occasionally we're asked why large 
+      <a href="http://www.google.com/support/talk/bin/answer.py?hl=en&answer=29289">chat histories</a> 
+      don't appear in the scan results. They appear in 
+      Gmail, so why can't FindBigMail see them?
+    large_chat_histories_answer_2: |
+      The reason is that Google doesn't make them available via their Gmail APIs (specifically 
+      the IMAP apis) that we use to find your large emails.
+    large_chat_histories_answer_3: |
+      The vast majority of people aren't likely affected by this. Chats tend to be all text 
+      and thus quite small -- relative to the very large images, audio and video files that 
+      consume the vast majority of available space and give you those pesky "out of space" 
+      messages!
+    remove_fbm_labels: How do I remove FindBigMail labels?
+    remove_fb_labels_answer_1:
+      After you've found all your large messages and created some more free space, you may 
+      wish to remove the labels that FindBigMail created to help you.
+    remove_fb_labels_answer_2: |
+      The following Google article describes 
+      <a href="http://mail.google.com/support/bin/answer.py?hl=en&answer=118708">how to use Gmail labels</a> including deletion.
+    remove_fb_labels_answer_3: |
+      As we've discussed in this FAQ: %s, after your run is complete we no longer have access as 
+      we remove it as soon as the run is done. We only leave behind the labels. Technical note: 
+      We've found that the messages will still retain the label even after the label is deleted, 
+      so if you add the label back again with the exact same name, the messages will magically 
+      re-appear. If you don't want this to happen, you can select all the messages with the 
+      label and then remove the label from the messages before deleting the label itself.
+    remove_fb_labels_answer_3_link_label: How do I uninstall or remove FindBigMail access to my account
+    remove_fbm_access: How do I uninstall or remove FindBigMail access to my email account?
+    remove_fbm_access_answer_1: |
+      We've been asked several times "How do I remove FindBigMail access to my email account?". 
+      The short answer is: "We already have!"
+    remove_fbm_access_answer_2:
+      However, please don't take our word for it. Because we use OAuth and get a token from 
+      Google for temporary access, you can verify that we've removed the token at 
+      https://www.google.com/accounts/IssuedAuthSubTokens. If you still see FindBigMail listed 
+      there, then we're either in the middle of scanning for large emails, or some sort of error 
+      occurred that we're not aware of. If we're done (check the status link in the first email 
+      we send you to be sure), definitely revoke the token, and please let us know what email 
+      address you were scanning so we can find out what went wrong. (We'll run it through our 
+      one way hash and then examine the logs).
+    remove_fbm_access_answer_3:
+      Of course you can test that this all works, by revoking a token in the middle of a scan. 
+      It will take a few minutes for the scan to timeout, but you'll get an email saying that 
+      we encountered an error and your scan is not complete.
+    remove_fbm_access_answer_4:
+      By the way, even if something goes wrong and the token wasn't revoked, we don't have it 
+      anymore. We don't store the token anywhere, except in memory while the scan is running. 
+      By not storing it, we can be more confident that even if our site is hacked, there won't 
+      be a treasure trove of tokens to steal -- or even a list of email addresses, because we 
+      don't keep those either!
+    remove_fbm_access_answer_5:
+      We're trying hard to make this simple and secure. If you have more questions or 
+      suggestions, please get in touch.
+    known_issues: Are there any known issues?
+    known_issues_answer_1: |
+      We have one known issue affecting a small number of people with both Google Apps and Google 
+      Accounts that have not yet been merged: %s.
+    known_issues_answer_1_link_label: more information
+    known_issues_answer_2: |
+      Another very small group of users have restricted access to their All Mail folder (see %s). 
+      In most cases, this is because they disabled it to keep Apple Mail happy and this can be 
+      easily fixed as described in our FAQ: %s. For another even smaller group, their All Mail 
+      is available, but not readable. In that scenario, we scan and label all readable folders, 
+      which takes longer but achieves the same result.
+    known_issues_answer_2_link_label_1: What is All Mail
+    known_issues_answer_2_link_1: "http://mail.google.com/support/bin/answer.py?hl=en&answer=6581"
+    known_issues_answer_2_link_label_2: Only my inbox was scanned, what about the other folders?
+    known_issues_answer_3: |
+                            If you are having problems using Find Big Mail, please let us know. We're keen to unearth every 
+                            little gremlin and fix or workaround it. We want your search for free space amidst your 
+                            gigabytes of storage to be hassle free!
+    cannot_scan: I'm logged in to Google correctly but can't run a scan.
+    cannot_scan_answer_1: |
+                            We've had lots of scans by people hosting their email at Google Apps. However, we've tracked 
+                            down a problem from someone who had multiple Google accounts and was not been able to run a 
+                            scan. In this case the user has a:
+    cannot_scan_answer_1_item_1: Google Apps account, e.g. myname@example.com, and a
+    cannot_scan_answer_1_item_2: Google Account with the same name, myname@example.com
+    cannot_scan_answer_2: |
+      Other people who created Google Accounts before Google Apps existed may well be in this situation, 
+      especially if they subsequently ported their email or entire domain to Google Apps. Google is 
+      in the middle of transitioning everyone to a unified system where these seemingly the same 
+      but actually different accounts will be merged.
+    cannot_scan_answer_3: |
+      The problem for FindBigMail appears to be that we get access to the Google Account, which doesn't 
+      have email, instead of the Google Apps account which does. We're looking for a solution. If 
+      you're in a rush, you should check to see if your Google Apps + Account merge can happen sooner. 
+      Many domains have been offered this already (as of mid-Oct 2010).
+    cannot_scan_answer_4: "Some useful links:"
+    cannot_scan_answer_4_item_1: "Google Accounts: What's the difference between a Google account and a Google Apps account?"
+    cannot_scan_answer_4_item_1_link: "http://www.google.com/support/accounts/bin/answer.py?hl=en&answer=72709"
+    cannot_scan_answer_4_item_2: "Google Accounts: Google Apps transition"
+    cannot_scan_answer_4_item_2_link: http://www.google.com/support/accounts/bin/answer.py?answer=187513
+    cannot_scan_answer_5: |
+                            We're eager to help all Google Apps users locate their big emails and free up some space, so let 
+                            us know if you have any suggestions.
+    my_privacy: What do you do with my email address?
+    my_privacy_answer_1: |
+                        We recently changed our Privacy Statement to reflect some auditing and cleanup we did on our 
+                        logs. Unlike many websites of late, this increased your privacy. We don't like the responsibility 
+                        of having your email address so we work very hard to never see it and to never store it anywhere 
+                        that someone might find it. This is how we treat your email address:
+    my_privacy_answer_1_item_1: we use it once to send you an initial "we're starting, here's where to get status" email
+    my_privacy_answer_1_item_2: |
+      we <a href="http://en.wikipedia.org/wiki/Hash_function">hash</a> your email address 
+      using a one way code so it looks something like b852fb9f7c5d851875ef6fa282f1f859 
+      and that's what we store in our logs. We can't ever get your email address back 
+      from this, but if, say, someone starts doing lots of runs with the 
+      same email address, this allows us to detect it. Or, if you <a href="%{contact_us_path}">
+      contact us</a> with a question, we can take the email address you give us, 
+      calculate the hash, and then check our logs.
+    my_privacy_answer_1_item_3: we send you a final results email when we've finished your scan
+    my_privacy_answer_1_item_4: |
+      we 'forget' your email address - an easy thing to do, because we never stored it 
+      anywhere, except in memory while we ran your scan
+    my_privacy_answer_2: |
+      Of course, we never ever see your password. With your authority, Google gives us a 
+      temporary token to find big emails in your mailbox, and we explicitly invalidate that 
+      token when we're done (you can double check permissions at Google's site 
+      <a href="https://www.google.com/accounts/IssuedAuthSubTokens">here</a>).
+    my_privacy_answer_2_link_label: here
+    scanned_folders: Only my inbox was scanned, what about the other folders?
+    scanned_folders_answer_1: |
+                                The most effective way to find free space in your email is to scan every email in your 
+                                Gmail account. Normally we do this by looking for the "All Mail" folder (including some 
+                                tricks to account for local languages) and then scanning the size of those messages.
+    scanned_folders_answer_2: |
+                                However, sometimes (about 0.5% of scans so far), we cannot find the "All Mail" folder. 
+                                In those cases we scan the Inbox and mention it in the summary email.
+    scanned_folders_answer_3:  |
+                                Why does this happen? As near as we can tell, it's because you are using the Google labs 
+                                feature that lets you hide Labels from your IMAP client and you have configured your IMAP 
+                                settings to hide the All Mail folder. Searching for this in Google suggests that many Mac 
+                                Mail users do this to avoid duplicate messages showing up in Spotlight.
+    how_large_can_emails_be: How large can one email be?
+    how_large_can_emails_be_answer_1: 
+      We see this question a lot on twitter: What is the largest email I can send with Gmail?
+    how_large_can_emails_be_answer_2: |
+      The answer is 25MB. This is equal to about 5-10 mp3 songs or the same number of 
+      full resolution photos from a modern digital camera. For video, it's a few minutes 
+      at most (but video size varies a lot depending where it came from). Careful though, as 
+      <a href="http://mail.google.com/support/bin/answer.py?hl=en&answer=8770">Google says</a>, 
+      even if you can send 25MB, the person receiving your mail may not be able 
+      to receive emails that large!
+    how_large_can_emails_be_answer_3: |
+      Remember, those large emails can chew into your free space very quickly! We'll help 
+      stop you from running out of space by helping you find these messages.
+    modify_size_ranges: Can I change the size ranges used by labels?
+    modify_size_ranges_answer_1: |
+      A lot of people are using findbigmail.com to group their largest emails into different 
+      sizes with great success! One request we've heard a couple of times, is "Can I 
+      change the label sizes?". The short answer is "not yet", but we are looking into it. 
+      Is this something you would like too? Any other ideas for better managing your 
+      Gmail free space? Please %s and let us know. Thanks!
+    modify_size_ranges_answer_1_link_label: Contact Us
+    multiple_size_labels: Why do my emails have multiple size labels?
+    multiple_size_labels_answer_1: |
+      FindBigMail.com labels individual mail messages not threads. In most case, when you see
+      more than one size label on a thread or conversation, this simply means that the thread contains 
+      mail messages from all the size labels attached. For example, a thread with both the 
+      'FindBigMail > 10mb' and 'FindBigMail > 5mb' labels has at least one message that is 10mb 
+      and at least one other message that is at least 5 mb in size. Deleting an entire 
+      thread can free up space at multiple levels!
+    emails_with_label_size: How large are the emails with each of the labels again?
+    emails_with_label_size_answer_1_item_1: "\"FindBigMail > 10mb\" messages are larger than 10,000,000 bytes."
+    emails_with_label_size_answer_1_item_2: "\"FindBigMail > 5mb\" messages are between 5,000,000 and 10,000,000 bytes."
+    emails_with_label_size_answer_1_item_3: "\"FindBigMail > 1mb\" messages are between 1,000,000 and 5,000,000 bytes."
+    emails_with_label_size_answer_2: |
+      Use these labels to find out what is taking up all that space, so you can free it up 
+      for the next round of photos, music, videos and similar space hogs!
+    remove_labels: How do I remove the labels if I no longer want them?
+    remove_labels_answer_1: |
+      If you've freed up all the space you need, you can remove a label completely by 
+      logging into your Gmail account and clicking the small square just to the left 
+      of the label in the list of labels on the left side of Gmail. One of the choices 
+      in the drop down that is displayed will be 'Delete Label'. Select that choice and 
+      Gmail will confirm that you want to remove the label.  Then click the 'Ok' button. 
+      Removing the label will not remove your email. You can also check out Google's 
+      <a href="http://mail.google.com/support/bin/answer.py?hl=en&answer=118708">instructions</a> 
+      on how to show, hide, and delete labels.
+    delete_large_labeled_messages: How do I delete the large messages now that they're labeled?
+    delete_large_labeled_messages_answer_1: |
+      Click on each label to view the large messages. Then follow these Gmail 
+      <a href="http://mail.google.com/support/bin/answer.py?hl=en&answer=7401">instructions</a>
+      to remove the mail you no longer want. Be sure to empty the Trash using 
+      "Delete Forever" if you need to free up the space immediately. Otherwise it 
+      will automatically be removed in 30 days time.
+    
+  contact_us:
+    title: Find Big Mail - Contact Us
+    contact_header: Contact Find Big Mail
+    name: Your Name
+    email_address: Email Address
+    subject: Subject
+    message: Message *
+    submit_form: Submit Form
+    
+  privacy_statement:
+    title: Find Big Mail - Privacy Statement
+    privacy_statement_header: Privacy Statement
+    privacy_statement_1: |
+                            FindBigMail.com logs page requests with their parameters (except email addresses), timestamps, IPs, 
+                            errors et. al. for testing, anonymous playback, trend analysis, bug fixing, feature 
+                            priorization and performance tuning. 
+    privacy_statement_2: |
+                            FindBigMail.com stores hashed email addresses for the purposes of banning and/or throttling users 
+                            who abuse the service. We use your email address to send scan results and then delete it.
+    privacy_statement_3: FindBigMail.com does not have your Google password so we can never store it nor lose it to some other party.
+    privacy_statement_4: |
+                            FindBigMail.com does not sell, rent, lease, or give any personal information to any third parties 
+                            unless required by law.
+    privacy_statement_5: |
+                            FindBigMail.com may change this statement at any time but intends to do so as little as possible. 
+                            If we do change our Privacy Statement, we will update this page promptly.
+    
+  conditions_of_use:
+    title: Find Big Mail - Conditions of Use
+    conditions_of_use_header: Conditions of Use
+    conditions_of_use_1: YOU MAY NOT USE THIS SERVICE UNLESS YOU AGREE TO THE CONDITIONS OF USE.
+    conditions_of_use_2: |
+                            USING THIS SERVICE IN ANY WAY, SUCH AS ACCESSING THE WEBSITE, ENTERING DATA, OR AGREEING TO ALLOW 
+                            ACCESS TO YOUR MAIL ACCOUNT, CONSTITUTES AGREEMENT WITH THE CONDITIONS OF USE.
+    conditions_of_use_3: |
+                            YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THIS SERVICE IS AT YOUR SOLE RISK AND THAT THE 
+                            SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, 
+                            BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+                            PURPOSE ARE DISCLAIMED.
+    conditions_of_use_4: |
+                            IN NO EVENT SHALL THE COPYRIGHT OWNERS, CONTRIBUTORS OR PARTNERS BE LIABLE FOR ANY DIRECT, INDIRECT, 
+                            INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+                            PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+                            INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
+                            LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF 
+                            THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+    conditions_of_use_5: |
+                            YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR SOLE REMEDY TO ANY ISSUE, CLAIM OR CONCERN IS TO 
+                            STOP USING THIS SERVICE.
+    conditions_of_use_6: |
+                            You agree that FindBigMail may use your company, organization, or product name and/or logo in 
+                            presentations, marketing materials, customer lists, financial reports, website listings of 
+                            customers, research and marketing case studies and any other marketing-related activities.
+    
+  about_us:
+    title: Find Big Mail - About Us
+    about_us_header: About Us
+    about_us_1: |
+                This website is brought to you by a couple of veteran software engineers who saw a problem and wanted to 
+                solve it. We found that you could in fact run out of email space with Gmail (or Google apps) and then what 
+                could you do? How can you fix things when you get "You have run out of space for your Gmail account"!
+    about_us_2: |
+                Sure, we could hook up an IMAP client and import all the mail (7+GB of it!) and then find the largest and 
+                remove it, but that wasn't going to work for friends and family. They had no idea what an email client was!
+    about_us_3: |
+                So, we have this website. We're both privacy nuts, so we were careful to build it so we never see your 
+                password or even your email messages. We just get the sizes and label them accordingly. And then, what the 
+                heck, we threw in a report so you could see how much big mail you have.
+    about_us_4: "We hope you enjoy it. Please %s if you have any comments or questions."
+    about_us_4_link_label: send us an email
+    about_us_5: Thanks!
+    about_us_6: |
+                Google&trade;, Gmail&trade;, Google Apps&trade; and Google Base&trade; are trademarks of Google, Inc.
+  payment:
+    title: Find Big Mail - Payment
+    payment_header: Have you run out of space for your Google Apps Account?
+    payment_1: 
+      A complete scan of your Google Apps account is $4.95. This includes a full report with charts, a list of 
+      your largest 20 multi-megabyte emails and real-time results and one month of repeat runs.
+    payment_2: Compared to upgrading your entire domain to Google Premier Edition at $50/user because of one overflowing 
+                account, this is a real deal!
+    pay: Pay $4.95
+    money_back_guarantee: "100% Money Back Guarantee!"
+    solve_problem_or_money_back: Solve your Gmail space problem or your money back.
+    paypal_logo: PayPal Logo
+    
+  searching:
+    title: Find Big Mail - Searching
+    searching_header: Now searching for big mail!
+    searching_1: |
+                You can continue to use your email and will start to see results while it is being scanned. This may take 
+                just a few minutes or more than an hour depending on your mailbox size and location. We'll send you an 
+                email when it's complete.
+    search_progress: "% scanned"
+    found_so_far: Big Emails found so far
+    mail_search_count: Messages by Count
+    mail_search_size: By Approximate Size
+    mail_search_legend: Messages found
+    mail_labeled: "Labeled: "
+    complete_header: Your scan has finished!
+    complete_1: |
+      The scan is complete and your mail now has labels identifying the big emails. Below are how many
+      emails were found. A summary email has been sent with more information and charts.
+    missing_header: Your scan was not found
+    missing_1: |
+      We no longer have any information about this scan, most likely because the scan finished a 
+      while ago and we've removed the log files.  If you feel this is an error you can re-run the 
+      scan below, or contact us. Thanks!
+    button: "Find Big Mails"
+    header_donate: Donate
+    donate_cover_costs: "Thank you for using Find Big Mail. Please help cover our costs by donating via PayPal:"
+    donate_1: Donate $1
+    donate_2: Donate $2
+    donate_5: Donate $5
+    donate_10: Donate $10
+    paypal_logo: PayPal Logo
 
-payment:
-  title: Find Big Mail - Payment
-  payment_header: Have you run out of space for your Google Apps Account?
-  payment_1: 
-    A complete scan of your Google Apps account is $4.95. This includes a full report with charts, a list of 
-    your largest 20 multi-megabyte emails and real-time results and one month of repeat runs.
-  payment_2: Compared to upgrading your entire domain to Google Premier Edition at $50/user because of one overflowing 
-              account, this is a real deal!
-  pay: Pay $4.95
-  money_back_guarantee: "100% Money Back Guarantee!"
-  solve_problem_or_money_back: Solve your Gmail space problem or your money back.
-  paypal_logo: PayPal Logo
-  
-searching:
-  title: Find Big Mail - Searching
-  searching_header: Now searching for big mail!
-  searching_1: |
-              You can continue to use your email and will start to see results while it is being scanned. This may take 
-              just a few minutes or more than an hour depending on your mailbox size and location. We'll send you an 
-              email when it's complete.
-  search_progress: "% scanned"
-  found_so_far: Big Emails found so far
-  mail_search_count: Messages by Count
-  mail_search_size: By Approximate Size
-  mail_search_legend: Messages found
-  mail_labeled: "Labeled: "
-  complete_header: Your scan has finished!
-  complete_1: |
-    The scan is complete and your mail now has labels identifying the big emails. Below are how many
-    emails were found. A summary email has been sent with more information and charts.
-  missing_header: Your scan was not found
-  missing_1: |
-    We no longer have any information about this scan, most likely because the scan finished a 
-    while ago and we've removed the log files.  If you feel this is an error you can re-run the 
-    scan below, or contact us. Thanks!
-  button: "Find Big Mails"
-  header_donate: Donate
-  donate_cover_costs: "Thank you for using Find Big Mail. Please help cover our costs by donating via PayPal:"
-  donate_1: Donate $1
-  donate_2: Donate $2
-  donate_5: Donate $5
-  donate_10: Donate $10
-  paypal_logo: PayPal Logo
+  multiple:
+    title: "Wrong account?"
+    header: "Do you have multiple Gmail accounts?"
+    body: |
+      We couldn't scan your Gmail account. Either the email entered was mistyped or you are currently logged into a different account.
+    button: Find Big Emails
 
-multiple:
-  header: "Do you have multiple Gmail accounts?"
-  body: |
-    We couldn't scan your Gmail account. Either the email entered was mistyped or you are currently logged into a different account.
-  button: Find Big Emails
+  thinking:
+    title: "Thank you"
+    header: "Thank you"
+    body: |
+      We realize it's not always possible to give.  Thanks for thinking about donating to our site.
+  thankyou:
+    title: "Thank you"
+    header: "Thank you"
+    body: |
+      Thank you for donating to our site!  We'll put the funds to good use by keeping the site 
+      stable and continuing to add new features.
+  allmailblocked:
+    title: "Slow scan"
+    header: "Your scan will take longer than usual"
+    body_1: |
+      We are unable to access the All Mail folder. Instead we will scan every label (folder) one by one. 
+      This may take several hours instead of the usual 10-60 minutes. Also, some of the statistics 
+      will be less accurate if you have a lot of large messages that have multiple labels.
+    body_2: |
+      It's all good though! At the end, your largest messages will still be identified and of course 
+      you can keep using your email in the meantime. We'll send you an email when we're done.
+    continue: Continue
+  allmailimap:
+    title: Access problem
+    header: We could not access your All Mail folder
+    body_1: |
+      We are unable to access your "All Mail" folder because IMAP access has been blocked. To fix this, go 
+      into Gmail and find the settings for the Google Labs "Advanced IMAP Feature" as shown.
+    body_2: |
+      Check the circled box and re-run your scan to find all large messages and reclaim some free space!
+    button: Find Big Emails
+    faq: Read more about this in the FAQ
+  busyforus:
+    title: "Very busy"
+    header: "Our service is very busy"
+    body: |
+      Sorry, our servers are busy right now so we're limiting requests to keep things running smoothly. Feel free to try again or come back later.
+      Thanks for your patience!
+  contacted:
+    title: "Thank you"
+    header: "Thank you for contacting FindBigMail"
+    body: |
+      We read every email we recieve.  Although we cannot reply to every email, if you provided an email address, we'll try to reply back soon.
 
-thinking:
-  header: "Thank you"
-  body: |
-    We realize it's not always possible to give.  Thanks for thinking about donating to our site.
-thankyou:
-  header: "Thank you"
-  body: |
-    Thank you for donating to our site!  We'll put the funds to good use by keeping the site 
-    stable and continuing to add new features.
-allmailblocked:
-  header: "Your scan will take longer than usual"
-  body_1: |
-    We are unable to access the All Mail folder. Instead we will scan every label (folder) one by one. 
-    This may take several hours instead of the usual 10-60 minutes. Also, some of the statistics 
-    will be less accurate if you have a lot of large messages that have multiple labels.
-  body_2: |
-    It's all good though! At the end, your largest messages will still be identified and of course 
-    you can keep using your email in the meantime. We'll send you an email when we're done.
-  continue: Continue
-allmailimap:
-  header: We could not access your All Mail folder
-  body_1: |
-    We are unable to access your "All Mail" folder because IMAP access has been blocked. To fix this, go 
-    into Gmail and find the settings for the Google Labs "Advanced IMAP Feature" as shown.
-  body_2: |
-    Check the circled box and re-run your scan to find all large messages and reclaim some free space!
-  button: Find Big Emails
-  faq: Read more about this in the FAQ
-busyforus:
-  header: "Our service is very busy"
-  body: |
-    Sorry, our servers are busy right now so we're limiting requests to keep things running smoothly. Feel free to try again or come back later.
-    Thanks for your patience!
-contacted:
-  header: "Thank you for contacting FindBigMail"
-  body: |
-    We read every email we recieve.  Although we cannot reply to every email, if you provided an email address, we'll try to reply back soon.
+  reviews:
+    recommended_by: Recommended by leading tech review sites
+    lifehacker:
+      If you're running out of space in your Gmail or Google Apps inbox, the quickest fix is nixing the largest 
+      attachments you've got stashed. You can't do that from Gmail's web interface - unless you've enlisted 
+      Find Big Mail's help.
 
-reviews:
-  recommended_by: Recommended by leading tech review sites
-  lifehacker:
-    If you're running out of space in your Gmail or Google Apps inbox, the quickest fix is nixing the largest 
-    attachments you've got stashed. You can't do that from Gmail's web interface - unless you've enlisted 
-    Find Big Mail's help.
+  ga_admin:
+    title: Google Apps Administration
+    header: Google Apps Administration
+    body: Welcome to the Google Apps Administration page
 
-scan_start_email:
-  subject: Your FindBigMail request is running
-  row_1: This is an automated message to let you know that your request is currently underway.
-  row_2: You can expect another email when the processing is complete, usually in five to sixty minutes.
-  row_3: |
-    If you want to check on the status of your request, you can look %s.
-  row_3_link_label_1: here
-  row_4: |
-    Many thanks for trying FindBigMail.com!
-scan_failure_email:
-  subject: Your request did not run
-  row_1: This is an automated message to let you know that we detected a failure while attempting to find your big email messages.
-  row_2: |
-    This type of error is most likely caused by a network problem that will resolve itself shortly. Please try again at %s.
-  row_3: We are working to resolve this problem automatically in the future.
-  row_4: |
-    Many thanks for trying FindBigMail.com!
-failure_email:
-  account_access_removed: FindBigMail.com's access to your account has been successfully removed.
-  account_access_already_removed: FindBigMail.com's access to your account appears to already have been removed.
-  no_emails_labeled: None of your big mails where labelled.
-  some_emails_labeled: Some of your big mails where labelled.
-  try_another_free_scan: Of course, because the scan did not complete successfully, you can try another run on this account without cost.
-  request_stopped: |
-    Your request has stopped
-  row_1: Thank you for using FindBigMail.com!
-  row_2: There were difficulties encountered during the scanning of your mail message sizes.  Not all message sizes were checked.
-  row_3: We look into every case where a scan does not fully complete. The most common cause is excessive network errors. After a certain number of retries, we stop scanning so as not to overwelm mail servers with requests.
-  row_4: Try running a scan again at another time.
-  row_5: |
-    The FindBigMail.com Team
-completion_email:
-  status: Sending completion email.
-  number_messages_by_size: Number of Messages by Size
-  approximate_space_by_size: Approximate Space by Size
-  three_biggest_messages: 3 Biggest Messages
-  two_biggest_messages: 2 Biggest Messages
-  biggest_message: Your Biggest Message
-  top_listed: Top %s are listed %s
-  top_listed_link_label_1: below
-  your_top_emails: Your top %s emails are (click to view)
-  results_truncated: results truncated for free trial run
-  extra_info: |
-      Since your total email count is exactly %s, there is a chance you have restricted IMAP folders to return only this 
-      number of emails. If so, mostly likely not all of your emails where scanned. Click %s for more information.
-  extra_info_link_label_1: here
-  donation: Donation
-  donate: Donate %s
-  paypal_title: PayPal - The safer, easier way to pay online
-  please_donate: Show your appreciation with a small Paypal donation.
-  subject: Your FindBigMail Scan Results
-  scan_results: Find Big Mail - Scan Results
-  summary: Summary
-  total: Total
-  get_updates: Get Updates
-  follow_on_twitter: Follow us on twitter
-  spread_word: Spread the word
-  space_by_size: Space By Size
-  approximated: Approximated
-  reply_to_email: Reply to this mail with any suggestions or feedback. We love to hear from you.
-  all_rights_reserved: All rights reserved.
+  scan_start_email:
+    subject: Your FindBigMail request is running
+    row_1: This is an automated message to let you know that your request is currently underway.
+    row_2: You can expect another email when the processing is complete, usually in five to sixty minutes.
+    row_3: |
+      If you want to check on the status of your request, you can look %s.
+    row_3_link_label_1: here
+    row_4: |
+      Many thanks for trying FindBigMail.com!
+  scan_failure_email:
+    subject: Your request did not run
+    row_1: This is an automated message to let you know that we detected a failure while attempting to find your big email messages.
+    row_2: |
+      This type of error is most likely caused by a network problem that will resolve itself shortly. Please try again at %s.
+    row_3: We are working to resolve this problem automatically in the future.
+    row_4: |
+      Many thanks for trying FindBigMail.com!
+  failure_email:
+    account_access_removed: FindBigMail.com's access to your account has been successfully removed.
+    account_access_already_removed: FindBigMail.com's access to your account appears to already have been removed.
+    no_emails_labeled: None of your big mails where labelled.
+    some_emails_labeled: Some of your big mails where labelled.
+    try_another_free_scan: Of course, because the scan did not complete successfully, you can try another run on this account without cost.
+    request_stopped: |
+      Your request has stopped
+    row_1: Thank you for using FindBigMail.com!
+    row_2: There were difficulties encountered during the scanning of your mail message sizes.  Not all message sizes were checked.
+    row_3: We look into every case where a scan does not fully complete. The most common cause is excessive network errors. After a certain number of retries, we stop scanning so as not to overwelm mail servers with requests.
+    row_4: Try running a scan again at another time.
+    row_5: |
+      The FindBigMail.com Team
+  completion_email:
+    status: Sending completion email.
+    number_messages_by_size: Number of Messages by Size
+    approximate_space_by_size: Approximate Space by Size
+    three_biggest_messages: 3 Biggest Messages
+    two_biggest_messages: 2 Biggest Messages
+    biggest_message: Your Biggest Message
+    top_listed: Top %s are listed %s
+    top_listed_link_label_1: below
+    your_top_emails: Your top %s emails are (click to view)
+    results_truncated: results truncated for free trial run
+    extra_info: |
+        Since your total email count is exactly %s, there is a chance you have restricted IMAP folders to return only this 
+        number of emails. If so, mostly likely not all of your emails where scanned. Click %s for more information.
+    extra_info_link_label_1: here
+    donation: Donation
+    donate: Donate %s
+    paypal_title: PayPal - The safer, easier way to pay online
+    please_donate: Show your appreciation with a small Paypal donation.
+    subject: Your FindBigMail Scan Results
+    scan_results: Find Big Mail - Scan Results
+    summary: Summary
+    total: Total
+    get_updates: Get Updates
+    follow_on_twitter: Follow us on twitter
+    spread_word: Spread the word
+    space_by_size: Space By Size
+    approximated: Approximated
+    reply_to_email: Reply to this mail with any suggestions or feedback. We love to hear from you.
+    all_rights_reserved: All rights reserved.
