@@ -1,0 +1,21 @@
+:plain
+  <?php
+
+  require_once '../../code/eng/config.inc.php';
+  require_once 'eng/DomainPolicy.php';
+
+  $domain = new DomainPolicy('example.com');
+
+  ?>
+
+%h1 Hi, you reached the admin page
+
+%p 
+  :plain
+    Your domain has a total of <?= $domain->max_runs() ?> runs 
+    permitted and <?= $domain->current_runs() ?> runs used so far.
+
+%p
+  :plain
+    Your license is valid between <?= $domain->period_start()->format('m/d/y') ?> 
+    and <?= $domain->period_end()->format('m/d/y') ?>.

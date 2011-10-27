@@ -1,0 +1,106 @@
+---
+layout: floating_content_with_logo_layout
+---
+
+-faq = path('faq')
+#FBMFAQ
+  #FBMFAQContainer
+    %h1= t('faq.header_faq')
+    .FrequentQuestion= link_to t('faq.imap_folders_limited'), "##{t('faq.imap_folders_limited_anchor')}"
+    .FrequentQuestion= link_to t('faq.large_chat_histories'), "##{t('faq.large_chat_histories_anchor')}"
+    .FrequentQuestion= link_to t('faq.remove_fbm_labels'), "##{t('faq.remove_fbm_label_anchor')}"
+    .FrequentQuestion= link_to t('faq.remove_fbm_access'), "##{t('faq.remove_fbm_access_anchor')}"
+    .FrequentQuestion= link_to t('faq.known_issues'), "##{t('faq.known_issues_anchor')}"
+    .FrequentQuestion= link_to t('faq.cannot_scan'), "##{t('faq.cannot_scan_anchor')}"
+    .FrequentQuestion= link_to t('faq.my_privacy'), "##{t('faq.my_privacy_anchor')}"
+    .FrequentQuestion= link_to t('faq.scanned_folders'), "##{t('faq.scanned_folders_anchor')}"
+    .FrequentQuestion= link_to t('faq.how_large_can_emails_be'), "##{t('faq.how_large_can_emails_be_anchor')}"
+    .FrequentQuestion= link_to t('faq.modify_size_ranges'), "##{t('faq.modify_size_ranges_anchor')}"
+    .FrequentQuestion= link_to t('faq.multiple_size_labels'), "##{t('faq.multiple_size_labels_anchor')}"
+    .FrequentQuestion= link_to t('faq.emails_with_label_size'), "##{t('faq.emails_with_label_size_anchor')}"
+    .FrequentQuestion= link_to t('faq.remove_labels'), "##{t('faq.remove_labels_anchor')}"
+    .FrequentQuestion= link_to t('faq.delete_large_labeled_messages'), "##{t('faq.delete_large_labeled_messages_anchor')}"
+#FAQAnswers
+  %div{:id => t('faq.imap_folders_limited_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.imap_folders_limited')
+    %p= t('faq.imap_folders_limited_answer_1') % link_to(t('faq.imap_folders_limited_answer_1_link_label'), "#{faq}##{t('faq.scanned_folders_anchor')}")
+    %p= t('faq.imap_folders_limited_answer_2')
+    %p= t('faq.imap_folders_limited_answer_3')
+    = link_to image_tag('dnl.png', :alt => t('faq.imap_folders_limited_alt_text')), "https://mail.google.com/mail/?shva=1#settings/fwdandpop"
+    %p= t('faq.imap_folders_limited_answer_4')
+  %div{:id => t('faq.large_chat_histories_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.large_chat_histories')
+    %p= t('faq.large_chat_histories_answer_1')
+    %p= t('faq.large_chat_histories_answer_2')
+    %p= t('faq.large_chat_histories_answer_3')
+  %div{:id => t('faq.remove_fbm_label_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.remove_fbm_labels')
+    %p= t('faq.remove_fb_labels_answer_1')
+    %p= t('faq.remove_fb_labels_answer_2')
+    %p= t('faq.remove_fb_labels_answer_3') % link_to(t('faq.remove_fb_labels_answer_3_link_label'), "#{faq}##{t('faq.remove_fbm_access_anchor')}")
+  %div{:id => t('faq.remove_fbm_access_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.remove_fbm_access')
+    %p= t('faq.remove_fbm_access_answer_1')
+    %p= t('faq.remove_fbm_access_answer_2')
+    %p= t('faq.remove_fbm_access_answer_3')
+    %p= t('faq.remove_fbm_access_answer_4')
+    %p= t('faq.remove_fbm_access_answer_5')
+  %div{:id => t('faq.known_issues_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.known_issues')
+    %p= t('faq.known_issues_answer_1') % link_to(t('faq.known_issues_answer_1_link_label'), 
+      "#{faq}##{t('faq.cannot_scan_anchor')}")
+    %p= t('faq.known_issues_answer_2') % [link_to(t('faq.known_issues_answer_2_link_label_1'), t('faq.known_issues_answer_2_link_1')), link_to(t('faq.known_issues_answer_2_link_label_2'), "#{faq}##{t('faq.scanned_folders_anchor')}")]
+    %p= t('faq.known_issues_answer_3')
+  %div{:id => t('faq.cannot_scan_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.cannot_scan')
+    %p= t('faq.cannot_scan_answer_1')
+    %ul
+      %li= t('faq.cannot_scan_answer_1_item_1')
+      %li= t('faq.cannot_scan_answer_1_item_2')
+    %p= t('faq.cannot_scan_answer_2')
+    %p= t('faq.cannot_scan_answer_3')
+    %p= t('faq.cannot_scan_answer_4')
+    %ul
+      %li= link_to t('faq.cannot_scan_answer_4_item_1'), t('faq.cannot_scan_answer_4_item_1_link')
+      %li= link_to t('faq.cannot_scan_answer_4_item_2'), t('faq.cannot_scan_answer_4_item_2_link')
+    %p= t('faq.cannot_scan_answer_5')
+  %div{:id => t('faq.my_privacy_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.my_privacy')
+    %p= t('faq.my_privacy_answer_1')
+    %ul
+      %li= t('faq.my_privacy_answer_1_item_1')
+      %li= t('faq.my_privacy_answer_1_item_2', :contact_us_path => path('contact_us'))
+      %li= t('faq.my_privacy_answer_1_item_3')
+      %li= t('faq.my_privacy_answer_1_item_4')
+    %p= t('faq.my_privacy_answer_2')
+  %div{:id => t('faq.scanned_folders_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.scanned_folders')
+    %p= t('faq.scanned_folders_answer_1')
+    %p= t('faq.scanned_folders_answer_2')
+    %p= t('faq.scanned_folders_answer_3')
+  %div{:id => t('faq.how_large_can_emails_be_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.how_large_can_emails_be')
+    %p= t('faq.how_large_can_emails_be_answer_1')
+    %p= t('faq.how_large_can_emails_be_answer_2')
+    %p= t('faq.how_large_can_emails_be_answer_3')
+  %div{:id => t('faq.modify_size_ranges_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.modify_size_ranges')
+    %p= t('faq.modify_size_ranges_answer_1') % link_to(t('faq.modify_size_ranges_answer_1_link_label'), path('contact_us'))
+  %div{:id => t('faq.multiple_size_labels_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.multiple_size_labels')
+    %p= t('faq.multiple_size_labels_answer_1')
+  %div{:id => t('faq.emails_with_label_size_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.emails_with_label_size')
+    %p 
+      = t('faq.emails_with_label_size_answer_1_item_1')
+      %br/
+      = t('faq.emails_with_label_size_answer_1_item_2')
+      %br/
+      = t('faq.emails_with_label_size_answer_1_item_3')
+    %p= t('faq.emails_with_label_size_answer_2')
+  %div{:id => t('faq.remove_labels_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.remove_labels')
+    %p= t('faq.remove_labels_answer_1')
+  %div{:id => t('faq.delete_large_labeled_messages_anchor'), :class => "FAQAnswer"}
+    %h2= t('faq.delete_large_labeled_messages')
+    %p= t('faq.delete_large_labeled_messages_answer_1')

@@ -1,0 +1,20 @@
+---
+layout: xml_layout
+---
+
+%urlset{:xmlns => "http://www.google.com/schemas/sitemap/0.9"}
+  %url
+    %loc= t('home_url')
+    %lastmod 2011-10-19
+    %priority 1.0
+    %changefreq weekly
+  %url
+    %loc= "#{t('home_url')}/#{path('pricing')}"
+    %lastmod 2011-10-19
+    %priority 0.7
+    %changefreq monthly
+  %url
+    %loc= "#{t('home_url')}/#{path('faq')}"
+    %lastmod 2011-10-19
+    %priority 0.7
+    %changefreq weekly

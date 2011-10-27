@@ -1,4 +1,4 @@
-### 
+###
 # Compass
 ###
 
@@ -29,103 +29,9 @@ activate :automatic_image_sizes
 ###
 # Page command
 ###
-languages = ['de', 'en', 'es']
+#
+
 active_nav = {:class => "Active"}
-
-# This declares the variables which are to be used in every template
-variables = {  'index' => { :nav_home => active_nav },
-               'faq' => { :nav_faq => active_nav },
-               'payment' => {}, 
-               'pricing' => { :nav_pricing => active_nav },
-               'contact_us' => { :bottom_nav_contact => active_nav },
-               'privacy_statement' => { :bottom_nav_privacy => active_nav },
-               'conditions_of_use' => { :bottom_nav_conditions => active_nav },
-               'about_us' => { :bottom_nav_about => active_nav },
-               'searching' => {},
-               'multiple' => {},
-               'thinking' => {},
-               'thankyou' => {},
-               'allmailblocked' => {},
-               'allmailimap' => {},
-               'sitemap' => {},
-               'busyforus' => {},
-               'contacted' => {}
-             }
-
-# This maps layouts directly to existing physical template files
-layouts = { 'layouts/floating_content_without_logo_layout' => [ 'index' ],
-  'layouts/floating_content_with_logo_layout' => [ 'faq' ],
-  'layouts/centered_content_with_logo_layout' => [  'payment', 'pricing', 'searching', 
-    'contact_us', 'privacy_statement', 'conditions_of_use', 'about_us', 'multiple', 
-    'thinking', 'thankyou', 'allmailblocked', 'allmailimap', 'busyforus' , 'contacted' ],
-  'layouts/xml_layout' => [ 'sitemap' ]
-  }
-
-class Hashit
-  def initialize(hash)
-    hash.each do |k,v|
-      self.instance_variable_set("@#{k}", v)  ## create and initialize an instance variable for this key/value pair
-      self.class.send(:define_method, k, proc{self.instance_variable_get("@#{k}")})  ## create the getter that returns the instance variable
-      self.class.send(:define_method, "#{k}=", proc{|v| self.instance_variable_set("@#{k}", v)})  ## create the setter that sets the instance variable
-    end
-  end
-end
-
-def set_common_page_variables(params)
-  params.reverse_merge! :nav_home => {}, :nav_pricing => {}, 
-    :nav_faq => {}, :bottom_nav_contact => {}, :bottom_nav_privacy => {},
-    :bottom_nav_conditions => {}, :bottom_nav_about => {}
-  
-  params.each do |name,value|
-    self.instance_variable_set("@#{name}", value)
-  end
-
-  @t = @lang[@page_id]
-  site_links = generate_site_links(@lang.paths, @lang_name)
-  @links = Hashit.new(site_links)
-end
-
-def generate_site_links(paths, language)
-  links = Hash.new
-  
-  paths.each do |page_id,page_name|
-    if true  # if we're building for production - UNDONE!
-      links[page_id] = page_id == "index" ? "/" : "/#{page_name}"
-    else
-      links[page_id] = "/#{language}/#{page_name}.html"
-    end
-  end
-  
-  return links
-end
-
-def self.get_page_path(paths, page_id, language)
-  page_name = paths[page_id]
-  
-  if page_id == "index"
-    return "/#{language}/index.html"
-  else
-    return "/#{language}/#{page_name}.html"
-  end
-end
-
-layouts.each do |layout,page_ids|
-  with_layout :"#{layout}" do
-    page_ids.each do |page_id|
-      page_variables = variables[page_id]
-  
-      languages.each do |lang_name|
-        lang = data.method_missing(lang_name)
-        page_path = get_page_path(lang.paths, page_id, lang_name)
-        
-        page page_path, :proxy => "/#{page_id}.html", :ignore => false do
-          page_variables.merge! :lang_name => lang_name, :lang => lang, :page_id => page_id
-          set_common_page_variables page_variables
-        end
-      end
-    end
-  end
-end
 
 # Per-page layout changes:
 # 
@@ -145,16 +51,40 @@ end
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
+I18n.load_path += Dir[ File.join(Dir.getwd, 'locale', '*.{rb,yml}') ]
+
+langs = Dir["locale/*.yml"].map { |file| File.basename(file).gsub(".yml", "") }
+files = Dir["source/localizable/**"]
+
+langs.each do |lang|
+  I18n.locale = lang
+  files.each do |file|
+    src = file.split("source/").last.gsub(".haml", "")
+    page_id = File.basename(src, File.extname(src))
+    new_page = "/" + src.gsub("localizable", lang).
+      gsub(page_id, I18n.t("paths.#{page_id}", :default => page_id))
+    page new_page, :proxy => src, :ignore => true do
+      I18n.locale = lang
+      @lang = lang
+      @page_id = page_id
+    end
+  end
+end
+
+
 ###
 # Helpers
 ###
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def nav_active(page)
+    @page_id == page ? {:class => "Active"} : {}
+  end
+  def path(page)
+    t("paths.#{page}")
+  end
+end
 
 # Change the CSS directory
 # set :css_dir, "alternative_css_directory"
@@ -187,3 +117,8 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
+configure :development do 
+  activate :directory_indexes
+end
+

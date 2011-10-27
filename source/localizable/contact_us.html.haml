@@ -1,18 +1,19 @@
 #ContactArea
-  %h1= @t.contact_header
+  %h1= t('contact_us.contact_header')
   #ContactForm
     %form{:action => "/eng/contactus.php", :method => "post"}
       .FormRow
-        %label{:for => "FullName"}= @t.name
+        %label{:for => "FullName"}= t('contact_us.name')
         %input{:type => "text", :id => "FullName", :name => "FullName"}
       .FormRow
-        %label{:for => "EmailAddress"}= @t.email_address
+        %label{:for => "EmailAddress"}= t('contact_us.email_address')
         %input{:type => "text", :id => "EmailAddress", :name => "EmailAddress"}
       .FormRow
-        %label{:for => "Subject"}= @t.subject
+        %label{:for => "Subject"}= t('contact_us.subject')
         %input{:type => "text", :id => "Subject", :name => "Subject"}
       .FormRow
-        %label{:for => "Message"}= @t.message
+        %label{:for => "Message"}= t('contact_us.message')
         %textarea{:id => "Message", :name => "Message", :rows => 5, :cols => 37}
       .FormRow
-        %input{:type => "submit", :class => "DarkButton", :value => @t.submit_form}
+        %input{:type => "submit", :class => "DarkButton", 
+          :value => t('contact_us.submit_form')}
