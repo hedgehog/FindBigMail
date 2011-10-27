@@ -6,16 +6,16 @@
     %input{:name => "item_name", :type => "hidden", :value => "FindBigMail agamz.com email scan"}
     %input{:name => "hosted_button_id", :type => "hidden", :value => "JFV8YGLUYLFJ6"}
     %input{:name => "item_number", :type => "hidden", :value => "agamz.com"}
-    %input{:name => "return", :type => "hidden", :value => "https://www.findbigmail.com/"}
-    %input{:name => "cancel_return", :type => "hidden", :value => "https://www.findbigmail.com/"}
+    %input{:name => "return", :type => "hidden", :value => "#{t('home_url')}/"}
+    %input{:name => "cancel_return", :type => "hidden", :value => "#{t('home_url')}/"}
     %input{:name => "custom", :type => "hidden", :value => "no javascript"}
     %input{:name => "no_shipping", :type => "hidden", :value => "1"}
     %input{:name => "amount", :type => "hidden", :value => amount}
     %input{:name => "currency_code", :type => "hidden", :value => "USD"}
-    %input.FBMButton{:alt => @lang.paypal.alt_text,
+    %input.FBMButton{:alt => t('paypal.alt_text'),
       :style => "cursor: pointer; font-size: 18px; ", :type => "submit", :value => amount_text}
   %input{:name => "search_url", :type => "hidden", 
-    :value => "https://www.findbigmail.com/#{@lang.paths.searching}?MyJob="}
+    :value => "#{t('home_url')}/#{path('searching')}?MyJob="}
 = partial :js_parse_params
 :javascript
   jQuery(document).ready(function() {

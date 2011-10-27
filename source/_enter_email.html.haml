@@ -2,8 +2,8 @@
   %form{:action => "/eng/tl.php", :method => "post", :onsubmit => "return validateForm(this)"}
     #FindBigMailComponentWrapper
       %input{:type => "text", :id => "GoogleAppsAccount", :name => "email_address", 
-        :placeholder => @lang.enter_email.placeholder}
-      %input#FindBigMailTriggerButton.FBMButton{:type => "submit", :value => @t.button}
+        :placeholder => t(:enter_email)}
+      %input#FindBigMailTriggerButton.FBMButton{:type => "submit", :value => t(:find_button)}
 
 :javascript
   function validateEmail(email) {

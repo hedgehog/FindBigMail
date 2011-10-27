@@ -4,11 +4,17 @@
       %span © 2010-2011 A Gamz LLC, DBA FindBigMail
     #FooterNavigationBar
       %ul
-        %li{@bottom_nav_contact}= link_to @lang.footer.contact_us, @links.contact_us
-        %li{@bottom_nav_privacy}= link_to @lang.footer.privacy_statement, @links.privacy_statement
-        %li{@bottom_nav_conditions}= link_to @lang.footer.conditions_use, @links.conditions_of_use
-        %li{@bottom_nav_about}= link_to @lang.footer.about_us, @links.about_us
+        %li{nav_active("contact_us")}= link_to t('footer.contact_us'), path('contact_us')
+        %li{nav_active("privacy_statement")}= link_to t('footer.privacy_statement'), 
+          path('privacy_statement')
+        %li{nav_active("conditions_of_use")}= link_to t('footer.conditions_of_use'), 
+          path('conditions_of_use')
+        %li{nav_active("about_us")}= link_to t('footer.about_us'), path('about_us')
     #FindBigMailSocialMedia
-      = link_to image_tag('facebook_follow.png', :alt => @lang.footer.follow_facebook), "http://www.facebook.com/FindBigMail", :title => @lang.footer.follow_facebook
-      = link_to image_tag('twitter_follow.png', :alt => @lang.footer.follow_twitter), "https://twitter.com/intent/user?screen_name=FindBigMail", :title => @lang.footer.follow_twitter
-      = link_to image_tag('email_us.png', :alt => @lang.footer.email_us), "mailto:feedback@findbigmail.com", :title => @lang.footer.email_us
+      = link_to image_tag('facebook_follow.png', :alt => t('footer.follow_facebook')), 
+        "http://www.facebook.com/FindBigMail", :title => t('footer.follow_facebook')
+      = link_to image_tag('twitter_follow.png', :alt => t('footer.follow_twitter')), 
+        "https://twitter.com/intent/user?screen_name=FindBigMail", 
+        :title => t('footer.follow_twitter')
+      = link_to image_tag('email_us.png', :alt => t('footer.email_us')), 
+        "mailto:feedback@findbigmail.com", :title => t('footer.email_us')

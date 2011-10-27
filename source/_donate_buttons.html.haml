@@ -1,9 +1,13 @@
 #DonationButtons
-  %p= @t.donate_cover_costs
+  %p= t('searching.donate_cover_costs')
   %br
-  = partial(:paypal_donate_button, :locals => {:amount => 1, :amount_text => @t.donate_1})
-  = partial(:paypal_donate_button, :locals => {:amount => 2, :amount_text => @t.donate_2})
-  = partial(:paypal_donate_button, :locals => {:amount => 5, :amount_text => @t.donate_5, :highlight => true})
-  = partial(:paypal_donate_button, :locals => {:amount => 10, :amount_text => @t.donate_10})
+  = partial(:paypal_donate_button, :locals => {:amount => 1, 
+    :amount_text => t('searching.donate_1')})
+  = partial(:paypal_donate_button, :locals => {:amount => 2, 
+    :amount_text => t('searching.donate_2')})
+  = partial(:paypal_donate_button, :locals => {:amount => 5, 
+    :amount_text => t('searching.donate_5'), :highlight => true})
+  = partial(:paypal_donate_button, :locals => {:amount => 10, 
+    :amount_text => t('searching.donate_10')})
 #PaypalPaymentGuarantee
-  =image_tag "paypal.png", :alt => @t.paypal_logo
+  =image_tag "paypal.png", :alt => t('searching.paypal_logo')

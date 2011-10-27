@@ -1,31 +1,31 @@
 #MailSearchHead
-  %h1= @t.searching_header
-  %p= @t.searching_1
+  %h1= t('searching.searching_header')
+  %p= t('searching.searching_1')
 #MailCompleteHead.hide
-  %h1= @t.complete_header
-  %p= @t.complete_1
+  %h1= t('searching.complete_header')
+  %p= t('searching.complete_1')
 #MailMissingHead.hide
-  %h1= @t.missing_header
-  %p= @t.missing_1
+  %h1= t('searching.missing_header')
+  %p= t('searching.missing_1')
   = partial :enter_email
 #MailSearchProgressBar.hide
   #meter-value{:style => "width: 0%;"}
   #MailSearchTextProgress
     %span.percentComplete
       0
-    = @t.search_progress
+    = t('searching.search_progress')
 #MailSearchResults.hide
   #MailSearchCount
-    .SearchColHeader= @t.mail_search_count
+    .SearchColHeader= t('searching.mail_search_count')
     #MailSearchCountPie
   #MailSearchSize
-    .SearchColHeader= @t.mail_search_size
+    .SearchColHeader= t('searching.mail_search_size')
     #MailSearchSizePie
   #MailSearchFound
-    .SearchColHeader= @t.mail_search_legend
+    .SearchColHeader= t('searching.mail_search_legend')
     #MailSearchLegend
     .SearchColHeader
-      = @t.mail_labeled
+      = t('searching.mail_labeled')
       %span.msgCount 0
       %br
       %br
@@ -37,7 +37,7 @@
 #MailSearchShowCount
   %center
     %span.bigtext
-      = "#{@t.found_so_far}: "
+      = "#{t('searching.found_so_far')}: "
       %span.msgCount 0
     %br
     %input#refresh2.blue.DarkButton{:onclick => "showPage()", 

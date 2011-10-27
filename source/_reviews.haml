@@ -1,9 +1,8 @@
-- r = @lang.reviews
 #ReviewsHeader
   #ReviewsRecommendedBy
-    %h2.heading= r.recommended_by
+    %h2.heading= t('reviews.recommended_by')
     .QuoteImage= image_tag "lifehacker.png", :alt => "lifehacker"
-    .Quote= "\"#{r.lifehacker}\""
+    .Quote= "\"#{t('reviews.lifehacker')}\""
     %br
     .RecommendedBy= image_tag "about.png", :alt => "About"
     .RecommendedBy= image_tag "makeuseof.png", :alt => "About"

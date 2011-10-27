@@ -1,5 +1,5 @@
 #HeaderNavigationBar
   %ul
-    %li{@nav_home}= link_to @lang.top_navigation.home, @links.index
-    %li{@nav_pricing}= link_to @lang.top_navigation.pricing, @links.pricing
-    %li{@nav_faq}= link_to @lang.top_navigation.faq, @links.faq
+    %li{nav_active("index")}= link_to t('top_navigation.home'), t('paths.index')
+    %li{nav_active("pricing")}= link_to t('top_navigation.pricing'), t('paths.pricing')
+    %li{nav_active("faq")}= link_to t('top_navigation.faq'), t('paths.faq')
