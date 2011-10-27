@@ -125,7 +125,8 @@ de:
                                     Ihrem Google Mail-Konto, wie auf dem Bild angezeigt, ausschalten.
     imap_folders_limited_answer_3_link_label: Weiterleitung und POP/IMAP
     imap_folders_limited_answer_3_link: "https://mail.google.com/mail/?shva=1#settings/fwdandpop"
-    imap_folders_limited_alt_text: 'Die Anzahl der Nachrichten in einem IMAP-Ordner nicht begrenzen' auswählen
+    imap_folders_limited_alt_text: |
+      'Die Anzahl der Nachrichten in einem IMAP-Ordner nicht begrenzen' auswählen
     imap_folders_limited_answer_4: |
                                     Nachdem die Durchsuchung fertig ist, können Sie Ihre Beschränkung wiederherstellen.
     large_chat_histories: Weshalb werden große Chat-Verläufe im Suchergebnis nicht angezeigt?
