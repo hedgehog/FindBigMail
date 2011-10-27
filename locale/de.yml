@@ -449,6 +449,9 @@ de:
                     Dies kann je nach Größe und geographische Lage Ihres Postfaches von einigen Minuten bis zu über einer 
                     Stunde in Anspruch nehmen. Sobal wir fertig sind, werden wir Ihnen eine Email schicken.
     search_progress: "% durchsucht"
+    refresh: Aktualisieren
+    small: Kleine
+    emails_over: %s Emails über %s
     found_so_far: Große Emails, die bis jetzt gefunden wurden
     mail_search_count: Nachrichten nach Anzahl
     mail_search_size: Nach Größe
@@ -510,7 +513,7 @@ de:
       Wir konnten auf Ihren "Alle Nachrichten"-Ordner nicht zugreifen, weil derzeit kein IMAP-Zugriff darauf möglich ist. 
       Um das zu ändern, gehen Sie zu Ihrer Google Mail-Einstellungenseite, wie auf dem untenstehenden Bild gezeigt ist.
     body_2: |
-      Markieren Sie das im Bild umkreiste Kontrollkästchen und fangen Sie eine neue Suche an.
+      Markieren Sie das im Bild umkreiste Kontrollkästchen und starten Sie eine neue Suche.
     button: Große Mails finden
     faq: Lesen Sie mehr über dieses Thema in unserem FAQ
   busyforus:
@@ -531,63 +534,78 @@ de:
       Anhängen die schnellste und effektivste Lösung. Das kann man durch Google Mails Weboberfläche nicht erreichen - es 
       sei denn man nimmt Find Big Mails Hilfe in Anspruch.
   scan_start_email:
-    subject: Your FindBigMail request is running
-    row_1: This is an automated message to let you know that your request is currently underway.
-    row_2: You can expect another email when the processing is complete, usually in five to sixty minutes.
-    row_3: |
-      If you want to check on the status of your request, you can look %s.
-    row_3_link_label_1: here
-    row_4: |
-      Many thanks for trying FindBigMail.com!
-  scan_failure_email:
-    subject: Your request did not run
-    row_1: This is an automated message to let you know that we detected a failure while attempting to find your big email messages.
+    subject: Ihre FindBigMail Anfrage läuft
+    row_1: |
+      Dies ist eine automatisierte Mail. Wir möchten Sie hiermit darüber informieren, dass Ihre Anfrage gerade 
+      ausgeführt wird.
     row_2: |
-      This type of error is most likely caused by a network problem that will resolve itself shortly. Please try again at %s.
-    row_3: We are working to resolve this problem automatically in the future.
+      Sobald wir Ihre Anfrage vollständig bearbeitet haben, werden wir Ihnen noch eine Email schicken, im Normalfall 
+      innerhalb von 5 bis 60 Minuten.
+    row_3: |
+      Den Status Ihrer Anfrage können Sie %s ansehen.
+    row_3_link_label_1: hier
     row_4: |
-      Many thanks for trying FindBigMail.com!
+      Vielen Dank, dass Sie FindBigMail.com benutzt haben!
+  scan_failure_email:
+    subject: Ihre Anfrage schlug fehl
+    row_1: |
+      Dies ist eine automatisierte Mail. Wir möchten Sie hiermit darüber informieren, dass während der Durchsuchung 
+      ein Fehler aufgetreten ist.
+    row_2: |
+      Ursache für diesen Fehler könnte ein Netzwerk-Problem sein, der sich aber in Kürze automatisch ausgeräumt wird. 
+      Klicken Sie auf dem nachfolgenden Link, um es erneut zu versuchen: %s.
+    row_3: Wir arbeiten zur Zeit daran, dieses Problem in den Griff zu bekommen.
+    row_4: |
+      Vielen Dank, dass Sie FindBigMail.com benutzt haben!
   failure_email:
-    account_access_removed: FindBigMail.com's access to your account has been successfully removed.
-    account_access_already_removed: FindBigMail.com's access to your account appears to already have been removed.
-    no_emails_labeled: None of your big mails where labelled.
-    some_emails_labeled: Some of your big mails where labelled.
-    try_another_free_scan: Of course, because the scan did not complete successfully, you can try another run on this account without cost.
-    request_stopped: |
-      Your request has stopped
-    row_1: Thank you for using FindBigMail.com!
-    row_2: There were difficulties encountered during the scanning of your mail message sizes.  Not all message sizes were checked.
-    row_3: We look into every case where a scan does not fully complete. The most common cause is excessive network errors. After a certain number of retries, we stop scanning so as not to overwelm mail servers with requests.
-    row_4: Try running a scan again at another time.
-    row_5: |
-      The FindBigMail.com Team
+    account_access_removed: FindBigMail.com's Zugriff auf Ihr Konto wurde erfolgreich entfernt.
+    account_access_already_removed: FindBigMail.com's Zugriffsberechtigung auf Ihr Konto scheint bereits zurückgenommen zu sein.
+    no_emails_labeled: Es wurden keine Emails mit großen Anhängen vermerkt.
+    some_emails_labeled: Es wurden einige Emails mit großen Anhängen vermerkt.
+    try_another_free_scan: |
+     Da die Durchsuchung nicht erfolgreich abgeschlossen werden konnte, dürfen Sie selbstverständlich dieses Konto 
+     ohne weitere Kosten erneut durchsuchen.
+    request_stopped: Ihre Anfrage wurde unterbrochen.
+    row_1: Vielen Dank, dass Sie FindBigMail.com benutzt haben!
+    row_2: |
+        Während der Durchsuchung Ihrer Emails traten einige Schwierigkeiten auf. Wir konnten die Größe einiger 
+        Nachrichten nicht ermitteln.
+    row_3: |
+        Wir nehmen Fälle, bei denen die Durchsuchung nicht vollständig ausgeführt wird, genau unter die Lupe. Eine 
+        durchaus häufige Ursache dafür sind Netzwerkprobleme. Nach einigen Versuchen hören wir mit der Suche auf, 
+        um Mailserver mit Anfragen nicht zu überwältigen.
+    row_4: Bitte versuchen Sie es zu einem späteren Zeitpunkt mit der Suche erneut.
+    row_5: Das FindBigMail.com Team
   completion_email:
-    status: Sending completion email.
-    number_messages_by_size: Number of Messages by Size
-    approximate_space_by_size: Approximate Space by Size
-    three_biggest_messages: 3 Biggest Messages
-    two_biggest_messages: 2 Biggest Messages
-    biggest_message: Your Biggest Message
-    top_listed: Top %s are listed %s
-    top_listed_link_label_1: below
-    your_top_emails: Your top %s emails are (click to view)
-    results_truncated: results truncated for free trial run
+    status: Email mit Suchergebnissen wird gerade geschickt.
+    number_messages_by_size: Anzahl Emails gruppiert nach Größe
+    approximate_space_by_size: Anteil an belegtem Speicherplatz gruppiert nach Größe
+    three_biggest_messages: Die 3 größten Emails
+    two_biggest_messages: Die 2 größten Emails
+    biggest_message: Ihre größte Email
+    top_listed: Die %s größten sind %s aufgelistet
+    top_listed_link_label_1: unten
+    your_top_emails: Ihre %s größten Emails (klicken um die Email zu öffnen):
+    results_truncated: die Ergebnisse wurden abgeschnitten, da es sich um eine Demo-Version handelt
     extra_info: |
-        Since your total email count is exactly %s, there is a chance you have restricted IMAP folders to return only this 
-        number of emails. If so, mostly likely not all of your emails where scanned. Click %s for more information.
-    extra_info_link_label_1: here
-    donation: Donation
-    donate: Donate %s
-    paypal_title: PayPal - The safer, easier way to pay online
-    please_donate: Show your appreciation with a small Paypal donation.
-    subject: Your FindBigMail Scan Results
-    scan_results: Find Big Mail - Scan Results
-    summary: Summary
-    total: Total
-    get_updates: Get Updates
-    follow_on_twitter: Follow us on twitter
-    spread_word: Spread the word
-    space_by_size: Space By Size
-    approximated: Approximated
-    reply_to_email: Reply to this mail with any suggestions or feedback. We love to hear from you.
-    all_rights_reserved: All rights reserved.
+        Wir konnten %s Emails in Ihrem Konto zählen, wahrscheinlich haben Sie die Anzahl der Nachrichten für IMAP-Ordner 
+        begrenzt. Wenn das der Fall ist, werden die meisten Emails in unserer Suche nicht berücksichtigt. Klicken Sie 
+        %s um mehr zu erfahren.
+    extra_info_link_label_1: hier
+    donation: Spende
+    donate: %s spenden
+    paypal_title: PayPal - der sicherere, einfachere Weg online zu zahlen
+    please_donate: Sagen Sie DANKE mit einer kleinen Paypal-Spende.
+    subject: Die Ergebnisse Ihrer FindBigMail Durchsuchung
+    scan_results: Find Big Mail - Ergebnisse der Durchsuchung
+    summary: Überblick
+    total: Gesamt
+    get_updates: Updates erhalten
+    follow_on_twitter: Verfolgen Sie uns auf Twitter
+    spread_word: Weitersagen
+    space_by_size: Anteil an belegtem Speicherplatz gruppiert nach Größe
+    approximated: Näherungswerte
+    reply_to_email: Bei Anregungen oder Vorschlägen antworten Sie bitte auf diese Email. Wir freuen uns sehr auf Sie!
+    all_rights_reserved: Alle Rechte vorbehalten.
+  charts:
+    small: Klein

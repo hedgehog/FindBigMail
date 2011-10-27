@@ -401,6 +401,9 @@ es:
                 minutos o mas de una hora dependiendo del tamaño y ubicación de tu casilla. Te vamos a mandar un mail cuando 
                 terminemos.
     search_progress: "% escaneado"
+    refresh: Refresh
+    small: Small
+    emails_over: %s emails over %s
     found_so_far: Mails grandes encontrados hasta ahora
     mail_search_count: Mensajes por cantidad
     mail_search_size: Por tamaño aproximado

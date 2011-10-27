@@ -408,6 +408,9 @@ en:
                 just a few minutes or more than an hour depending on your mailbox size and location. We'll send you an 
                 email when it's complete.
     search_progress: "% scanned"
+    refresh: Refresh
+    small: Small
+    emails_over: %s emails over %s
     found_so_far: Big Emails found so far
     mail_search_count: Messages by Count
     mail_search_size: By Approximate Size
