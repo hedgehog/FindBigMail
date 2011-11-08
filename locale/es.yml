@@ -199,22 +199,20 @@ es:
                         that someone might find it. This is how we treat your email address:
     my_privacy_answer_1_item_1: we use it once to send you an initial "we're starting, here's where to get status" email
     my_privacy_answer_1_item_2: |
-                                we %s your email address using a one way code so it looks something like 
-                                b852fb9f7c5d851875ef6fa282f1f859 and that's what we store in our logs. We can't ever get 
-                                your email address back from this, but if, say, someone starts doing lots of runs with the 
-                                same email address, this allows us to detect it. Or, if you %s with a question, we can 
-                                take the email address you give us, calculate the hash, and then check our logs.
-    my_privacy_answer_1_item_2_link_label_1: hash
-    my_privacy_answer_1_item_2_link: "http://en.wikipedia.org/wiki/Hash_function"
-    my_privacy_answer_1_item_2_link_label_2: contact us
+      we <a href="http://en.wikipedia.org/wiki/Hash_function">hash</a> your email address 
+      b852fb9f7c5d851875ef6fa282f1f859 and that's what we store in our logs. We can't ever get 
+      your email address back from this, but if, say, someone starts doing lots of runs with the 
+      same email address, this allows us to detect it. Or, if you <a href="%{contact_us_path}">
+      contact us</a> with a question, we can take the email address you give us, 
+      calculate the hash, and then check our logs.
     my_privacy_answer_1_item_3: we send you a final results email when we've finished your scan
     my_privacy_answer_1_item_4: |
-                                we 'forget' your email address - an easy thing to do, because we never stored it anywhere, 
-                                except in memory while we ran your scan
+      we 'forget' your email address - an easy thing to do, because we never stored it anywhere, 
+      except in memory while we ran your scan
     my_privacy_answer_2: |
-                        Of course, we never ever see your password. With your authority, Google gives us a temporary 
-                        token to find big emails in your mailbox, and we explicitly invalidate that token when we're done 
-                        (you can double check permissions at Google's site %s).
+      Of course, we never ever see your password. With your authority, Google gives us a temporary 
+      token to find big emails in your mailbox, and we explicitly invalidate that token when we're done 
+      (you can double check permissions at Google's site %s).
     my_privacy_answer_2_link_label: here
     scanned_folders: Only my inbox was scanned, what about the other folders?
     scanned_folders_answer_1: |
@@ -361,7 +359,7 @@ es:
     search_progress: "% escaneado"
     refresh: Refresh
     small: Small
-    emails_over: %s emails over %s
+    emails_over: "%s emails over %s"
     found_so_far: Mails grandes encontrados hasta ahora
     mail_search_count: Mensajes por cantidad
     mail_search_size: Por tamaño aproximado
@@ -437,6 +435,7 @@ es:
       Leemos todos los mails que recibimos. Aunque no podemos responder cada uno, intentaremos responder pronto.
 
   reviews:
+    title: Reviews
     recommended_by: Recomendado por los sitios técnicos líderes
     lifehacker:
       Si te estás quedando sin espacio en tu cuenta de Gmail o Googe Apps, la forma mas rápida es eliminar los 
@@ -512,7 +511,7 @@ es:
         number of emails. If so, mostly likely not all of your emails where scanned. Click %s for more information.
     extra_info_link_label_1: here
     donation: Donation
-    donate: Donate %s
+    donate: "Donate %s"
     paypal_title: PayPal - The safer, easier way to pay online
     please_donate: Show your appreciation with a small Paypal donation.
     subject: Your FindBigMail Scan Results

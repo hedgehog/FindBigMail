@@ -371,7 +371,7 @@ en:
     search_progress: "% scanned"
     refresh: Refresh
     small: Small
-    emails_over: %s emails over %s
+    emails_over: "%s emails over %s"
     found_so_far: Big Emails found so far
     mail_search_count: Messages by Count
     mail_search_size: By Approximate Size
@@ -517,7 +517,7 @@ en:
         number of emails. If so, mostly likely not all of your emails where scanned. Click %s for more information.
     extra_info_link_label_1: here
     donation: Donation
-    donate: Donate %s
+    donate: "Donate %s"
     paypal_title: PayPal - The safer, easier way to pay online
     please_donate: Show your appreciation with a small Paypal donation.
     subject: Your FindBigMail Scan Results

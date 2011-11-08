@@ -404,7 +404,7 @@ de:
     search_progress: "% durchsucht"
     refresh: Aktualisieren
     small: Kleine
-    emails_over: %s Emails über %s
+    emails_over: "%s Emails über %s"
     found_so_far: Große Emails, die bis jetzt gefunden wurden
     mail_search_count: Nachrichten nach Anzahl
     mail_search_size: Nach Größe
@@ -489,6 +489,7 @@ de:
       Wir lesen jede Nachricht, die wir erhalten. Auch wenn es nicht möglich ist auf jede zu beantworten, versuchen wir 
       Ihnen, sofern Sie eine Emailadresse in der Kontaktanfrage angegeben haben, schnellstmöglichst zurückzuschreiben.
   reviews:
+    title: Reviews
     recommended_by: Empfohlen von führenden Tech Websites
     lifehacker:
       Wenn Ihr Google Mail oder Google Apps Speicherplatz knapp wird, ist ein gewaltiger Strich durch Ihre größten 
@@ -581,7 +582,7 @@ de:
       %s um mehr zu erfahren.
     extra_info_link_label_1: hier
     donation: Spende
-    donate: %s spenden
+    donate: "%s spenden"
     paypal_title: PayPal - der sicherere, einfachere Weg online zu zahlen
     please_donate: Sagen Sie DANKE mit einer kleinen Paypal-Spende.
     subject: Die Ergebnisse Ihrer FindBigMail Durchsuchung
