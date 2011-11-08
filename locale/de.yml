@@ -38,8 +38,8 @@ de:
   paypal:
     alt_text: "PayPal - der sicherere, einfachere Weg online zu zahlen"
 
-  enter_email:
-    placeholder: Bitte geben Sie Ihr Google Mail- oder Apps-Konto ein
+  find_button: Große Mails finden
+  enter_email: Bitte geben Sie Ihr Google Mail- oder Apps-Konto ein
 
   index:
     meta_keywords:
@@ -51,7 +51,6 @@ de:
       ist bequemer als Ihre Emails nach Größe zu sortieren.
     title: Find Big Mail - Google Mail Postfachspeicher voll?
     grab: Große Emails finden, Mailspeicher freigeben!
-    button: Große Mails finden
     tagline: | 
                 Wir nehmen die Sicherheit Ihrer Daten sehr ernst. Wir sehen nur die Größe Ihrer Nachrichten und nicht deren 
                 Inhalte. Ihr Passwort wird <span>niemals</span> an uns übermittelt.

@@ -38,8 +38,9 @@ es:
   paypal:
     alt_text: "PayPal - La forma rápida y segura de pagar en internet"
 
-  enter_email:
-    placeholder: Ingresá tu cuenta Gmail o Google Apps
+  find_button: Find Big Mail
+  enter_email: Ingresá tu cuenta Gmail o Google Apps
+
 
   index:
     meta_keywords:
@@ -50,7 +51,6 @@ es:
       esta es una forma simple de liberar espacio en lugar de ordenar por tamaño.
     title: Find Big Mail - ¿Se llenó tu cuenta Gmail?
     grab: ¡Encontrá mails grandes en tu inbox y recuperá tu espacio!
-    button: Find Big Mail
     tagline:
       La seguridad es importante para nosotros. Sólo vemos el tamaño de tus mails, no su contenido, y 
       <span>nunca</span> vemos tu clave.
