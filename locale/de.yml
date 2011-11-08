@@ -18,12 +18,13 @@ de:
     allmailimap: kein-imap-zugriff
     busyforus: server-belastet
     contacted: kontaktiert
-    sitemap: sitemap
+    reviews: reviews
 
   top_navigation:
     home: Start
     pricing: Preise
     faq: Hilfe
+    reviews: Reviews
     
   footer:
     contact_us: Kontakt
@@ -55,6 +56,9 @@ de:
                 Wir nehmen die Sicherheit Ihrer Daten sehr ernst. Wir sehen nur die Größe Ihrer Nachrichten und nicht deren 
                 Inhalte. Ihr Passwort wird <span>niemals</span> an uns übermittelt.
     who_is_using: Von wem wird Find Big Mail genutzt?
+    using_alt_1: Huffington Post uses FindBigMail.com to reclaim Gmail storage and stay within their quota.
+    using_alt_2: Gawker.com uses FindBigMail.com to find the emails using up their Gmail space.
+    using_alt_3: University of Notre Dame uses FindBigMail.com to avoid Gmail out of space issues.
     testimonial_1: Wir haben 450 Dollar an Google Apps Gebühren dank @findbigmail gespart.
     testimonial_2: |
                     Ein hochverdientes Lob von meiner Seite: FindBigMail.com hat mir geholfen über 50% meines Google Mail 
@@ -98,14 +102,11 @@ de:
     remove_fbm_label_anchor: FindBigMailLabelsEntfernen
     remove_fbm_access_anchor: FindBigMailZugriffEntfernen
     known_issues_anchor: BekannteProbleme
-    cannot_scan_anchor: KannNichtDurchsuchen
     my_privacy_anchor: PrivatSphaere
     scanned_folders_anchor: DurchsuchteOrdner
     how_large_can_emails_be_anchor: WieGrossDuerfenEmailsSein
-    modify_size_ranges_anchor: GroesseBereicheAendern
     multiple_size_labels_anchor: VerschiedeneLabels
     emails_with_label_size_anchor: VerfuegbareLabels
-    remove_labels_anchor: LaebelsLoeschen
     delete_large_labeled_messages_anchor: MarkierteNachrichtenLoeschen
     imap_folders_limited_anchor: IMAPOrdnerBeschraenkungen
     imap_folders_limited: Gründe warum nicht alle große Emails vermerkt wurden
@@ -150,23 +151,23 @@ de:
     remove_fb_labels_answer_2_link_label: wie Sie Google Mail Labels verwenden
     remove_fb_labels_answer_2_link: "http://mail.google.com/support/bin/answer.py?hl=de&answer=118708"
     remove_fb_labels_answer_3: |
-                                Wie die Antwort auf die Frage %s verrät, haben wir nach Abschluss der Analyse Ihrer Mails 
-                                keinen Zugriff mehr auf Ihr Konto, da wir die Sitzung sofort beenden. In Ihrem Google-Konto 
-                                hinterlassen wir nur die Labels. Technische Anmerkung: Wir haben festgestellt, dass Nachrichten 
-                                ihr Label behalten, auch wenn dies gelöscht wird. Wenn Sie also das gleiche Label wieder 
-                                hinzufügen, das zuvor gelöscht wurde, werden die Nachrichten, die mit jenem Label früher 
-                                versehen wurden, wiederum auftauchen. Wenn das so nicht gewollt ist, wählen Sie bitte alle 
-                                Nachrichten des Labels aus und löschen Sie deren Zugehörigkeit zum Label bevor Sie das Label 
-                                selbst löschen.
+      Wie die Antwort auf die Frage %{url} verrät, haben wir nach Abschluss der Analyse Ihrer Mails 
+      keinen Zugriff mehr auf Ihr Konto, da wir die Sitzung sofort beenden. In Ihrem Google-Konto 
+      hinterlassen wir nur die Labels. Technische Anmerkung: Wir haben festgestellt, dass Nachrichten 
+      ihr Label behalten, auch wenn dies gelöscht wird. Wenn Sie also das gleiche Label wieder 
+      hinzufügen, das zuvor gelöscht wurde, werden die Nachrichten, die mit jenem Label früher 
+      versehen wurden, wiederum auftauchen. Wenn das so nicht gewollt ist, wählen Sie bitte alle 
+      Nachrichten des Labels aus und löschen Sie deren Zugehörigkeit zum Label bevor Sie das Label 
+      selbst löschen.
     remove_fb_labels_answer_3_link_label: Wie kann ich die an FindBigMail erteilte Zugriffsberechtigung auf mein Mailkonto zurücknehmen?
     remove_fbm_access: Wie kann ich die an FindBigMail erteilte Zugriffsberechtigung auf mein Mailkonto zurücknehmen?
     remove_fbm_access_answer_1: |
-                                Wir werden oft gefragt \"Wie kann ich den Zugriff für FindBigMail auf mein Mailkonto widerrufen?\". 
-                                Die kurze Version der Antwort lautet: "Das haben wir bereits getan."
+      Wir werden oft gefragt \"Wie kann ich den Zugriff für FindBigMail auf mein Mailkonto widerrufen?\". 
+      Die kurze Version der Antwort lautet: "Das haben wir bereits getan."
     remove_fbm_access_answer_2: |
-                                Bitte gehen Sie selbst auf Nummer sicher. Da wir OAuth verwenden und Google uns für den 
-                                vorläufigen Zugriff eine Zeichenkette (Token) ausstellt, können Sie überprüfen, ob wir die 
-                                Zeichenkette tatsächlich entfernt haben, indem Sie 
+      Bitte gehen Sie selbst auf Nummer sicher. Da wir OAuth verwenden und Google uns für den 
+      vorläufigen Zugriff eine Zeichenkette (Token) ausstellt, können Sie überprüfen, ob wir die 
+      Zeichenkette tatsächlich entfernt haben, indem Sie 
                                 https://www.google.com/accounts/IssuedAuthSubTokens besuchen. Sollte FindBigMail in der 
                                 Liste zu sehen sein, dann ist entweder eine Durchsuchung im Gange oder ein Fehler eingetreten, 
                                 wovon wir zur Zeit keine Kenntnis haben. Sollte die Durschuchung abgeschlossen sein (das 
@@ -191,11 +192,6 @@ de:
                                 Wir arbeiten sehr hart daran, den gesamten Ablauf transparent und sicher für alle zu gestalten. 
                                 Bei Fragen oder Vorschlägen bitte setzen Sie mit uns in Verbindung.
     known_issues: Gibt es bekannte Probleme?
-    known_issues_answer_1: |
-                            Uns liegt ein bekannter Problemfall vor, von dem nur (eine geringe Anzahl von) Personen 
-                            betroffen sind, die sowohl Google Apps- als auch Gooogle-Konten haben, die sich miteinander 
-                            noch nicht zusammengeführt haben: %s
-    known_issues_answer_1_link_label: mehr dazu
     known_issues_answer_2: |
                             Eine andere sehr kleine Gruppe an Nutzern haben den Zugriff auf ihren \"Alle Nachrichten\" Ordner 
                             eingeschränkt (siehe %s). In den meisten Fällen, erwies sich Apple Mail als die Ursache dafür. 
@@ -211,34 +207,6 @@ de:
                             kommen jedem Problem eifrig auf die Schliche und versuchen dafür permanente oder Umgehungslösungen 
                             zu finden. Wir möchten, dass Ihre Suche nach freiem Speicher durch die Gigabytes an Speicherplatz 
                             reibungslos abläuft!
-    cannot_scan: Ich bin in meinem Google-Konto angemeldet aber ich kann es nicht durchsuchen.
-    cannot_scan_answer_1: |
-                            Viele Suchanfragen von Kunden, die Ihre Emails bei Google Apps hosten, gehen bei uns in der Regel 
-                            erfolgreich durch. Jedoch konnten wir bei jemandem, der mehrere Google-Konten hatte und bei 
-                            dem das Durchsuchen seiner Emails nicht funktionierte, ein Problem ausfindig machen. Dieses 
-                            macht sich dann bemerkbar, wenn der Nutzer
-    cannot_scan_answer_1_item_1: ein Google Apps-Konto, z.B. myname@example.com, und
-    cannot_scan_answer_1_item_2: ein gleichnamiges Google-Konto myname@example.com hat.
-    cannot_scan_answer_2: |
-                            Wenn Sie ein Google-Konto vor der Einführung von Google Apps angemeldet haben, könnten auch Sie 
-                            davon betroffen sein, insbesondere dann, wenn Sie Ihre Emailadresse oder Ihre gesamte Domain zu 
-                            Google Apps überführt haben. Google ist gerade dabei, jeden auf ein vereinheitlichtes System 
-                            umzustellen, damit diese scheinbar gleichen aber in der Realität verschiedenen Konten 
-                            zusammengeführt werden.
-    cannot_scan_answer_3: |
-                            Das Problem bei FindBigMail besteht darin, dass wir Zugriff nur auf das Google-Konto, das 
-                            keine Maildienste anbietet, anstatt auf das Google Apps-Konto, das so etwas anbietet, gewährt 
-                            bekommen. Wir arbeiten gerade an einer Lösung. Wenn Sie es eilig haben, sollten Sie sich 
-                            erkundigen, ob eine Google-Konto + Google Apps-Konto Zusammenführung bei Ihnen früher möglich 
-                            ist. Vielen Domains wurde das bereits angeboten (Stand: Mitte Oktober 2010).
-    cannot_scan_answer_4: "Relevante Links:"
-    cannot_scan_answer_4_item_1: "Was ist der Unterschied zwischen einem Google-Konto und einem Google Apps-Konto?"
-    cannot_scan_answer_4_item_1_link: "http://www.google.com/support/accounts/bin/answer.py?hl=de&answer=72709"
-    cannot_scan_answer_4_item_2: "Google Apps-Umstellung"
-    cannot_scan_answer_4_item_2_link: "http://www.google.com/support/accounts/bin/answer.py?answer=187513"
-    cannot_scan_answer_5: |
-                            Wir stehen allen Google Apps Nutzern beim Auffinden großer Emails und bei der Freigabe vom 
-                            Speicherplatz mit Rat und Tat zur Seite.
     my_privacy: Was passiert mit meiner Emailadresse?
     my_privacy_answer_1: |
                             In letzter Zeit haben wir unsere Datenschutzbestimmungen nach Inspektion und Überprüfung unserer 
@@ -302,15 +270,6 @@ de:
                                         Denken Sie daran, dass solche Nachrichten richtige Speicherfresser sind. Unser Ziel 
                                         ist es Ihnen dabei zu helfen, diese Nachrichten ausfindig zu machen und 
                                         Speicherplatz zu sparen.
-    modify_size_ranges: Kann ich die von den Labels angegebenen Größenbereiche beliebig ändern?
-    modify_size_ranges_answer_1: |
-                                Viele Menschen nutzen fingbigmail.com um große Nachrichten nach ihrer Größe zu 
-                                gruppieren. Manchmal bekommen wir die Frage "Kann ich die von den Labels angegebenen 
-                                Größenbereiche ändern?" zu hören. Die Antwort lautet "Noch nicht", aber wir arbeiten daran. 
-                                Könnten Sie so etwas auch gut gebrauchen? Haben Sie vielleicht weitere Ideen, wie man den 
-                                verfügbaren Google Mail Speicherplatz besser verwalten könnte? Bitte %s und sagen Sie uns 
-                                Bescheid. Vielen Dank!
-    modify_size_ranges_answer_1_link_label: nehmen Sie mit uns Kontakt auf
     multiple_size_labels: Warum werden einige Emails in Labels mit verschiedenen Größen eingestuft?
     multiple_size_labels_answer_1: |
                                    FindBigMail.com markiert einzelne Nachrichten und nicht einen gesamten Thread. Wenn Sie 
@@ -327,15 +286,6 @@ de:
                                     Verwenden Sie diese Labels um herauszufinden, welche Nachrichten Ihren Speicherplatz 
                                     gerade beanspruchen, damit für Ihre künftigen Bilder, Lieder, Videos und ähnlichen 
                                     speicherhungrigen Anhängen genug Platz da ist!
-    remove_labels: Wie kann ich die Labels löschen, wenn ich sie nicht mehr brauche?
-    remove_labels_answer_1: |
-                            Wenn Sie genug Speicherplatz freigegeben haben, können Sie die Labels löschen, indem Sie sich 
-                            in Ihrem Google Mail-Konto einloggen, links das Viereck neben dem Labelnamen klicken, und in 
-                            der Liste, die angezeigt wird, die Option "Label entfernen" klicken. Das Löschen eines Labels 
-                            wird die entsprechenden Nachrichten nicht löschen. Bitte lesen Sie Google's %s um zu erfahren 
-                            wie Sie Labels anzeigen, ausblenden und löschen können.
-    remove_labels_answer_1_link_label: Anweisungen
-    remove_labels_answer_1_link: "http://mail.google.com/support/bin/answer.py?hl=de&answer=118708"
     delete_large_labeled_messages: Wie kann ich die großen Mailnachrichten jetzt löschen, wo sie in Labels eingestuft sind?
     delete_large_labeled_messages_answer_1: |
                                             Klicken Sie auf jedes Label um sich die entsprechenden großen Nachrichten 
@@ -355,6 +305,9 @@ de:
     subject: Betreff
     message: Nachricht *
     submit_form: Formular abschicken
+    email_header: E-mail
+    mailto_text: Send us an e-mail    
+    mail_header: Mailing Address
     
   privacy_statement:
     title: Find Big Mail - Datenschutzbestimmungen
@@ -478,6 +431,7 @@ de:
     donate_10: $10 spenden
 
   multiple:
+    title: "Nutzen Sie mehrere Google Mail-Konten?"
     header: "Nutzen Sie mehrere Google Mail-Konten?"
     body: |
       Wir konnten Ihr Google Mail-Konto nicht durchsuchen. Entweder haben Sie eine ungültige Emailadresse eingegeben oder 
@@ -485,16 +439,19 @@ de:
     button: Große Mails finden
 
   thinking:
+    title: "Vielen Dank"
     header: "Vielen Dank"
     body: |
       Wir wissen, dass es nicht immer und von jedem möglich ist etwas zu geben. Trotzdem danke, dass Sie es in Erwägung 
       gezogen haben, etwas für unsere Seite zu spenden.
   thankyou:
+    title: "Vielen Dank"
     header: "Vielen Dank"
     body: |
       Wir bedanken uns ganz herzlich bei Ihnen für Ihre finanzielle Unterstützung! Ihre Spende wird uns helfen diese 
       Website im Leben zu halten und neue Funktionalitäten hinzuzufügen.
   allmailblocked:
+    title: "Die Suche wird länger dauern als sonst"
     header: "Die Suche wird länger dauern als sonst"
     body_1: |
       Wir können auf den "Alle Nachrichten"-Ordner nicht zugreifen. Stattdessen werden wir jedes einzelne Label (Ordner)
@@ -507,6 +464,8 @@ de:
       sobald wir fertig sind.
     continue: Weiter
   allmailimap:
+    title: |
+      Wir konnten auf Ihren "Alle Nachrichten"-Ordner nicht zugreifen
     header: |
       Wir konnten auf Ihren "Alle Nachrichten"-Ordner nicht zugreifen
     body_1: |
@@ -517,12 +476,14 @@ de:
     button: Große Mails finden
     faq: Lesen Sie mehr über dieses Thema in unserem FAQ
   busyforus:
+    title: "Dienst nicht verfügbar"
     header: "Dienst nicht verfügbar"
     body: |
       Es tut uns Leid, unsere Serverkapazitäten sind derzeit vollständig ausgeschöpft. Wir haben deshalb die Anzahl der 
       Anfragen eingeschränkt damit unsere Systeme weiterhin reibungslos laufen können. Bitte versuchen Sie es jetzt oder 
       zu einem späteren Zeitpunkt erneut. Danke für Ihr Verständnis!
   contacted:
+    title: "Danke, dass Sie FindBigMail kontaktiert haben"
     header: "Danke, dass Sie FindBigMail kontaktiert haben"
     body: |
       Wir lesen jede Nachricht, die wir erhalten. Auch wenn es nicht möglich ist auf jede zu beantworten, versuchen wir 
@@ -530,6 +491,32 @@ de:
   reviews:
     recommended_by: Empfohlen von führenden Tech Websites
     lifehacker:
+      Wenn Ihr Google Mail oder Google Apps Speicherplatz knapp wird, ist ein gewaltiger Strich durch Ihre größten 
+      Anhängen die schnellste und effektivste Lösung. Das kann man durch Google Mails Weboberfläche nicht erreichen - es 
+      sei denn man nimmt Find Big Mails Hilfe in Anspruch.
+      
+  ga_admin:
+    title: Google Apps Administration
+    header: Google Apps Administration
+    body: Welcome to the Google Apps Administration page
+
+  unauthorized:
+    title: Unauthorized
+    header: You are not authorized to view this page
+    body: |
+      You have tried to access a page that you don't have permission to view. 
+      Make sure you are logged into the correct Google Account and please try again.
+    body_2: |
+      If feel this is an error, please <a href="%{url}">contact us</a> and we'll help!
+
+  expired:
+    title: Out of scans
+    header: You have run out of scans
+    body: |
+      Unfortunately this Find Big Mail account has run out of scans or reached the
+      end of the scan period. Please contact your domain administrator to renew access.
+    body_2: |
+      If feel this is an error, please <a href="%{url}">contact us</a> and we'll help!
       Wenn Ihr Google Mail oder Google Apps Speicherplatz knapp wird, ist ein gewaltiger Strich durch Ihre größten 
       Anhängen die schnellste und effektivste Lösung. Das kann man durch Google Mails Weboberfläche nicht erreichen - es 
       sei denn man nimmt Find Big Mails Hilfe in Anspruch.
